@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1725.0">
+<text x="40.0" y="88.0" font-size="80">
+Coq Au Vin<tspan font-size="40">&#160;&#160;by Cafe Delites</tspan></text>
+<polyline points="0,0 0,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1000,125.0 1000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1500,125.0 1500,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,0 2000,0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,125.0 2000,125.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1725.0 2000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,525.0 1500,525.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,925.0 1500,925.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1325.0 1500,1325.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="10.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+1 </text>
+<text
+x="70.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 8 chicken thighs </text>
+<text
+x="70.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tsp salt </text>
+<text
+x="70.0" y="225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tsp black pepper </text>
+<text
+x="70.0" y="255.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp flour </text>
+<polyline points="125.0,345.0 155.0,425.0 345.0,425.0 375.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="250.0" y="485.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+COAT </text>
+<text
+x="510.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+2 </text>
+<text
+x="570.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 200 g bacon lardons </text>
+<text
+x="570.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp olive oil </text>
+<polyline points="625.0,345.0 635.0,425.0 865.0,425.0 875.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="630.0,345.0 610.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="870.0,345.0 890.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="750.0" y="485.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+FRY </text>
+<text
+x="1010.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+3 </text>
+<text
+x="1070.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; bacon lardons (fried) </text>
+<polyline points="1125.0,345.0 1135.0,425.0 1365.0,425.0 1375.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1130.0,345.0 1110.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1370.0,345.0 1390.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="1250.0" y="485.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+SET ASIDE </text>
+<text
+x="10.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+4 </text>
+<text
+x="70.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; chicken thighs (coated) </text>
+<text
+x="70.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp olive oil </text>
+<polyline points="125.0,745.0 135.0,825.0 365.0,825.0 375.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="130.0,745.0 110.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="370.0,745.0 390.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="250.0" y="885.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+FRY </text>
+<text
+x="1510.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+4 </text>
+<text
+x="1550.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Fry in batches of two or three </text>
+<text
+x="1550.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+pieces until both sides are </text>
+<text
+x="1550.0" y="225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+crispy. </text>
+<text
+x="510.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+5 </text>
+<text
+x="570.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; chicken thighs (fried) </text>
+<polyline points="625.0,745.0 635.0,825.0 865.0,825.0 875.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="630.0,745.0 610.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="870.0,745.0 890.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="750.0" y="885.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+SET ASIDE </text>
+<text
+x="1010.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+6 </text>
+<text
+x="1070.0" y="565.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 white onion (diced) </text>
+<text
+x="1070.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 5 carrots (diced) </text>
+<text
+x="1070.0" y="625.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tsp salt </text>
+<text
+x="1070.0" y="655.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tsp black pepper </text>
+<polyline points="1125.0,745.0 1135.0,825.0 1365.0,825.0 1375.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1130.0,745.0 1110.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1370.0,745.0 1390.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="1250.0" y="885.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+FRY </text>
+<text
+x="1510.0" y="295.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+6 </text>
+<text
+x="1550.0" y="295.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Fry on a low heat and scrub </text>
+<text
+x="1550.0" y="325.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+the bottom of the pan with </text>
+<text
+x="1550.0" y="355.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+wooden spoon. </text>
+<text
+x="10.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+7 </text>
+<text
+x="70.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 4 garlic cloves (crushed) </text>
+<text
+x="70.0" y="995.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 350 ml red wine </text>
+<text
+x="70.0" y="1025.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 250 ml chicken stock </text>
+<text
+x="70.0" y="1055.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 60 ml brandy </text>
+<polyline points="125.0,1145.0 135.0,1225.0 365.0,1225.0 375.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="130.0,1145.0 110.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="370.0,1145.0 390.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="250.0" y="1285.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+HEAT &amp; MIX </text>
+<text
+x="1510.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+7 </text>
+<text
+x="1550.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Mix the garlic into the onion </text>
+<text
+x="1550.0" y="455.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+and carrot mixture shortly </text>
+<text
+x="1550.0" y="485.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+before adding the liquids. </text>
+<text
+x="510.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+8 </text>
+<text
+x="570.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; chicken thighs (fried) </text>
+<text
+x="570.0" y="995.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; bacon lardons (fried) </text>
+<text
+x="570.0" y="1025.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp fresh thyme </text>
+<polyline points="625.0,1145.0 635.0,1225.0 865.0,1225.0 875.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="630.0,1145.0 610.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="870.0,1145.0 890.0,1145.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="750.0" y="1285.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:38"> 
+COVER &amp; ROAST </text>
+<text
+x="1510.0" y="555.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+8 </text>
+<text
+x="1550.0" y="555.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Transfer to the oven to cook </text>
+<text
+x="1550.0" y="585.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+at 180 C for 30 mins. </text>
+<text
+x="1010.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+9 </text>
+<text
+x="1070.0" y="965.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 2 tbsp butter </text>
+<text
+x="1070.0" y="995.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 500 g mushrooms (sliced) </text>
+<polyline points="1060.0,1169.0 1080.0,1201.0 1270.0,1201.0 1290.0,1169.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1282.5,1185.0 1425.0,1185.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="1250.0" y="1285.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+FRY </text>
+<text
+x="1510.0" y="655.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+9 </text>
+<text
+x="1550.0" y="655.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Fry on high heat until crispy. </text>
+<text
+x="10.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+10 </text>
+<text
+x="70.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; mushrooms (fried) </text>
+<text
+x="70.0" y="1395.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 250 g pearl onions </text>
+<polyline points="125.0,1545.0 135.0,1625.0 365.0,1625.0 375.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="130.0,1545.0 110.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="370.0,1545.0 390.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="250.0" y="1685.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+HEAT &amp; MIX </text>
+<text
+x="1510.0" y="725.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+10 </text>
+<text
+x="1570.0" y="725.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Transfer the casserole pot </text>
+<text
+x="1570.0" y="755.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+back to the hob. </text>
+<text
+x="510.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+11 </text>
+<text
+x="570.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 2 tbsp butter-flour mix </text>
+<polyline points="625.0,1545.0 635.0,1625.0 865.0,1625.0 875.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="630.0,1545.0 610.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="870.0,1545.0 890.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="750.0" y="1685.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+HEAT &amp; MIX </text>
+<text
+x="1510.0" y="825.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+11 </text>
+<text
+x="1570.0" y="825.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Continue to simmer gently </text>
+<text
+x="1570.0" y="855.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+and allow the sauce to </text>
+<text
+x="1570.0" y="885.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+thicken. </text>
+<text
+x="1010.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+12 </text>
+<text
+x="1070.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 2 tbsp fresh parsley </text>
+<polyline points="1125.0,1545.0 1135.0,1625.0 1365.0,1625.0 1375.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1130.0,1545.0 1110.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1370.0,1545.0 1390.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="1250.0" y="1685.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+MIX </text>
+</svg>
