@@ -1,3 +1,3 @@
-#### no-bs-cooking.github.io
+## no-bs-cooking.github.io
 
 A simple website hosting visual recipes
