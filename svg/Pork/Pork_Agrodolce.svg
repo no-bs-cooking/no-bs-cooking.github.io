@@ -134,7 +134,9 @@ x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; mixing bowl </text>
-<polyline points="100.0,769.0 100.0,801.0 400.0,801.0 400.0,769.0" 
+<polyline points="125.0,745.0 135.0,825.0 365.0,825.0 375.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="130.0,745.0 110.0,745.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="370.0,745.0 390.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="885.0"
 text-anchor="middle"
@@ -159,24 +161,19 @@ hours, until the pork is </text>
 x="1550.0" y="355.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-tender. Cover with foil to </text>
+tender. Cover to lock moisture </text>
 <text
 x="1550.0" y="385.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-lock moisture in and add water </text>
+in and add water if necessary </text>
 <text
 x="1550.0" y="415.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-to the oven tray if necessary </text>
-<text
-x="1550.0" y="445.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
 part way through the cooking </text>
 <text
-x="1550.0" y="475.0"
+x="1550.0" y="445.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 process. </text>
