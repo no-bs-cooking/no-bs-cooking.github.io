@@ -122,8 +122,13 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl A </text>
-<polyline points="1100.0,369.0 1100.0,401.0 1400.0,401.0 1400.0,369.0" 
+&#8729; mixing bowl A contents </text>
+<text
+x="1070.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp plain four </text>
+<polyline points="1075.0,377.0 1075.0,393.0 1425.0,393.0 1425.0,377.0 1075.0,377.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="485.0"
 text-anchor="middle"
@@ -148,7 +153,12 @@ roll each one out until very </text>
 x="1550.0" y="415.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-thin. </text>
+thin, then transfer to an oven </text>
+<text
+x="1550.0" y="445.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+or pizza tray. </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
@@ -158,14 +168,19 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; dough base </text>
 <text
 x="70.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 onion (sliced) </text>
+&#8729; mixing bowl B contents </text>
 <text
 x="70.0" y="625.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 onion (sliced) </text>
+<text
+x="70.0" y="655.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 100 g pancetta lardons </text>
@@ -176,27 +191,27 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 BAKE </text>
 <text
-x="1510.0" y="485.0"
+x="1510.0" y="515.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
-x="1550.0" y="485.0"
+x="1550.0" y="515.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Cover each dough base </text>
 <text
-x="1550.0" y="515.0"
+x="1550.0" y="545.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 generously with the creme </text>
 <text
-x="1550.0" y="545.0"
+x="1550.0" y="575.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 fraiche topping. Bake at 240 C </text>
 <text
-x="1550.0" y="575.0"
+x="1550.0" y="605.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 for around 20 mins. </text>

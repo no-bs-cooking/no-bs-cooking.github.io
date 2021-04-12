@@ -23,7 +23,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 roll of puff pastry </text>
+&#8729; 1 roll puff pastry </text>
 <text
 x="70.0" y="195.0"
 text-anchor="left"
@@ -354,7 +354,7 @@ B </text>
 x="1250.0" y="1285.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-WHISK </text>
+E-WHISK </text>
 <text
 x="10.0" y="1365.0"
 text-anchor="left"
@@ -374,7 +374,7 @@ style="font-family:Arial;font-size:30">
 x="70.0" y="1425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; mixing bowl B contents </text>
 <polyline points="100.0,1569.0 100.0,1601.0 400.0,1601.0 400.0,1569.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="1685.0"
@@ -563,7 +563,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl D </text>
+&#8729; mixing bowl D contents </text>
 <polyline points="600.0,1969.0 600.0,2001.0 900.0,2001.0 900.0,1969.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="920.0" y="2025.0"
@@ -584,7 +584,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl C </text>
+&#8729; mixing bowl C contents </text>
 <polyline points="1100.0,1969.0 1100.0,2001.0 1400.0,2001.0 1400.0,1969.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1420.0" y="2025.0"

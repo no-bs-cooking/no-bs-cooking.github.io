@@ -72,7 +72,12 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan (chilled) </text>
+&#8729; saucepan contents </text>
+<text
+x="590.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+(chilled) </text>
 <polyline points="625.0,345.0 655.0,425.0 845.0,425.0 875.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="750.0" y="485.0"
@@ -109,7 +114,7 @@ style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-WHISK </text>
+H-WHISK </text>
 <text
 x="1510.0" y="395.0"
 text-anchor="left"
@@ -134,7 +139,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl </text>
+&#8729; mixing bowl contents </text>
 <text
 x="70.0" y="595.0"
 text-anchor="left"

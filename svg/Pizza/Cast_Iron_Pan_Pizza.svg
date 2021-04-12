@@ -102,11 +102,6 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; dough (kneaded) </text>
-<text
-x="570.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
 &#8729; 1 tsp olive oil </text>
 <polyline points="625.0,345.0 655.0,425.0 845.0,425.0 875.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -128,17 +123,27 @@ style="font-family:Arial;font-size:40">
 x="1550.0" y="355.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Cover the mixing bowl with </text>
+Form the dough into a ball and </text>
 <text
 x="1550.0" y="385.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-cling film and leave to rise </text>
+coat with a olive oil. Cover </text>
 <text
 x="1550.0" y="415.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-for 2 hours. </text>
+the mixing bowl with cling </text>
+<text
+x="1550.0" y="445.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+film and leave to rise for 2 </text>
+<text
+x="1550.0" y="475.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+hours. </text>
 <text
 x="1010.0" y="165.0"
 text-anchor="left"
@@ -231,7 +236,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; dough (risen) </text>
+&#8729; mixing bowl A contents </text>
 <polyline points="560.0,769.0 580.0,801.0 770.0,801.0 790.0,769.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="782.5,785.0 925.0,785.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -257,22 +262,22 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 COAT &amp; HEAT </text>
 <text
-x="1510.0" y="485.0"
+x="1510.0" y="545.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 6 </text>
 <text
-x="1550.0" y="485.0"
+x="1550.0" y="545.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Leave to rise for around 30 </text>
 <text
-x="1550.0" y="515.0"
+x="1550.0" y="575.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 mins, then heat on the hob </text>
 <text
-x="1550.0" y="545.0"
+x="1550.0" y="605.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 until the base is browned. </text>
@@ -285,7 +290,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; mixing bowl B contents </text>
 <text
 x="70.0" y="995.0"
 text-anchor="left"
@@ -304,37 +309,37 @@ text-anchor="middle"
 style="font-family:Arial;font-size:38"> 
 ASSEMBLE &amp; BROIL </text>
 <text
-x="1510.0" y="615.0"
+x="1510.0" y="675.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 7 </text>
 <text
-x="1550.0" y="615.0"
+x="1550.0" y="675.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Keep mozzarella in the fridge </text>
 <text
-x="1550.0" y="645.0"
+x="1550.0" y="705.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 until use. Remove pan from the </text>
 <text
-x="1550.0" y="675.0"
+x="1550.0" y="735.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 hob, add the toppings, then </text>
 <text
-x="1550.0" y="705.0"
+x="1550.0" y="765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 transfer to the broiler. </text>
 <text
-x="1550.0" y="735.0"
+x="1550.0" y="795.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Remove when the cheese is </text>
 <text
-x="1550.0" y="765.0"
+x="1550.0" y="825.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 browned. </text>

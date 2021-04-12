@@ -20,7 +20,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; caracass </text>
+&#8729; chicken carcass </text>
 <text
 x="70.0" y="195.0"
 text-anchor="left"
@@ -162,13 +162,13 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; casserole </text>
+&#8729; pot contents </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="885.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:40"> 
-SIEVE </text>
+style="font-family:Arial;font-size:35"> 
+SIEVE &amp; REFRIGERATE </text>
 <text
 x="1510.0" y="455.0"
 text-anchor="left"

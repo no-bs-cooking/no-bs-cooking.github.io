@@ -201,12 +201,12 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl A (green onion </text>
+&#8729; mixing bowl A contents </text>
 <text
 x="590.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-removed) </text>
+(green onion removed) </text>
 <polyline points="560.0,769.0 580.0,801.0 770.0,801.0 790.0,769.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="782.5,785.0 925.0,785.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

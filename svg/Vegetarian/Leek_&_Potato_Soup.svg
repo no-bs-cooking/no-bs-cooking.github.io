@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="925.0">
 <text x="40.0" y="88.0" font-size="80">
-Leek &amp; Potato Soup<tspan font-size="40">&#160;&#160;by https://www.youtube.com/watch?v=sRdHa1qnL_g</tspan></text>
+Leek &amp; Potato Soup</text>
 <polyline points="0,0 0,925.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,925.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,925.0 " 
@@ -141,7 +141,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; REMOVE 3 bay leaves </text>
+&#8729; REMOVE bay leaves </text>
 <polyline points="50.0,745.0 70.0,825.0 270.0,825.0 290.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,761.0 450.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -178,7 +178,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan A </text>
+&#8729; saucepan A contents </text>
 <polyline points="550.0,745.0 570.0,825.0 770.0,825.0 790.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,761.0 950.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

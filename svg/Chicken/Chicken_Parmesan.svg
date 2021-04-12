@@ -117,7 +117,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan </text>
+&#8729; saucepan A contents </text>
 <polyline points="1125.0,345.0 1155.0,425.0 1345.0,425.0 1375.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1410.0" y="425.0"
@@ -184,12 +184,12 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; board (chopped) </text>
+&#8729; chopped ingredients </text>
 <text
 x="570.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl A </text>
+&#8729; mixing bowl A contents </text>
 <polyline points="550.0,745.0 570.0,825.0 770.0,825.0 790.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,761.0 950.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -460,7 +460,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (egged) </text>
+&#8729; egged chicken </text>
 <polyline points="125.0,1945.0 155.0,2025.0 345.0,2025.0 375.0,1945.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="2025.0"
@@ -481,7 +481,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (breadcrumbed) </text>
+&#8729; breadcrumbed chicken </text>
 <text
 x="570.0" y="1795.0"
 text-anchor="left"
@@ -528,7 +528,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (fried) </text>
+&#8729; fried chicken </text>
 <text
 x="1070.0" y="1795.0"
 text-anchor="left"

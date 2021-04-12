@@ -203,7 +203,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 mixing bowl A </text>
+&#8729; 1/2 mixing bowl A contents </text>
 <polyline points="120.0,1145.0 120.0,1225.0 380.0,1225.0 380.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="400.0" y="1205.0"
@@ -302,7 +302,7 @@ style="font-family:Arial;font-size:30">
 x="570.0" y="1395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; icing (room temperature) </text>
+&#8729; mixing bowl B contents </text>
 <polyline points="600.0,1569.0 650.0,1601.0 850.0,1601.0 900.0,1569.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="750.0" y="1685.0"

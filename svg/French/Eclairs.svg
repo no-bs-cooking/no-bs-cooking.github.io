@@ -93,7 +93,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 saucepan </text>
+&#8729; 1/2 saucepan A contents </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="825.0"
@@ -296,7 +296,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl C </text>
+&#8729; mixing bowl C contents </text>
 <polyline points="50.0,1545.0 70.0,1625.0 270.0,1625.0 290.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,1561.0 450.0,1561.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -343,7 +343,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan B </text>
+&#8729; saucepan B contents </text>
 <polyline points="625.0,1545.0 655.0,1625.0 845.0,1625.0 875.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="910.0" y="1625.0"
@@ -435,7 +435,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl D </text>
+&#8729; mixing bowl D contents </text>
 <polyline points="100.0,1969.0 100.0,2001.0 400.0,2001.0 400.0,1969.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="2085.0"
@@ -507,7 +507,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; mixing bowl B contents </text>
 <polyline points="1100.0,1969.0 1100.0,2001.0 1400.0,2001.0 1400.0,1969.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="2085.0"
@@ -585,7 +585,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="2165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan C </text>
+&#8729; saucepan C contents </text>
 <text
 x="570.0" y="2195.0"
 text-anchor="left"

@@ -201,17 +201,12 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 lamb stock cube </text>
+&#8729; 2 lamb stock cubes </text>
 <text
 x="1070.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 vegetable stock cube </text>
-<text
-x="1070.0" y="625.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 400 ml water </text>
+&#8729; 500 ml water </text>
 <polyline points="1050.0,745.0 1070.0,825.0 1270.0,825.0 1290.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1286.0,761.0 1450.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

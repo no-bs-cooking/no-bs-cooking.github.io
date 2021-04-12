@@ -371,7 +371,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 saucepan B </text>
+&#8729; 1/2 saucepan B contents </text>
 <polyline points="125.0,1545.0 155.0,1625.0 345.0,1625.0 375.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="1625.0"
@@ -562,7 +562,7 @@ style="font-family:Arial;font-size:30">
 x="1070.0" y="1825.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp instant coffed </text>
+&#8729; 1 tsp instant coffee </text>
 <text
 x="1090.0" y="1855.0"
 text-anchor="left"
@@ -682,7 +682,17 @@ partially cut them open with </text>
 x="1570.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-a knife </text>
+a knife. Best left </text>
+<text
+x="1570.0" y="1795.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+unrefrigerated and consumed </text>
+<text
+x="1570.0" y="1825.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+on the day. </text>
 <text
 x="1010.0" y="2165.0"
 text-anchor="left"

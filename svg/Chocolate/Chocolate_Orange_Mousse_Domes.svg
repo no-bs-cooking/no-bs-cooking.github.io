@@ -121,7 +121,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 saucepan A </text>
+&#8729; 1/2 saucepan A contents </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="825.0"
@@ -142,7 +142,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl A </text>
+&#8729; mixing bowl A contents </text>
 <polyline points="550.0,745.0 570.0,825.0 770.0,825.0 790.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,761.0 950.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -226,7 +226,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan A </text>
+&#8729; saucepan A contents </text>
 <text
 x="250.0" y="1285.0"
 text-anchor="middle"
@@ -366,7 +366,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; mixing bowl B contents </text>
 <polyline points="550.0,1545.0 570.0,1625.0 770.0,1625.0 790.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,1561.0 950.0,1561.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -449,7 +449,12 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan B (cooled) </text>
+&#8729; saucepan B contents </text>
+<text
+x="90.0" y="1795.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+(cooled) </text>
 <polyline points="125.0,1945.0 155.0,2025.0 345.0,2025.0 375.0,1945.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="2025.0"
@@ -470,12 +475,17 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl C </text>
+&#8729; mixing bowl C contents </text>
 <text
 x="570.0" y="1795.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; silicon mold A (frozen) </text>
+&#8729; frozen silicon mold A </text>
+<text
+x="590.0" y="1825.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+contents </text>
 <text
 x="750.0" y="2085.0"
 text-anchor="middle"
@@ -648,12 +658,12 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="2165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chocolate shortcrust </text>
+&#8729; chilled chocolate </text>
 <text
 x="1090.0" y="2195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-(chilled) </text>
+shortcrust </text>
 <polyline points="1100.0,2369.0 1100.0,2401.0 1400.0,2401.0 1400.0,2369.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="2485.0"
@@ -694,12 +704,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="2565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chocolate shortcrust </text>
-<text
-x="90.0" y="2595.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-(baked) </text>
+&#8729; baked chocolate shortcrust </text>
 <polyline points="75.0,2777.0 75.0,2793.0 425.0,2793.0 425.0,2777.0 75.0,2777.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="2885.0"
@@ -831,7 +836,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="2965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan C </text>
+&#8729; saucepan C contents </text>
 <polyline points="550.0,3145.0 570.0,3225.0 770.0,3225.0 790.0,3145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,3161.0 950.0,3161.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -903,12 +908,12 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="2965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; silicone mold B (frozen) </text>
+&#8729; frozen mousse domes </text>
 <text
 x="1070.0" y="2995.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan D </text>
+&#8729; saucepan D contents </text>
 <text
 x="1250.0" y="3285.0"
 text-anchor="middle"
@@ -948,17 +953,17 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="3365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mousse domes (glazed) </text>
+&#8729; crumbled chocolate </text>
 <text
-x="70.0" y="3395.0"
+x="90.0" y="3395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chocolate shortcrust </text>
+shortcrust </text>
 <text
-x="90.0" y="3425.0"
+x="70.0" y="3425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-(crushed) </text>
+&#8729; glazed mousse domes </text>
 <polyline points="100.0,3569.0 150.0,3601.0 350.0,3601.0 400.0,3569.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="3685.0"
@@ -1021,4 +1026,19 @@ x="750.0" y="3685.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 DECORATE </text>
+<text
+x="1510.0" y="2655.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+26 </text>
+<text
+x="1570.0" y="2655.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Allow time to fully thaw </text>
+<text
+x="1570.0" y="2685.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+before serving. </text>
 </svg>

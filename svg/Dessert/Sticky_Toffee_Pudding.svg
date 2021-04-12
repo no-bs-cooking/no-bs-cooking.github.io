@@ -271,9 +271,7 @@ x="570.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 3/4 saucepan contents </text>
-<polyline points="620.0,1561.0 620.0,1609.0 725.0,1609.0 725.0,1561.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="775.0,1561.0 775.0,1609.0 880.0,1609.0 880.0,1561.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
+<text
 x="750.0" y="1685.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 

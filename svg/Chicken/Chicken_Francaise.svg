@@ -135,7 +135,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (floured) </text>
+&#8729; floured chicken </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="825.0"
@@ -188,7 +188,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (coated) </text>
+&#8729; coated chicken </text>
 <polyline points="1060.0,769.0 1080.0,801.0 1270.0,801.0 1290.0,769.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1282.5,785.0 1425.0,785.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -341,7 +341,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (cooked) </text>
+&#8729; cooked chicken </text>
 <polyline points="60.0,1569.0 80.0,1601.0 270.0,1601.0 290.0,1569.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="282.5,1585.0 425.0,1585.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

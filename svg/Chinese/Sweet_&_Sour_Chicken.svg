@@ -222,24 +222,19 @@ style="font-family:Arial;font-size:30">
 x="1070.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 4 tbsp Bird's original </text>
+&#8729; 4 tbsp custard powder </text>
 <text
-x="1090.0" y="625.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-custard powder </text>
-<text
-x="1070.0" y="655.0"
+x="1070.0" y="625.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 1/2 tsp salt </text>
 <text
-x="1070.0" y="685.0"
+x="1070.0" y="655.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 1/2 tsp MSG </text>
 <text
-x="1070.0" y="715.0"
+x="1070.0" y="685.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 1/4 tsp black pepper </text>
@@ -254,6 +249,21 @@ x="1250.0" y="885.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 H-WHISK </text>
+<text
+x="1510.0" y="395.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+6 </text>
+<text
+x="1550.0" y="395.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Preferably use Bird's Original </text>
+<text
+x="1550.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+custard powder. </text>
 <text
 x="10.0" y="965.0"
 text-anchor="left"
@@ -350,32 +360,32 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 DEEP FRY </text>
 <text
-x="1510.0" y="395.0"
+x="1510.0" y="495.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 10 </text>
 <text
-x="1570.0" y="395.0"
+x="1570.0" y="495.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 For extra crispness, deep </text>
 <text
-x="1570.0" y="425.0"
+x="1570.0" y="525.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 fry at 160 C then at 180 C </text>
 <text
-x="1570.0" y="455.0"
+x="1570.0" y="555.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 with a 20 minute rest period </text>
 <text
-x="1570.0" y="485.0"
+x="1570.0" y="585.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 in between. Leave to dry on </text>
 <text
-x="1570.0" y="515.0"
+x="1570.0" y="615.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 a paper towel. </text>
@@ -405,17 +415,17 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 FRY </text>
 <text
-x="1510.0" y="585.0"
+x="1510.0" y="685.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 11 </text>
 <text
-x="1570.0" y="585.0"
+x="1570.0" y="685.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Give the pineapple and onion </text>
 <text
-x="1570.0" y="615.0"
+x="1570.0" y="715.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 a head start. </text>
@@ -460,12 +470,12 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 SIMMER </text>
 <text
-x="1510.0" y="685.0"
+x="1510.0" y="785.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 13 </text>
 <text
-x="1570.0" y="685.0"
+x="1570.0" y="785.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Simmer for 5 mins. </text>
@@ -490,27 +500,27 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 SIMMER </text>
 <text
-x="1510.0" y="755.0"
+x="1510.0" y="855.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 14 </text>
 <text
-x="1570.0" y="755.0"
+x="1570.0" y="855.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Stir continously whilst </text>
 <text
-x="1570.0" y="785.0"
+x="1570.0" y="885.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 slowly adding the corn </text>
 <text
-x="1570.0" y="815.0"
+x="1570.0" y="915.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 starch mixture. Do not </text>
 <text
-x="1570.0" y="845.0"
+x="1570.0" y="945.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 overthicken the sauce. </text>

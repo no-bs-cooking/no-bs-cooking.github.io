@@ -67,7 +67,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (coated) </text>
+&#8729; seasoned chicken </text>
 <polyline points="575.0,377.0 575.0,393.0 925.0,393.0 925.0,377.0 575.0,377.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="750.0" y="485.0"
@@ -159,7 +159,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (rolled) </text>
+&#8729; rolled chicken </text>
 <text
 x="70.0" y="595.0"
 text-anchor="left"
@@ -185,7 +185,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (floured) </text>
+&#8729; floured chicken </text>
 <text
 x="570.0" y="595.0"
 text-anchor="left"
@@ -211,7 +211,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (egged) </text>
+&#8729; egged chicken </text>
 <text
 x="1070.0" y="595.0"
 text-anchor="left"
@@ -237,7 +237,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (breadcrumbed) </text>
+&#8729; breadcrumbed chicken </text>
 <text
 x="70.0" y="995.0"
 text-anchor="left"

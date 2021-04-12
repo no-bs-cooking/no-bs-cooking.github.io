@@ -240,12 +240,12 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; saucepan A (drained and </text>
+&#8729; saucepan A contents </text>
 <text
 x="590.0" y="995.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-chopped) </text>
+(drained and chopped) </text>
 <polyline points="550.0,1145.0 570.0,1225.0 770.0,1225.0 790.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,1161.0 950.0,1161.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

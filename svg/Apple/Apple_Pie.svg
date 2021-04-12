@@ -134,7 +134,12 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; dough </text>
+&#8729; mixing bowl A contents </text>
+<text
+x="70.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; cling film </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="825.0"

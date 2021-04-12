@@ -83,7 +83,7 @@ style="font-family:Arial;font-size:30">
 x="570.0" y="375.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (egged) </text>
+&#8729; egged chicken </text>
 <polyline points="625.0,345.0 655.0,425.0 845.0,425.0 875.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="910.0" y="425.0"
@@ -109,7 +109,7 @@ style="font-family:Arial;font-size:30">
 x="1070.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; chicken (floured) </text>
+&#8729; flouredchicken </text>
 <polyline points="1050.0,345.0 1070.0,425.0 1270.0,425.0 1290.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1286.0,361.0 1450.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

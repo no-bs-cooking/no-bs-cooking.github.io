@@ -109,7 +109,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 100 g pancetta lardons </text>
+&#8729; 100 g guanciale (diced) </text>
 <text
 x="1070.0" y="195.0"
 text-anchor="left"
@@ -141,12 +141,27 @@ style="font-family:Arial;font-size:40">
 x="1550.0" y="295.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Rub and press garlic into pan </text>
+Pancetta lardons are an </text>
 <text
 x="1550.0" y="325.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-to extract flavour. </text>
+acceptable substitute for </text>
+<text
+x="1550.0" y="355.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+guanciale. Rub and press </text>
+<text
+x="1550.0" y="385.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+garlic into pan to extract </text>
+<text
+x="1550.0" y="415.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+flavour. </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
@@ -156,7 +171,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 garlic clove (halved) </text>
+&#8729; REMOVE garlic clove </text>
 <polyline points="50.0,745.0 70.0,825.0 270.0,825.0 290.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,761.0 450.0,761.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -202,20 +217,30 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 MIX &amp; COOL </text>
 <text
-x="1510.0" y="395.0"
+x="1510.0" y="485.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 5 </text>
 <text
-x="1550.0" y="395.0"
+x="1550.0" y="485.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Cool slightly to prevent egg </text>
 <text
-x="1550.0" y="425.0"
+x="1550.0" y="515.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-mixture scrambling. </text>
+mixture scrambling. Add pasta </text>
+<text
+x="1550.0" y="545.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+water to reach the desired, </text>
+<text
+x="1550.0" y="575.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+thick consistency. </text>
 <text
 x="1010.0" y="565.0"
 text-anchor="left"

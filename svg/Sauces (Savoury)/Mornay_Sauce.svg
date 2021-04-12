@@ -94,7 +94,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 bay leaf </text>
+&#8729; REMOVE bay leaf </text>
 <polyline points="1050.0,345.0 1070.0,425.0 1270.0,425.0 1290.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1286.0,361.0 1450.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
