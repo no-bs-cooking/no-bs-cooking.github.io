@@ -538,7 +538,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="1765.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl B </text>
+&#8729; mixing bowl B contents </text>
 <text
 x="750.0" y="2085.0"
 text-anchor="middle"
@@ -598,10 +598,15 @@ by combining lemon juice and </text>
 x="1570.0" y="1705.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-caster sugar in a 2:1 ratio </text>
+caster sugar in a 2:1 ratio, </text>
 <text
 x="1570.0" y="1735.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-and microwaving. </text>
+then microwaving to fully </text>
+<text
+x="1570.0" y="1765.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+dissolve. </text>
 </svg>

@@ -121,9 +121,14 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; spaghetti (drained) </text>
+&#8729; saucepan A spaghetti </text>
 <text
-x="70.0" y="595.0"
+x="90.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+(drained) </text>
+<text
+x="70.0" y="625.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 1 tbsp saucepan A water </text>

@@ -230,17 +230,7 @@ Cool slightly to prevent egg </text>
 x="1550.0" y="515.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-mixture scrambling. Add pasta </text>
-<text
-x="1550.0" y="545.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-water to reach the desired, </text>
-<text
-x="1550.0" y="575.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-thick consistency. </text>
+mixture scrambling. </text>
 <text
 x="1010.0" y="565.0"
 text-anchor="left"
@@ -263,6 +253,26 @@ x="1250.0" y="885.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 MIX </text>
+<text
+x="1510.0" y="585.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+6 </text>
+<text
+x="1550.0" y="585.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+If necessary, add more pasta </text>
+<text
+x="1550.0" y="615.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+water to achieve a thick </text>
+<text
+x="1550.0" y="645.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+consistency in the sauce. </text>
 <text
 x="10.0" y="965.0"
 text-anchor="left"
