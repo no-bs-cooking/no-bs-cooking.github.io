@@ -57,6 +57,12 @@ x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; 2 tbsp lemon zest </text>
+<polyline points="625.0,345.0 655.0,425.0 845.0,425.0 875.0,345.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="910.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+A </text>
 <text
 x="750.0" y="485.0"
 text-anchor="middle"
