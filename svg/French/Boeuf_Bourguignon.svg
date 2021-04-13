@@ -387,10 +387,9 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; casserole A sauce </text>
-<polyline points="125.0,1545.0 135.0,1625.0 365.0,1625.0 375.0,1545.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="130.0,1545.0 110.0,1545.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="370.0,1545.0 390.0,1545.0" 
+&#8729; casserole sauce </text>
+<polyline points="50.0,1545.0 70.0,1625.0 270.0,1625.0 290.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,1561.0 450.0,1561.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="1685.0"
 text-anchor="middle"
@@ -435,7 +434,7 @@ style="font-family:Arial;font-size:30">
 x="570.0" y="1425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; casserole B contents </text>
+&#8729; saucepan contents </text>
 <polyline points="625.0,1545.0 635.0,1625.0 865.0,1625.0 875.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="630.0,1545.0 610.0,1545.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="870.0,1545.0 890.0,1545.0" 
