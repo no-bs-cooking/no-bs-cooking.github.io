@@ -126,6 +126,11 @@ text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 greased wire rack if possible. </text>
 <text
+x="1550.0" y="325.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Cook at 200 C for 20 mins. </text>
+<text
 x="10.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
@@ -148,17 +153,17 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 HEAT &amp; MIX </text>
 <text
-x="1510.0" y="365.0"
+x="1510.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
-x="1550.0" y="365.0"
+x="1550.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Frank's Original or Frank's </text>
 <text
-x="1550.0" y="395.0"
+x="1550.0" y="425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Xtra Hot are ideal sauces. </text>
@@ -180,17 +185,17 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 MIX </text>
 <text
-x="1510.0" y="465.0"
+x="1510.0" y="495.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 5 </text>
 <text
-x="1550.0" y="465.0"
+x="1550.0" y="495.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 Turn off the heat and </text>
 <text
-x="1550.0" y="495.0"
+x="1550.0" y="525.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 incorporate the cold butter. </text>
@@ -237,28 +242,33 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 COOK </text>
 <text
-x="1510.0" y="565.0"
+x="1510.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 7 </text>
 <text
-x="1550.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Re-glaze the chicken wings in </text>
-<text
 x="1550.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-sauce with a silicon brush </text>
+Cook at 200 C for a further 20 </text>
 <text
 x="1550.0" y="625.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-halfway through the cooking </text>
+mins. Re-glaze the chicken </text>
 <text
 x="1550.0" y="655.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-process. </text>
+wings in sauce with a silicon </text>
+<text
+x="1550.0" y="685.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+brush halfway through the </text>
+<text
+x="1550.0" y="715.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+cooking process. </text>
 </svg>

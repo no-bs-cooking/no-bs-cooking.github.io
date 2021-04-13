@@ -95,6 +95,16 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 COOK </text>
 <text
+x="1510.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+3 </text>
+<text
+x="1550.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Cook at 200 C for 20 mins. </text>
+<text
 x="10.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
@@ -158,28 +168,33 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 COOK </text>
 <text
-x="1510.0" y="165.0"
+x="1510.0" y="235.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 6 </text>
 <text
-x="1550.0" y="165.0"
+x="1550.0" y="235.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Re-glaze the chicken wings in </text>
+Cook at 200 C for a further 20 </text>
 <text
-x="1550.0" y="195.0"
+x="1550.0" y="265.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-sauce with a silicon brush </text>
+mins. Re-glaze the chicken </text>
 <text
-x="1550.0" y="225.0"
+x="1550.0" y="295.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-halfway through the cooking </text>
+wings in sauce with a silicon </text>
 <text
-x="1550.0" y="255.0"
+x="1550.0" y="325.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-process. </text>
+brush halfway through the </text>
+<text
+x="1550.0" y="355.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+cooking process. </text>
 </svg>

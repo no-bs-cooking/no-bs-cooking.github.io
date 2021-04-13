@@ -20,7 +20,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 4 pork shoulder steaks </text>
+&#8729; pork shoulder steaks </text>
 <text
 x="70.0" y="195.0"
 text-anchor="left"
@@ -59,25 +59,20 @@ text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; REMOVE pork shoulder </text>
 <text
-x="590.0" y="195.0"
+x="570.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-steaks </text>
+&#8729; shallots (diced) </text>
 <text
 x="570.0" y="225.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 4 shallots (diced) </text>
+&#8729; mushrooms (sliced) </text>
 <text
 x="570.0" y="255.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 10 mushrooms (sliced) </text>
-<text
-x="570.0" y="285.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tbsp butter </text>
+&#8729; butter </text>
 <polyline points="560.0,369.0 580.0,401.0 770.0,401.0 790.0,369.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="782.5,385.0 925.0,385.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -111,119 +106,18 @@ text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 3 </text>
 <text
-x="1070.0" y="165.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 300 ml double cream </text>
-<text
-x="1070.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp salt </text>
-<text
-x="1070.0" y="225.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp black pepper </text>
-<polyline points="1060.0,369.0 1080.0,401.0 1270.0,401.0 1290.0,369.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1282.5,385.0 1425.0,385.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-SIMMER </text>
-<text
-x="1510.0" y="395.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-3 </text>
-<text
-x="1550.0" y="395.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Can also use a mixture of </text>
-<text
-x="1550.0" y="425.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-double and single cream for a </text>
-<text
-x="1550.0" y="455.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-lighter sauce. </text>
+ </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
-x="70.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; seared pork (sliced) </text>
-<polyline points="60.0,769.0 80.0,801.0 270.0,801.0 290.0,769.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="282.5,785.0 425.0,785.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="885.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-HEAT &amp; MIX </text>
-<text
-x="1510.0" y="525.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-4 </text>
-<text
-x="1550.0" y="525.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Allow the pork to cook </text>
-<text
-x="1550.0" y="555.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-through. </text>
-<text
-x="510.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-5 </text>
-<text
-x="570.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tbsp fresh parsley </text>
-<text
-x="590.0" y="595.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-(chopped) </text>
-<text
-x="570.0" y="625.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp paprika </text>
-<polyline points="560.0,769.0 580.0,801.0 770.0,801.0 790.0,769.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="782.5,785.0 925.0,785.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
-x="750.0" y="885.0"
-text-anchor="middle"
-style="font-family:Arial;font-size:40"> 
-MIX </text>
-<text
-x="1510.0" y="625.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-5 </text>
-<text
-x="1550.0" y="625.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Remove from the heat and </text>
-<text
-x="1550.0" y="655.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-garnish. Serve with rice. </text>
+ </text>
 </svg>
