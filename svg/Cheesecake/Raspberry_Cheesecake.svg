@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2125.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1725.0">
 <text x="40.0" y="88.0" font-size="80">
 Raspberry Cheesecake<tspan font-size="40">&#160;&#160;by El Mundo Eats</tspan></text>
-<polyline points="0,0 0,2125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,2125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,2125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1000,125.0 1000,2125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1500,125.0 1500,2125.0 " 
+<polyline points="0,0 0,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1000,125.0 1000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1500,125.0 1500,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,0 2000,0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,125.0 2000,125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,2125.0 2000,2125.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1725.0 2000,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,525.0 1500,525.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,925.0 1500,925.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1325.0 1500,1325.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1725.0 1500,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="10.0" y="165.0"
 text-anchor="left"
@@ -394,14 +393,4 @@ x="1250.0" y="1685.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 DECORATE </text>
-<text
-x="10.0" y="1765.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-13 </text>
-<text
-x="250.0" y="2085.0"
-text-anchor="middle"
-style="font-family:Arial;font-size:40"> 
- </text>
 </svg>
