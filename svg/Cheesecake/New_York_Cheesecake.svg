@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1725.0">
 <text x="40.0" y="88.0" font-size="80">
-Lemon Cheesecake<tspan font-size="40">&#160;&#160;by El Mundo Eats</tspan></text>
+New York Cheesecake<tspan font-size="40">&#160;&#160;by Food Wishes</tspan></text>
 <polyline points="0,0 0,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,1725.0 " 
@@ -22,7 +22,7 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 150 g digestive biscuits </text>
+&#8729; 18 graham crackers </text>
 <text
 x="90.0" y="195.0"
 text-anchor="left"
@@ -32,7 +32,7 @@ style="font-family:Arial;font-size:30">
 x="70.0" y="225.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 60 g unsalted butter </text>
+&#8729; 3 tbsp unsalted butter </text>
 <text
 x="90.0" y="255.0"
 text-anchor="left"
@@ -50,6 +50,26 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 MIX </text>
 <text
+x="1510.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+1 </text>
+<text
+x="1550.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Digestive biscuits are a </text>
+<text
+x="1550.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+suitable substitute for graham </text>
+<text
+x="1550.0" y="225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+crackers. </text>
+<text
 x="510.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
@@ -65,32 +85,17 @@ style="fill:none;stroke:black;stroke-width:2" /><text
 x="750.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:38"> 
-SPREAD &amp; PRESS </text>
+PRESS &amp; SPREAD </text>
 <text
-x="1510.0" y="165.0"
+x="1510.0" y="295.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 2 </text>
 <text
-x="1550.0" y="165.0"
+x="1550.0" y="295.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Place a layer of cling film at </text>
-<text
-x="1550.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-the bottom of the cake tin to </text>
-<text
-x="1550.0" y="225.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-enable the finished cheesecake </text>
-<text
-x="1550.0" y="255.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-to be lifted out later. </text>
+Push up against the edges too. </text>
 <text
 x="1010.0" y="165.0"
 text-anchor="left"
@@ -100,12 +105,17 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 400 g cream cheese (room </text>
+&#8729; 30 g plain flour </text>
 <text
-x="1090.0" y="195.0"
+x="1070.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-temperature) </text>
+&#8729; 240 g sour cream </text>
+<text
+x="1070.0" y="225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tbsp vanilla essence </text>
 <polyline points="1125.0,345.0 1155.0,425.0 1345.0,425.0 1375.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1410.0" y="425.0"
@@ -116,17 +126,7 @@ B </text>
 x="1250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-E-WHISK </text>
-<text
-x="1510.0" y="325.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-3 </text>
-<text
-x="1550.0" y="325.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Whisk until fluffy. </text>
+MIX </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
@@ -136,48 +136,43 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 2 tbsp lemon zest </text>
+&#8729; 1800 g cream cheese (room </text>
 <text
-x="70.0" y="595.0"
+x="90.0" y="595.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 80 ml lemon juice </text>
+temperature) </text>
 <text
 x="70.0" y="625.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 400 g condensed milk </text>
+&#8729; 300 g white sugar </text>
 <polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="825.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-B </text>
+C </text>
 <text
 x="250.0" y="885.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-E-WHISK </text>
+MIX </text>
 <text
-x="1510.0" y="395.0"
+x="1510.0" y="365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
+x="1550.0" y="365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Mix the sugar into the cream </text>
+<text
 x="1550.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Avoid picking up waxy flesh </text>
-<text
-x="1550.0" y="425.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-with the lemon skin. Overripe </text>
-<text
-x="1550.0" y="455.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-lemons will not zest well. </text>
+cheese with a wooden spoon. </text>
 <text
 x="510.0" y="565.0"
 text-anchor="left"
@@ -187,12 +182,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1.5 tsp gelatin powder </text>
-<text
-x="570.0" y="595.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tbsp water </text>
+&#8729; 80 ml whole milk </text>
 <polyline points="625.0,745.0 655.0,825.0 845.0,825.0 875.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="910.0" y="825.0"
@@ -202,43 +192,28 @@ C </text>
 <text
 x="750.0" y="885.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:38"> 
-MIX &amp; MICROWAVE </text>
+style="font-family:Arial;font-size:40"> 
+MIX </text>
 <text
-x="1510.0" y="525.0"
+x="1510.0" y="465.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 5 </text>
 <text
+x="1550.0" y="465.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Only mix sufficiently to full </text>
+<text
+x="1550.0" y="495.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+incorporate the milk and do </text>
+<text
 x="1550.0" y="525.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Bloom the gelatin powder in </text>
-<text
-x="1550.0" y="555.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-water for 5 mins, then </text>
-<text
-x="1550.0" y="585.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-microwave if necessary to </text>
-<text
-x="1550.0" y="615.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-fully dissolve. Aternatively </text>
-<text
-x="1550.0" y="645.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-use a soaked and drained </text>
-<text
-x="1550.0" y="675.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-gelatin sheet. </text>
+not overbeat. </text>
 <text
 x="1010.0" y="565.0"
 text-anchor="left"
@@ -248,12 +223,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 2 tbsp mixing bowl B </text>
-<text
-x="1090.0" y="595.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-contents </text>
+&#8729; 4 eggs </text>
 <polyline points="1125.0,745.0 1155.0,825.0 1345.0,825.0 1375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1410.0" y="825.0"
@@ -266,6 +236,16 @@ text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 MIX </text>
 <text
+x="1510.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+6 </text>
+<text
+x="1550.0" y="595.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Add eggs one at a time. </text>
+<text
 x="10.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
@@ -274,13 +254,18 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; mixing bowl C contents </text>
+&#8729; 1 tsp lemon zest </text>
+<text
+x="70.0" y="995.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1 tsp orange zest </text>
 <polyline points="125.0,1145.0 155.0,1225.0 345.0,1225.0 375.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="1225.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-B </text>
+C </text>
 <text
 x="250.0" y="1285.0"
 text-anchor="middle"
@@ -296,13 +281,17 @@ x="570.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 &#8729; mixing bowl B contents </text>
-<polyline points="620.0,1145.0 620.0,1225.0 880.0,1225.0 880.0,1145.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="620.0,1169.0 610.0,1169.0 610.0,1201.0 620.0,1201.0" 
+<polyline points="625.0,1145.0 655.0,1225.0 845.0,1225.0 875.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
+x="910.0" y="1225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+C </text>
+<text
 x="750.0" y="1285.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:35"> 
-FILL &amp; REFRIGERATE </text>
+style="font-family:Arial;font-size:40"> 
+MIX </text>
 <text
 x="1010.0" y="965.0"
 text-anchor="left"
@@ -312,14 +301,49 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 8 tbsp lemon curd </text>
+&#8729; mixing bowl B contents </text>
 <polyline points="1120.0,1145.0 1120.0,1225.0 1380.0,1225.0 1380.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1120.0,1169.0 1110.0,1169.0 1110.0,1201.0 1120.0,1201.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="1285.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-SPREAD </text>
+FILL &amp; BAKE </text>
+<text
+x="1510.0" y="665.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+9 </text>
+<text
+x="1550.0" y="665.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Tap firmly onto the work </text>
+<text
+x="1550.0" y="695.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+surface to ensure that no air </text>
+<text
+x="1550.0" y="725.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+bubbles remain. Bake at 175 C </text>
+<text
+x="1550.0" y="755.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+for 60 mins, then turn off the </text>
+<text
+x="1550.0" y="785.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+heat with the cheesecake left </text>
+<text
+x="1550.0" y="815.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+inside the oven to cool down. </text>
 <text
 x="10.0" y="1365.0"
 text-anchor="left"
@@ -329,12 +353,16 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="1365.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; whippped cream </text>
-<polyline points="120.0,1545.0 120.0,1625.0 380.0,1625.0 380.0,1545.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="120.0,1569.0 110.0,1569.0 110.0,1601.0 120.0,1601.0" 
+&#8729; strawberry sauce </text>
+<text
+x="70.0" y="1395.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; fresh strawberries </text>
+<polyline points="100.0,1569.0 150.0,1601.0 350.0,1601.0 400.0,1569.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="1685.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:40"> 
-DECORATE </text>
+style="font-family:Arial;font-size:38"> 
+DECORATE &amp; SERVE </text>
 </svg>

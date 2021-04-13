@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1325.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1725.0">
 <text x="40.0" y="88.0" font-size="80">
 Lemon Cheesecake<tspan font-size="40">&#160;&#160;by El Mundo Eats</tspan></text>
-<polyline points="0,0 0,1325.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,1325.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,1325.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1000,125.0 1000,1325.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1500,125.0 1500,1325.0 " 
+<polyline points="0,0 0,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1000,125.0 1000,1725.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="1500,125.0 1500,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,0 2000,0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,125.0 2000,125.0 " 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1325.0 2000,1325.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1725.0 2000,1725.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,525.0 1500,525.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,925.0 1500,925.0 " 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="0,1325.0 1500,1325.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="10.0" y="165.0"
 text-anchor="left"
@@ -99,7 +100,12 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 400 g cream cheese </text>
+&#8729; 400 g cream cheese (room </text>
+<text
+x="1090.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+temperature) </text>
 <polyline points="1125.0,345.0 1155.0,425.0 1345.0,425.0 1375.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1410.0" y="425.0"
@@ -110,7 +116,17 @@ B </text>
 x="1250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-WHISK </text>
+E-WHISK </text>
+<text
+x="1510.0" y="325.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+3 </text>
+<text
+x="1550.0" y="325.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Whisk until fluffy. </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
@@ -141,27 +157,27 @@ B </text>
 x="250.0" y="885.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-WHISK </text>
+E-WHISK </text>
 <text
-x="1510.0" y="325.0"
+x="1510.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
-x="1550.0" y="325.0"
+x="1550.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Overripe lemons will not zest </text>
+Avoid picking up waxy flesh </text>
 <text
-x="1550.0" y="355.0"
+x="1550.0" y="425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-well. Avoid picking up waxy </text>
+with the lemon skin. Overripe </text>
 <text
-x="1550.0" y="385.0"
+x="1550.0" y="455.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-flesh with the lemon skin. </text>
+lemons will not zest well. </text>
 <text
 x="510.0" y="565.0"
 text-anchor="left"
@@ -171,7 +187,7 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 2 tsp gelatin powder </text>
+&#8729; 1.5 tsp gelatin powder </text>
 <text
 x="570.0" y="595.0"
 text-anchor="left"
@@ -189,37 +205,37 @@ text-anchor="middle"
 style="font-family:Arial;font-size:38"> 
 MIX &amp; MICROWAVE </text>
 <text
-x="1510.0" y="455.0"
+x="1510.0" y="525.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 5 </text>
 <text
-x="1550.0" y="455.0"
+x="1550.0" y="525.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Soak the gelatin powder in </text>
+Bloom the gelatin powder in </text>
 <text
-x="1550.0" y="485.0"
+x="1550.0" y="555.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 water for 5 mins, then </text>
 <text
-x="1550.0" y="515.0"
+x="1550.0" y="585.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 microwave if necessary to </text>
 <text
-x="1550.0" y="545.0"
+x="1550.0" y="615.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 fully dissolve. Aternatively </text>
 <text
-x="1550.0" y="575.0"
+x="1550.0" y="645.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 use a soaked and drained </text>
 <text
-x="1550.0" y="605.0"
+x="1550.0" y="675.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
 gelatin sheet. </text>
@@ -296,7 +312,7 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="965.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 6 tbsp lemon curd </text>
+&#8729; 8 tbsp lemon curd </text>
 <polyline points="1120.0,1145.0 1120.0,1225.0 1380.0,1225.0 1380.0,1145.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1120.0,1169.0 1110.0,1169.0 1110.0,1201.0 1120.0,1201.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
@@ -304,4 +320,21 @@ x="1250.0" y="1285.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
 SPREAD </text>
+<text
+x="10.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+10 </text>
+<text
+x="70.0" y="1365.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; whippped cream </text>
+<polyline points="120.0,1545.0 120.0,1625.0 380.0,1625.0 380.0,1545.0" 
+style="fill:none;stroke:black;stroke-width:2" /><polyline points="120.0,1569.0 110.0,1569.0 110.0,1601.0 120.0,1601.0" 
+style="fill:none;stroke:black;stroke-width:2" /><text
+x="250.0" y="1685.0"
+text-anchor="middle"
+style="font-family:Arial;font-size:40"> 
+DECORATE </text>
 </svg>
