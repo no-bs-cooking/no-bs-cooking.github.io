@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="925.0">
 <text x="40.0" y="88.0" font-size="80">
-Turmeric Chicken</text>
+Lemon Curd<tspan font-size="40">&#160;&#160;by El Mundo Eats</tspan></text>
 <polyline points="0,0 0,925.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,925.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,925.0 " 
@@ -20,48 +20,33 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 4 chicken breasts </text>
+&#8729; 2 eggs </text>
 <text
-x="90.0" y="195.0"
+x="70.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-(butterflied) </text>
+&#8729; 3 egg yolks </text>
 <text
 x="70.0" y="225.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 3 tbsp blackened cajun </text>
+&#8729; 200 g caster sugar </text>
 <text
-x="90.0" y="255.0"
+x="70.0" y="255.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-seasoning </text>
-<text
-x="70.0" y="285.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp salt </text>
-<text
-x="70.0" y="315.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp black pepper </text>
-<text
-x="70.0" y="345.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tbsp olive oil </text>
+&#8729; 190 ml lemon juice </text>
 <polyline points="125.0,345.0 155.0,425.0 345.0,425.0 375.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="410.0" y="425.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-  </text>
+A </text>
 <text
 x="250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-MIX &amp; COAT </text>
+H-WHISK </text>
 <text
 x="510.0" y="165.0"
 text-anchor="left"
@@ -71,14 +56,12 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; seasoned chicken </text>
-<polyline points="560.0,369.0 580.0,401.0 770.0,401.0 790.0,369.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="782.5,385.0 925.0,385.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
+&#8729; 2 tbsp lemon zest </text>
+<text
 x="750.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-FRY </text>
+HEAT </text>
 <text
 x="1510.0" y="165.0"
 text-anchor="left"
@@ -88,17 +71,17 @@ style="font-family:Arial;font-size:40">
 x="1550.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Sear the chicken until it is </text>
+Gently heat over a bain-marie </text>
 <text
 x="1550.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-almost cooked through, then </text>
+for around 10 mins until </text>
 <text
 x="1550.0" y="225.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-set aside. </text>
+substantially thickened. </text>
 <text
 x="1010.0" y="165.0"
 text-anchor="left"
@@ -108,44 +91,23 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 400 ml coconut milk </text>
+&#8729; 75 g unsalted butter (cold </text>
 <text
-x="1070.0" y="195.0"
+x="1090.0" y="195.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 200 ml double cream </text>
-<text
-x="1070.0" y="225.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 3 tsp turmeric </text>
-<text
-x="1070.0" y="255.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp cumin </text>
-<text
-x="1070.0" y="285.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp coriander </text>
-<text
-x="1070.0" y="315.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp salt </text>
-<text
-x="1070.0" y="345.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp black pepper </text>
-<polyline points="1050.0,345.0 1070.0,425.0 1270.0,425.0 1290.0,345.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="1286.0,361.0 1450.0,361.0" 
+and cubed) </text>
+<polyline points="1125.0,345.0 1155.0,425.0 1345.0,425.0 1375.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
+x="1410.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+A </text>
+<text
 x="1250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-HEAT &amp; MIX </text>
+H-WHISK </text>
 <text
 x="1510.0" y="295.0"
 text-anchor="left"
@@ -155,22 +117,12 @@ style="font-family:Arial;font-size:40">
 x="1550.0" y="295.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Follow the 2:1 ratio of </text>
+Add whilst the mixture is </text>
 <text
 x="1550.0" y="325.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-coconut milk to cream exactly, </text>
-<text
-x="1550.0" y="355.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-else the sauce will not </text>
-<text
-x="1550.0" y="385.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-thicken well. </text>
+still warm. </text>
 <text
 x="10.0" y="565.0"
 text-anchor="left"
@@ -180,54 +132,36 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="565.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 tsp cornstarch-water mix </text>
-<polyline points="50.0,745.0 70.0,825.0 270.0,825.0 290.0,745.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,761.0 450.0,761.0" 
+&#8729; mixing bowl A contents </text>
+<polyline points="125.0,745.0 155.0,825.0 345.0,825.0 375.0,745.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
+x="410.0" y="825.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+B </text>
+<text
 x="250.0" y="885.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:38"> 
-WHISK &amp; SIMMER </text>
+style="font-family:Arial;font-size:35"> 
+SIFT &amp; REFRIGERATE </text>
 <text
-x="1510.0" y="455.0"
+x="1510.0" y="395.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 4 </text>
 <text
+x="1550.0" y="395.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Cover with cling film pressed </text>
+<text
+x="1550.0" y="425.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+onto the surface, leave to </text>
+<text
 x="1550.0" y="455.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-Allow sauce to reduce to </text>
-<text
-x="1550.0" y="485.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-desired thickness. Simmering </text>
-<text
-x="1550.0" y="515.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-for at least 15 mins should </text>
-<text
-x="1550.0" y="545.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-suffice. </text>
-<text
-x="510.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:40"> 
-5 </text>
-<text
-x="570.0" y="565.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; fried chicken </text>
-<polyline points="550.0,745.0 570.0,825.0 770.0,825.0 790.0,745.0" 
-style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,761.0 950.0,761.0" 
-style="fill:none;stroke:black;stroke-width:2" /><text
-x="750.0" y="885.0"
-text-anchor="middle"
-style="font-family:Arial;font-size:40"> 
-HEAT &amp; MIX </text>
+cool, then refrigerate. </text>
 </svg>

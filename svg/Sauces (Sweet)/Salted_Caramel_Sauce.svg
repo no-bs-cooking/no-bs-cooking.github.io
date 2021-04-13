@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="525.0">
 <text x="40.0" y="88.0" font-size="80">
-Bechamel<tspan font-size="40">&#160;&#160;by French Cooking Academy</tspan></text>
+Salted Caramel Sauce<tspan font-size="40">&#160;&#160;by Food Wishes</tspan></text>
 <polyline points="0,0 0,525.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="2000,0 2000,525.0 " 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="500,125.0 500,525.0 " 
@@ -19,19 +19,44 @@ style="font-family:Arial;font-size:40">
 x="70.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 1 tbsp butter </text>
-<text
-x="70.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 3 tbsp plain flour </text>
+&#8729; 200 g caster sugar </text>
 <polyline points="50.0,345.0 70.0,425.0 270.0,425.0 290.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="286.00000000000006,361.0 450.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="250.0" y="485.0"
 text-anchor="middle"
 style="font-family:Arial;font-size:40"> 
-MIX &amp; HEAT </text>
+HEAT &amp; STIR </text>
+<text
+x="1510.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:40"> 
+1 </text>
+<text
+x="1550.0" y="165.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+Gently heat whilst stirring </text>
+<text
+x="1550.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+until the sugar starts </text>
+<text
+x="1550.0" y="225.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+melting. Turn the heat off </text>
+<text
+x="1550.0" y="255.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+once the caramel has reached </text>
+<text
+x="1550.0" y="285.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+its desired brownness. </text>
 <text
 x="510.0" y="165.0"
 text-anchor="left"
@@ -41,49 +66,14 @@ style="font-family:Arial;font-size:40">
 x="570.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; 250 ml whole milk </text>
-<text
-x="570.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp nutmeg </text>
-<text
-x="570.0" y="225.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1/2 tsp onion powder </text>
-<text
-x="570.0" y="255.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-&#8729; 1 bay leaf </text>
+&#8729; 5 tbsp unsalted butter </text>
 <polyline points="550.0,345.0 570.0,425.0 770.0,425.0 790.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,361.0 950.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="750.0" y="485.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:38"> 
-HEAT &amp; WHISK </text>
-<text
-x="1510.0" y="165.0"
-text-anchor="left"
 style="font-family:Arial;font-size:40"> 
-2 </text>
-<text
-x="1550.0" y="165.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Heat gently and whisk </text>
-<text
-x="1550.0" y="195.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-continuously until the sauce </text>
-<text
-x="1550.0" y="225.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-thickens significantly. </text>
+STIR </text>
 <text
 x="1010.0" y="165.0"
 text-anchor="left"
@@ -93,32 +83,32 @@ style="font-family:Arial;font-size:40">
 x="1070.0" y="165.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-&#8729; REMOVE bay leaf </text>
+&#8729; 120 ml double cream </text>
+<text
+x="1070.0" y="195.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+&#8729; 1/2 tsp salt </text>
 <polyline points="1050.0,345.0 1070.0,425.0 1270.0,425.0 1290.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="1286.0,361.0 1450.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text
 x="1250.0" y="485.0"
 text-anchor="middle"
-style="font-family:Arial;font-size:38"> 
-HEAT &amp; WHISK </text>
+style="font-family:Arial;font-size:40"> 
+STIR </text>
 <text
-x="1510.0" y="295.0"
+x="1510.0" y="355.0"
 text-anchor="left"
 style="font-family:Arial;font-size:40"> 
 3 </text>
 <text
-x="1550.0" y="295.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-Sauce is now ready to be used </text>
-<text
-x="1550.0" y="325.0"
-text-anchor="left"
-style="font-family:Arial;font-size:30"> 
-as the base for various other </text>
-<text
 x="1550.0" y="355.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-derived sauces. </text>
+Transfer to ramekins for </text>
+<text
+x="1550.0" y="385.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+storage or serve warm. </text>
 </svg>

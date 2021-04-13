@@ -89,7 +89,7 @@ style="font-family:Arial;font-size:30">
 x="590.0" y="345.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-(crushed) </text>
+(ground) </text>
 <polyline points="550.0,345.0 570.0,425.0 770.0,425.0 790.0,345.0" 
 style="fill:none;stroke:black;stroke-width:2" /><polyline points="786.0,361.0 950.0,361.0" 
 style="fill:none;stroke:black;stroke-width:2" /><text

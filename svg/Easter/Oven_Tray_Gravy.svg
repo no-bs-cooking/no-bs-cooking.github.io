@@ -123,5 +123,20 @@ Adjust the seasoning and </text>
 x="1550.0" y="445.0"
 text-anchor="left"
 style="font-family:Arial;font-size:30"> 
-thickness to taste. </text>
+thickness to taste. Bear in </text>
+<text
+x="1550.0" y="475.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+mind that the gravy will </text>
+<text
+x="1550.0" y="505.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+thicken as it cools after </text>
+<text
+x="1550.0" y="535.0"
+text-anchor="left"
+style="font-family:Arial;font-size:30"> 
+simmering. </text>
 </svg>
