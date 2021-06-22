@@ -6,6 +6,7 @@
 }
 table, th, td {
     /* border: 1px solid black ; */
+    font-size: 30px;
     padding: 10px ;
     border-collapse: collapse ;
     table-layout: fixed ;
@@ -23,7 +24,7 @@ ul li:before {
 	left: 0;
 }
 .step {
-  font-size: 20px;
+  font-size: 40px;
   top: 0px;
 }
 .process {
@@ -37,5 +38,8 @@ ul li:before {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+.action {
+  font-size: 60px;
 }
 </style>

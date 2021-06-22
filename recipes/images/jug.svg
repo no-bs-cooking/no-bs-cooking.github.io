@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+<polyline points="300,300 350,700 650,700 680,370 740,300"
+style="fill:none;stroke:black;stroke-width:10" />
+<path d="M 310 380 q -100 80 20 160" stroke="black"
+stroke-width="10" fill="none" /></svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+<circle cx="500" cy="500" r="480"
+style="fill:none;stroke:black;stroke-width:10" />
+<text x="500" y="600" style="font-family:'Times New Roman';font-size:1000" text-anchor="middle" alignment-baseline="middle"> i </text>></svg>
