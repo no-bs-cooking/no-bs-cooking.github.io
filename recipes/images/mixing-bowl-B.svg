@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
-<polyline points="200,350 250,650 750,650 800,350"
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="350">
+<polyline points="0,0 50,350 600,350 650,0"
 style="fill:none;stroke:black;stroke-width:10" />
-<text x="840" y="650" style="font-family:Arial;font-size:60"> B </text></svg>
+<text x="680" y="350" style="font-family:Arial;font-size:80"> B </text></svg>
