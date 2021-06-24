@@ -42,16 +42,36 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Prawn Mayonnaise Sandwich Filling </b>
-<a href="">
-<img src="images/yt.png" style="width:10%" align="right">
-</a>
-<img src="qr/Prawn_Mayonnaise_Sandwich_Filling_QR.svg" style="width:10%" align="right">
-<br> by  </td></tr>
+</tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Ensure that the prawns are well drained and patted dry, else the mayonnaise will not coat them well.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -63,8 +83,7 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp paprika </li></ul>
@@ -75,8 +94,7 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1/2 tsp lemon juice </li><li> 1/2 tsp Worcestershire sauce </li><li> 1/4 tsp Tabasco sauce </li></ul>

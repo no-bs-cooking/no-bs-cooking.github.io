@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Opera Cake </b>
 <a href="https://www.youtube.com/watch?v=d8NimVk8VIg">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Opera_Cake_QR.svg" style="width:10%" align="right">
-<br> by Home Cooking Adventure </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by Home Cooking Adventure </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 140 g ground almonds </li><li> 140 g icing sugar </li></ul>
@@ -63,8 +74,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> SIFT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 5 eggs </li></ul>
@@ -75,8 +85,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 30 g plain flour </li></ul>
@@ -87,8 +96,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> FOLD </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 5 egg whites </li><li> 1/4 tsp salt </li><li> 30 g caster sugar </li></ul>
@@ -99,8 +107,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl B contents </li></ul>
@@ -111,8 +118,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> FOLD </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 30 g unsalted butter (melted) </li></ul>
@@ -123,7 +129,20 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> FOLD </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Line the bottom of the tray with baking paper and grease with small amount of unsalted butter.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -135,8 +154,7 @@ ul li:before {
 <img src="images/oven-tray-A.svg" class="utensil">
 <br><br> <center> <t class="action"> BAKE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 160 ml water </li><li> 100 g granulated sugar </li><li> 3 tsp instant coffee </li></ul>
@@ -147,7 +165,20 @@ ul li:before {
 <img src="images/saucepan-A.svg" class="utensil">
 <br><br> <center> <t class="action"> BOIL </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
+<script>
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Ensure that the cruncy pieces are not too large.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -159,7 +190,20 @@ ul li:before {
 <img src="images/mixing-bowl-C.svg" class="utensil">
 <br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
+<button class="notes" onclick="showInfo10()"> Notes </button>
+<div id="buttonDiv10"> </div>
+<script>
+function showInfo10() {
+var x = document.getElementById("buttonDiv10");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Line the bottom of the tray with baking paper.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -171,8 +215,7 @@ ul li:before {
 <img src="images/oven-tray-B.svg" class="utensil">
 <br><br> <center> <t class="action"> SPREAD &amp; REFRIGERATE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 160 g whipping cream </li></ul>
@@ -183,8 +226,7 @@ ul li:before {
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> BOIL </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 160 g dark chocolate (diced) </li></ul>
@@ -195,8 +237,7 @@ ul li:before {
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 5 egg yolks </li></ul>
@@ -207,8 +248,7 @@ ul li:before {
 <img src="images/mixing-bowl-E.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 14 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 14 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 150 g granulated sugar </li><li> 45 ml water </li><li> 2 tsp instant coffee </li></ul>
@@ -219,8 +259,7 @@ ul li:before {
 <img src="images/saucepan-B.svg" class="utensil">
 <br><br> <center> <t class="action"> BOIL </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 15 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 15 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> saucepan B </li></ul>
@@ -231,8 +270,7 @@ ul li:before {
 <img src="images/mixing-bowl-E.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 16 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 16 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 280 g unsalted butter </li></ul>
@@ -243,7 +281,20 @@ ul li:before {
 <img src="images/mixing-bowl-E.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b>
+<button class="notes" onclick="showInfo17()"> Notes </button>
+<div id="buttonDiv17"> </div>
+<script>
+function showInfo17() {
+var x = document.getElementById("buttonDiv17");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Assemble layers in the order: crunchy base, sponge, coffee syrup, coffee buttercream, sponge, coffee syrup, chocolate ganache, sponge, coffee syrup, coffee buttercream. ";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -255,8 +306,7 @@ ul li:before {
 <img src="images/oven-tray-B.svg" class="utensil">
 <br><br> <center> <t class="action"> ASSEMBLE &amp; REFRIGERATE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 18 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 18 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 200 g dark chocolate </li><li> 2 tbsp canola oil </li></ul>
@@ -267,8 +317,7 @@ ul li:before {
 <img src="images/mixing-bowl-F.svg" class="utensil">
 <br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 19 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 19 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl F </li></ul>
@@ -279,8 +328,7 @@ ul li:before {
 <img src="images/oven-tray-B.svg" class="utensil">
 <br><br> <center> <t class="action"> POUR &amp; REFRIGERATE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 20 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 20 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> baking tray </li></ul>

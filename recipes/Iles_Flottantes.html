@@ -42,14 +42,26 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Iles Flottantes </b>
 <a href="https://www.youtube.com/watch?v=iUHnMX-tKjQ">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Iles_Flottantes_QR.svg" style="width:10%" align="right">
-<br> by YouCook Cuisine </td></tr>
+<br> by YouCook Cuisine </td>
+</tr>
 <tr>
 <td>
 <img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;creme anglaise<br>
@@ -59,8 +71,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 500 ml whole milk </li><li> 1 tsp vanilla bean paste </li></ul>
@@ -74,8 +85,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 6 egg yolks </li><li> 75 g caster sugar </li></ul>
@@ -89,8 +99,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> saucepan A contents </li></ul>
@@ -104,7 +113,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Heat gently until thickened enough to coat the back of a spoon.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -119,8 +141,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> saucepan A contents </li></ul>
@@ -134,7 +155,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Whisk until frothy, then proceed to adding sugar.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -149,7 +183,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Stop whisking when soft peaks form.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -164,7 +211,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Thouroughly grease a rectangular oven dish with unsalted butter. Bake at 140 C for around 15 mins until risen. Do not overcook as this will result in a hard crust. Cover with pierced cling film and leave to cool.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -179,7 +239,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
+<script>
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Avoid stirring the sugar as it melts and instead swirl the pan. Heat until fully melted, then turn down the heat.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -194,7 +267,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
+<button class="notes" onclick="showInfo10()"> Notes </button>
+<div id="buttonDiv10"> </div>
+<script>
+function showInfo10() {
+var x = document.getElementById("buttonDiv10");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Line the oven tray with baking paper. Use a fork, rather than a spoon, to drizzle the caramel and form decorative shapes. Keep the pan warm enough to prevent the caramel solidifying too quickly whilst also not burning.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -209,7 +295,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
+<button class="notes" onclick="showInfo11()"> Notes </button>
+<div id="buttonDiv11"> </div>
+<script>
+function showInfo11() {
+var x = document.getElementById("buttonDiv11");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Individual iles flottantes can be cut and lifted out of the oven dish once cooled and slightly shrunken. ";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Toad In The Hole </b>
 <a href="https://www.youtube.com/watch?v=o5q656XUmdQ">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Toad_In_The_Hole_QR.svg" style="width:10%" align="right">
-<br> by KeefCooks </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by KeefCooks </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 125 g plain flour </li><li> 3 eggs </li></ul>
@@ -63,8 +74,7 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 125 ml milk </li><li> 1 tsp salt </li><li> 1/2 tsp white pepper </li><li> 1/2 tsp garlic powder </li></ul>
@@ -75,7 +85,20 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fry on a low heat to slowly caramelize.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -87,7 +110,20 @@ ul li:before {
 <img src="images/frying-pan.svg" class="utensil">
 <br><br> <center> <t class="action"> FRY </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Brown the sausages but do not fully cook them.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -99,7 +135,20 @@ ul li:before {
 <img src="images/frying-pan.svg" class="utensil">
 <br><br> <center> <t class="action"> FRY </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Grease the oven dish with butter. Cook in the oven for about 30 mins at 190 C. The base need only be thin and should be cooked through whilst the the top is crispy.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -111,7 +160,20 @@ ul li:before {
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> BAKE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Allow the flour to absorb the sausage and onion juices and whisk to form a roux.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -123,7 +185,20 @@ ul li:before {
 <img src="images/frying-pan.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Leave to reduce to desired thickness.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

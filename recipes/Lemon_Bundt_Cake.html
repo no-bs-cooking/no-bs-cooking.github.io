@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Lemon Bundt Cake </b>
 <a href="https://www.youtube.com/watch?v=s6KUpAaQsqk">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Lemon_Bundt_Cake_QR.svg" style="width:10%" align="right">
-<br> by Tasty </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by Tasty </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 375 g plain flour </li><li> 2 tsp baking powder </li></ul>
@@ -63,8 +74,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 230 g unsalted butter (soft) </li><li> 400 g caster sugar </li><li> 1 tsp salt </li></ul>
@@ -75,7 +85,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Add the eggs one at a time.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -87,8 +110,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 60 ml lemon juice </li><li> 2 tbsp lemon zest </li><li> 1 tsp vanilla essence </li></ul>
@@ -99,7 +121,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fold the flour mixture and milk in gradually. Do not overmix.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -111,7 +146,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> FOLD </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Grease up a bundt cake tin and spread the batter evenly. Tap firmly onto the work surface to ensure that no air bubbles remain. Bake at 180 C for 50 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -123,7 +171,20 @@ ul li:before {
 <img src="images/bundt-cake-tin.svg" class="utensil">
 <br><br> <center> <t class="action"> BAKE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Microwave for around 60 s until a syrup forms.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -135,8 +196,7 @@ ul li:before {
 <img src="images/mixing-bowl-C.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX &amp; MICROWAVE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 240 g icing sugar </li></ul>
@@ -147,7 +207,20 @@ ul li:before {
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> SIFT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
+<script>
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Add the lemon juice bit by bit and mix well until the correct thickness is obtained. ";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -159,7 +232,20 @@ ul li:before {
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
+<button class="notes" onclick="showInfo10()"> Notes </button>
+<div id="buttonDiv10"> </div>
+<script>
+function showInfo10() {
+var x = document.getElementById("buttonDiv10");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Transfer the cake onto a wire rack to cool. Poke small holes in the cake with a skewer and brush with the lemon syrup. Leave to dry for about 10 mins before proceeding.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -171,7 +257,20 @@ ul li:before {
 <img src="images/wire-rack.svg" class="utensil">
 <br><br> <center> <t class="action"> BRUSH </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
+<button class="notes" onclick="showInfo11()"> Notes </button>
+<div id="buttonDiv11"> </div>
+<script>
+function showInfo11() {
+var x = document.getElementById("buttonDiv11");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Pour the icing over the cake, sprinkle the lemon zest on top and leave to set. Ensure that the cake is fully cooled to room temperature before icing.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

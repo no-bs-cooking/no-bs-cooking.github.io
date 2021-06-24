@@ -42,16 +42,36 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Meringues </b>
-<a href="">
-<img src="images/yt.png" style="width:10%" align="right">
-</a>
-<img src="qr/Meringues_QR.svg" style="width:10%" align="right">
-<br> by  </td></tr>
+</tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use white vinegar to degrease all utensils before starting. Whisk until white and frothy with soft peaks.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -63,7 +83,20 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Add the sugar gradually whilst whisking. The mixture is ready when stiff peaks form.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -75,8 +108,7 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1/2 tsp vanilla essence </li></ul>
@@ -87,7 +119,20 @@ ul li:before {
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Shape the meringue mixture into fist sized domes. Bake at 150 C for 25 mins and then 50 C for 60 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

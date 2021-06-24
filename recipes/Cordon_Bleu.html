@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Cordon Bleu </b>
 <a href="https://www.youtube.com/watch?v=e8FdHQM2N9A">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Cordon_Bleu_QR.svg" style="width:10%" align="right">
-<br> by Tasty </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by Tasty </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 4 chicken breasts (butterflied) </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li><li> 1 tbsp garlic powder </li><li> 1 tbsp onion powder </li></ul>
@@ -63,7 +74,20 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Plase som cling film on top of the chicken and use a rolling pin or mallet to furter flatten i.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -75,7 +99,20 @@ ul li:before {
 <img src="images/board.svg" class="utensil">
 <br><br> <center> <t class="action"> FLATTEN </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Layer in the order: cheese, ham, cheese. Use cling film to tightly roll up the chicken. Refrigerate for 30 mins to firm up.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -87,8 +124,7 @@ ul li:before {
 <img src="images/board.svg" class="utensil">
 <br><br> <center> <t class="action"> LAYER &amp; ROLL </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> rolled chicken </li><li> 1 cup plain flour </li></ul>
@@ -99,8 +135,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> floured chicken </li><li> 2 eggs (beaten) </li></ul>
@@ -111,8 +146,7 @@ ul li:before {
 <img src="images/mixing-bowl-C.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> egged chicken </li><li> 2 cups breadcrumbs </li></ul>
@@ -123,8 +157,7 @@ ul li:before {
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> breadcrumbed chicken </li><li> 2 tbsp vegetable oil </li></ul>

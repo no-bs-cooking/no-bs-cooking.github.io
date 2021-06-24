@@ -42,14 +42,26 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Profiteroles </b>
 <a href="https://www.youtube.com/watch?v=wiVlScPkWfc">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Profiteroles_QR.svg" style="width:10%" align="right">
-<br> by French Cooking Academy </td></tr>
+<br> by French Cooking Academy </td>
+</tr>
 <tr>
 <td>
 <img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;choux pastry<br>
@@ -60,7 +72,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Stir constantly whilst bringing to the simmer. Allow to simmer for about 2 mins, then turn the heat off.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -75,7 +100,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Mix with the heat off and then cook for a further few minutes to dry off excess moisture.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -90,8 +128,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> saucepan </li></ul>
@@ -105,7 +142,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Add the eggs gradually. It may not be necessary to use them all. Mix vigourously either by hand or in machine. The choux pastry is ready with it holds soft peaks.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -120,7 +170,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Line the oven tray with baking paper. Twist to release when piping. Keep the profiterole sizes small.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -135,7 +198,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Only a small amount is needed to glaze the pastry. Bake at 200 C for 15 mins, or until well browned and hardened. Leave in the oven with the door open briefly before removing.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -150,8 +226,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 4  egg yolks </li><li> 70 g caster sugar </li></ul>
@@ -165,8 +240,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 40 g cornflour </li></ul>
@@ -180,8 +254,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 480 ml whole milk </li></ul>
@@ -195,8 +268,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1/2 saucepan B contents </li></ul>
@@ -210,8 +282,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl B contents </li></ul>
@@ -225,7 +296,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
+<button class="notes" onclick="showInfo12()"> Notes </button>
+<div id="buttonDiv12"> </div>
+<script>
+function showInfo12() {
+var x = document.getElementById("buttonDiv12");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cool slightly but not all the way to room temperature.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -240,7 +324,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b>
+<button class="notes" onclick="showInfo13()"> Notes </button>
+<div id="buttonDiv13"> </div>
+<script>
+function showInfo13() {
+var x = document.getElementById("buttonDiv13");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cover with cling film pressed onto the cream and refrigerate.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -255,7 +352,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 14 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 14 </b>
+<button class="notes" onclick="showInfo14()"> Notes </button>
+<div id="buttonDiv14"> </div>
+<script>
+function showInfo14() {
+var x = document.getElementById("buttonDiv14");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Do not overwhisk as the whippped cream needn't be too thick.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -270,7 +380,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 15 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 15 </b>
+<button class="notes" onclick="showInfo15()"> Notes </button>
+<div id="buttonDiv15"> </div>
+<script>
+function showInfo15() {
+var x = document.getElementById("buttonDiv15");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Be careful not to burn the bottom.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -285,7 +408,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 16 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 16 </b>
+<button class="notes" onclick="showInfo16()"> Notes </button>
+<div id="buttonDiv16"> </div>
+<script>
+function showInfo16() {
+var x = document.getElementById("buttonDiv16");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Stir constantly whilst simmering for around 5 mins, then leave to cool.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -300,7 +436,20 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b>
+<button class="notes" onclick="showInfo17()"> Notes </button>
+<div id="buttonDiv17"> </div>
+<script>
+function showInfo17() {
+var x = document.getElementById("buttonDiv17");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Either pipe the fillings into the profiteroles or partially cut them open with a knife. Best left unrefrigerated and consumed on the day.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -315,8 +464,7 @@ ul li:before {
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 18 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 18 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl E contents (cooled) </li><li> filled profiteroles </li></ul>

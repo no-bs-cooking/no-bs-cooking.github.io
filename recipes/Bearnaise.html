@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Bearnaise </b>
 <a href="https://www.youtube.com/watch?v=9VxgatSjVQE">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Bearnaise_QR.svg" style="width:10%" align="right">
-<br> by Food Wishes </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by Food Wishes </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 cup fresh tarragon (chopped) </li><li> 4 shallots (diced) </li><li> 1 tsp black peppercorns </li></ul>
@@ -63,7 +74,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Bring up to a simmer and allow to reduce significantly.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -75,8 +99,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> saucepan contents </li></ul>
@@ -87,8 +110,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> SIEVE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tsp capers (drained) </li><li> 1/4 cup fresh tarragon (chopped) </li></ul>
@@ -99,8 +121,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> CRUSH </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tbsp unsalted butter (cold) </li></ul>
@@ -111,8 +132,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> CRUSH &amp; REFRIGERATE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 2 egg yolks </li><li> 3 tbsp mixing bowl A </li></ul>
@@ -123,7 +143,20 @@ ul li:before {
 <img src="images/mixing-bowl-C.svg" class="utensil">
 <br><br> <center> <t class="action"> H-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Whisk continually over a low heat until the mixture thickens substantiall.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -135,8 +168,7 @@ ul li:before {
 <img src="images/mixing-bowl-C.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; H-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl B </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>

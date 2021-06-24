@@ -42,17 +42,23 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Buffalo Cauliflower </b>
-<a href="">
-<img src="images/yt.png" style="width:10%" align="right">
-</a>
-<img src="qr/Buffalo_Cauliflower_QR.svg" style="width:10%" align="right">
-<br> by  </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 4 tbsp flour </li><li> 2 tsp smoked paprika </li><li> 2 tsp garlic powder </li><li> 1 tsp cayenne pepper </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li></ul>
@@ -63,8 +69,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 4 tbsp milk </li></ul>
@@ -75,8 +80,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> H-WHISK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 cauliflower (chopped) </li></ul>
@@ -87,7 +91,20 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cook at 230 C for 10 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -99,8 +116,7 @@ ul li:before {
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> COOK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 150 ml hot sauce </li><li> 2 tbsp honey </li></ul>
@@ -111,7 +127,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Turn off the heat and incorporate the cold butter.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -123,8 +152,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> cooked cauliflower </li><li> buffalo sauce </li></ul>
@@ -135,7 +163,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> GLAZE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cook at 230 C for a further 10 mins. Re-glaze the cauliflower in sauce with a silicon brush halfway through the cooking process.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

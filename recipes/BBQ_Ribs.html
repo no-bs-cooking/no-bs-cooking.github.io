@@ -42,17 +42,23 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> BBQ Ribs </b>
-<a href="">
-<img src="images/yt.png" style="width:10%" align="right">
-</a>
-<img src="qr/BBQ_Ribs_QR.svg" style="width:10%" align="right">
-<br> by  </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 3 tbsp chilli powder </li><li> 1 tbsp garlic powder </li><li> 1 tbsp onion powder </li><li> 1 tbsp paprika </li><li> 2 tbsp ground mustard </li></ul>
@@ -63,8 +69,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tbsp ground oregano </li><li> 1 tbsp salt </li><li> 1 tbsp black pepper </li><li> 1 tbsp white pepper </li><li> 1 tsp cayenne pepper </li></ul>
@@ -75,7 +80,20 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Remove the membrane from the back of the ribs.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -87,7 +105,20 @@ ul li:before {
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT &amp; MARINADE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cover the base and top of the pot in copious amount of silver foil. Heat the chips gently until they start smoking and then turn off the heat. Place the ribs on a rack above the smoking chips. Leave to smoke for 30 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -99,7 +130,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> SMOKE </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>120 C for 2 hours. Place the ribs on a rack and cover securely in silver foil.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -111,8 +155,7 @@ ul li:before {
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> COVER &amp; COOK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1.5 cups tomato ketchup </li><li> 2 cups apple cider vinegar </li><li> 1/4 cup yellow mustard </li><li> 3/4 cup dark brown sugar </li></ul>
@@ -123,8 +166,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX &amp; HEAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1/2 tsp paprika </li><li> 1 tsp garlic powder </li><li> 1 tsp onion powder </li><li> 1 tsp salt </li><li> 2 tsp worcestershire sauce </li></ul>
@@ -135,7 +177,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX &amp; HEAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Uncover and apply multiple layers of BBQ sauce coating over a further 1 hour of cooking. Increase oven temperature for final 10 mins to achieve a crispy exterior.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

@@ -42,7 +42,18 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Hungarian Stuffed Peppers </b>
 <a href="https://www.youtube.com/watch?v=4ONWF7E-Vt0">
@@ -50,10 +61,10 @@ ul li:before {
 </a>
 <img src="qr/Hungarian_Stuffed_Peppers_QR.svg" style="width:10%" align="right">
 <br> by 
-Hungarian Home Cooking </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+Hungarian Home Cooking </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 3 tbsp oil </li><li> 3 tbsp plain flour </li></ul>
@@ -64,8 +75,7 @@ Hungarian Home Cooking </td></tr>
 <img src="images/saucepan-A.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 3 tbsp paprika </li></ul>
@@ -76,7 +86,20 @@ Hungarian Home Cooking </td></tr>
 <img src="images/saucepan-A.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Bring to a simmer and decrease the thickness with extra water if necessary.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -88,7 +111,20 @@ Hungarian Home Cooking </td></tr>
 <img src="images/saucepan-A.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK &amp; SIMMER </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fry on a low heat until softened but not browned.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -100,8 +136,7 @@ Hungarian Home Cooking </td></tr>
 <img src="images/frying-pan.svg" class="utensil">
 <br><br> <center> <t class="action"> FRY </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 kg mince pork </li><li> 3 eggs (beaten) </li><li> 300 g white rice (pre-cooked) </li></ul>
@@ -112,8 +147,7 @@ Hungarian Home Cooking </td></tr>
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 2 tsp salt </li><li> 2 tsp white pepper </li><li> 2 tbsp fresh parsley (chopped) </li><li> frying pan contents </li></ul>
@@ -124,7 +158,20 @@ Hungarian Home Cooking </td></tr>
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>The peppers should be long and thin in shape. Form large meatballs with the leftover stuffing mixture.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -136,7 +183,20 @@ Hungarian Home Cooking </td></tr>
 <img src="images/plate.svg" class="utensil">
 <br><br> <center> <t class="action"> STUFF &amp; FORM </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Boil for around 25 mins, until the meat is no longer pink on the outside.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -148,7 +208,20 @@ Hungarian Home Cooking </td></tr>
 <img src="images/saucepan-B.svg" class="utensil">
 <br><br> <center> <t class="action"> BOIL </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
+<script>
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Simmer for a further 5 mins. Adjust the sauce with more salt, sugar or water if necessary.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>

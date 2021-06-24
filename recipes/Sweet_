@@ -42,4 +42,14 @@ ul li:before {
 .action {
   font-size: 60px;
 }
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
 </style>
+

@@ -42,17 +42,28 @@ ul li:before {
 .action {
   font-size: 60px;
 }
-</style><table style="width:100%" class="main">
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+</style>
+
+<table style="width:100%" class="main">
 <tr>
 <td> <b class="step"> Tuscan Chicken </b>
 <a href="https://www.youtube.com/watch?v=SPum_xK5618">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Tuscan_Chicken_QR.svg" style="width:10%" align="right">
-<br> by Kitchen Sanctuary </td></tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b> </td>
+<br> by Kitchen Sanctuary </td>
 </tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 4 chicken breasts </li><li> 1 egg (beaten) </li></ul>
@@ -63,8 +74,7 @@ ul li:before {
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 3 tbsp plain flour </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp oregano </li><li> 1/2 tsp thyme </li><li> 1/2 tsp paprika </li><li> 1/2 tsp garlic powder </li></ul>
@@ -75,8 +85,7 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> egged chicken </li></ul>
@@ -87,7 +96,20 @@ ul li:before {
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> COAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Briefly fry on a medium heat to sear both sides.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -99,7 +121,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> FRY </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Finish cooking in the oven at 150 C for around 10 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -111,8 +146,7 @@ ul li:before {
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> COOK </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tbsp olive oil </li><li> 1 white onion (sliced) </li><li>  </li></ul>
@@ -123,8 +157,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 2 cloves garlic (crushed) </li><li> 1 red bell pepper (sliced) </li><li> 1/2 tsp oregano </li><li> 1 tsp paprika </li><li> 160 g sun-dried tomatoes </li><li> 1 tbsp tomato puree </li></ul>
@@ -135,8 +168,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 90 ml white wine </li><li> 240 ml chicken stock </li></ul>
@@ -147,7 +179,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> SIMMER </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
+<script>
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Allow the spinach to wilt.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -159,7 +204,20 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b> </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
+<button class="notes" onclick="showInfo10()"> Notes </button>
+<div id="buttonDiv10"> </div>
+<script>
+function showInfo10() {
+var x = document.getElementById("buttonDiv10");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Baste the chicken in sauce.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -171,8 +229,7 @@ ul li:before {
 <img src="images/saucepan.svg" class="utensil">
 <br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b> </td>
-</tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tbsp fresh parsely (chopped) </li></ul>
