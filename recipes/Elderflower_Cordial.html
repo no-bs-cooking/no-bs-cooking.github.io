@@ -70,7 +70,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Heat to dissolve the sugar, without boiling.";
+x.innerHTML = "<br>Heat to dissolve the sugar and boil to sterilise.";
 } else {
 x.innerHTML = " ";
 }
@@ -86,7 +86,7 @@ x.innerHTML = " ";
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT </t> </center>
+<br><br> <center> <t class="action"> BOIL </t> </center>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <button class="notes" onclick="showInfo2()"> Notes </button>
@@ -95,7 +95,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Allow the mixture to cool before adding the elderflower heads.";
+x.innerHTML = "<br>Allow the mixture to cool slightly before proceeding to add the elderflower heads.";
 } else {
 x.innerHTML = " ";
 }
@@ -120,7 +120,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cover with a cloth, refrigerate and leave to infuse overnight.";
+x.innerHTML = "<br>Trim off as much green stalk as possible. Ensure that the elderflowers are not brown or wilted and are free of small bugs. Cover with a cloth, refrigerate and leave to infuse for 24 hours.";
 } else {
 x.innerHTML = " ";
 }
@@ -136,7 +136,7 @@ x.innerHTML = " ";
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> COVER &amp; REFRIGERATE </t> </center>
+<br><br> <center> <t class="action"> MIX &amp; REFRIGERATE </t> </center>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
@@ -145,7 +145,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Use a muslin cloth to sift the cordial into a bottle.";
+x.innerHTML = "<br>Sieve the cordial into a glass jug and discard the lemon and elderflower.";
 } else {
 x.innerHTML = " ";
 }
@@ -155,12 +155,37 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> REMOVE lemon </li></ul>
+<li> casserole contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
+<img src="images/jug-A.svg" class="utensil">
+<br><br> <center> <t class="action"> SIEVE </t> </center>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use a muslin cloth to sieve again to remove small debris.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> jug A contents </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/jug-B.svg" class="utensil">
 <br><br> <center> <t class="action"> SIEVE </t> </center>
 </table>
 </html>
