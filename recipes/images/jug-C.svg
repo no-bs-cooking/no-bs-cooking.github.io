@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400">
+<polyline points="50,0 100,400 400,400 430,70 490,0"
+style="fill:none;stroke:black;stroke-width:10" />
+<path d="M 60 80 q -100 80 20 160" stroke="black"
+stroke-width="10" fill="none" />
+<text x="500" y="400" style="font-family:Arial;font-size:80"> C </text></svg>
