@@ -63,7 +63,7 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td> <b class="step"> Profiteroles </b>
+<td colspan="2"> <b class="step"> Profiteroles </b>
 <t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Profiteroles_1col.html">1</a> &nbsp; 
 <a href="https://no-bs-cooking.github.io/recipes/Profiteroles_2col.html">2</a> &nbsp; 
 <a href="https://no-bs-cooking.github.io/recipes/Profiteroles_3col.html">3</a></t>
@@ -72,13 +72,10 @@ ul li:before {
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
 <img src="qr/Profiteroles_QR.svg" style="width:10%" align="right">
-<tr>
-<td>
-<img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;choux pastry<br>
+<br> <br><img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;choux pastry<br>
 <img src="images/subtask-2.svg" style="height:30px" align="left"> &nbsp;vanilla cream<br>
 <img src="images/subtask-3.svg" style="height:30px" align="left"> &nbsp;whipped cream<br>
 <img src="images/subtask-4.svg" style="height:30px" align="left"> &nbsp;chocolate sauce<br>
-<img src="images/subtask-5.svg" style="height:30px" align="left"> &nbsp;assembly<br>
 </td>
 </tr>
 <tr>
@@ -133,6 +130,18 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Add the eggs gradually. It may not be necessary to use them all. Mix vigourously with a silicone spatula?. The choux pastry is ready with it holds soft peaks.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
@@ -141,7 +150,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the eggs gradually. It may not be necessary to use them all. Mix vigourously either by hand or in machine. The choux pastry is ready with it holds soft peaks.";
+x.innerHTML = "<br>Line the oven tray with baking paper. Twist to release when piping. Keep the profiterole sizes small.";
 } else {
 x.innerHTML = " ";
 }
@@ -151,21 +160,21 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> saucepan </li></ul>
+<li> saucepan A contents </li><li> 3 eggs (beaten) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 eggs (beaten) </li></ul>
+<li> mixing bowl </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> TRANSFER </t> </center>
+<br><br> <center> <t class="action"> MIX </t> </center>
 <img src="images/subtask-1.svg" style="width:10%" align="right">
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
+<img src="images/oven-tray.svg" class="utensil">
+<br><br> <center> <t class="action"> PIPE </t> </center>
 <img src="images/subtask-1.svg" style="width:10%" align="right">
 </td>
 </tr>
@@ -177,20 +186,6 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Line the oven tray with baking paper. Twist to release when piping. Keep the profiterole sizes small.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-<button class="notes" onclick="showInfo6()"> Notes </button>
-<div id="buttonDiv6"> </div>
-<script>
-function showInfo6() {
-var x = document.getElementById("buttonDiv6");
-if (x.innerHTML === " ") {
 x.innerHTML = "<br>Only a small amount is needed to glaze the pastry. Bake at 200 C for 15 mins, or until well browned and hardened. Leave in the oven with the door open briefly before removing.";
 } else {
 x.innerHTML = " ";
@@ -198,25 +193,27 @@ x.innerHTML = " ";
 }
 </script>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl </li></ul>
+<li> 1 egg (beaten) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 egg (beaten) </li></ul>
+<li> 4 egg yolks </li><li> 70 g caster sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
-<br><br> <center> <t class="action"> PIPE </t> </center>
+<br><br> <center> <t class="action"> GLAZE &amp; BAKE </t> </center>
 <img src="images/subtask-1.svg" style="width:10%" align="right">
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/oven-tray.svg" class="utensil">
-<br><br> <center> <t class="action"> GLAZE &amp; BAKE </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<img src="images/mixing-bowl-B.svg" class="utensil">
+<br><br> <center> <t class="action"> WHISK </t> </center>
+<img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
 </tr>
 <tr>
@@ -227,10 +224,10 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 4  egg yolks </li><li> 70 g caster sugar </li></ul>
+<li> 40 g cornflour </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 40 g cornflour </li></ul>
+<li> 480 ml whole milk </li></ul>
 </td>
 </tr>
 <tr>
@@ -240,8 +237,8 @@ x.innerHTML = " ";
 <img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> WHISK </t> </center>
+<img src="images/saucepan-B.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT </t> </center>
 <img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
 </tr>
@@ -253,26 +250,38 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 480 ml whole milk </li></ul>
+<li> 1/2 saucepan B contents </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 saucepan B contents </li></ul>
+<li> mixing bowl B contents </li></ul>
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-B.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT </t> </center>
-<img src="images/subtask-2.svg" style="width:10%" align="right">
-</td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-B.svg" class="utensil">
 <br><br> <center> <t class="action"> WHISK </t> </center>
 <img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-B.svg" class="utensil">
+<br><br> <center> <t class="action"> WHISK &amp; HEAT </t> </center>
+<img src="images/subtask-2.svg" style="width:10%" align="right">
+</td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
+<button class="notes" onclick="showInfo11()"> Notes </button>
+<div id="buttonDiv11"> </div>
+<script>
+function showInfo11() {
+var x = document.getElementById("buttonDiv11");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cool slightly but not all the way to room temperature.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
 <button class="notes" onclick="showInfo12()"> Notes </button>
@@ -281,7 +290,7 @@ x.innerHTML = " ";
 function showInfo12() {
 var x = document.getElementById("buttonDiv12");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cool slightly but not all the way to room temperature.";
+x.innerHTML = "<br>Cover with cling film pressed onto the cream and refrigerate.";
 } else {
 x.innerHTML = " ";
 }
@@ -291,21 +300,21 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl B contents </li></ul>
+<li> saucepan B contents </li><li> 2 tsp vanilla paste </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> saucepan B contents </li><li> 2 tsp vanilla paste </li></ul>
+<li> 15 g unsalted butter </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-B.svg" class="utensil">
-<br><br> <center> <t class="action"> WHISK &amp; HEAT </t> </center>
+<img src="images/mixing-bowl-C.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX &amp; COOL </t> </center>
 <img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-C.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX &amp; COOL </t> </center>
+<br><br> <center> <t class="action"> MIX &amp; COVER </t> </center>
 <img src="images/subtask-2.svg" style="width:10%" align="right">
 </td>
 </tr>
@@ -317,7 +326,7 @@ x.innerHTML = " ";
 function showInfo13() {
 var x = document.getElementById("buttonDiv13");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cover with cling film pressed onto the cream and refrigerate.";
+x.innerHTML = "<br>Do not overwhisk as the whippped cream needn't be too thick.";
 } else {
 x.innerHTML = " ";
 }
@@ -331,7 +340,7 @@ x.innerHTML = " ";
 function showInfo14() {
 var x = document.getElementById("buttonDiv14");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Do not overwhisk as the whippped cream needn't be too thick.";
+x.innerHTML = "<br>Be careful not to burn the bottom.";
 } else {
 x.innerHTML = " ";
 }
@@ -341,22 +350,22 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 15 g unsalted butter </li></ul>
+<li> 170 ml whippping cream </li><li> 1/2 tsp vanilla essence </li><li> 1 tbsp icing sugar (sifted) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 170 ml whippping cream </li><li> 1/2 tsp vanilla essence </li><li> 1 tbsp icing sugar (sifted) </li></ul>
+<li> 175 g dark chocolate </li><li> 50 ml water </li><li> 1 tsp instant coffee powder </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-C.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX &amp; COVER </t> </center>
-<img src="images/subtask-2.svg" style="width:10%" align="right">
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-D.svg" class="utensil">
 <br><br> <center> <t class="action"> E-WHISK </t> </center>
 <img src="images/subtask-3.svg" style="width:10%" align="right">
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-C.svg" class="utensil">
+<br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
+<img src="images/subtask-4.svg" style="width:10%" align="right">
 </td>
 </tr>
 <tr>
@@ -367,7 +376,7 @@ x.innerHTML = " ";
 function showInfo15() {
 var x = document.getElementById("buttonDiv15");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Be careful not to burn the bottom.";
+x.innerHTML = "<br>Stir constantly whilst simmering for around 5 mins, then leave to cool.";
 } else {
 x.innerHTML = " ";
 }
@@ -381,42 +390,6 @@ x.innerHTML = " ";
 function showInfo16() {
 var x = document.getElementById("buttonDiv16");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Stir constantly whilst simmering for around 5 mins, then leave to cool.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 175 g dark chocolate </li><li> 50 ml water </li><li> 1 tsp instant coffee powder </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 100 ml water </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-C.svg" class="utensil">
-<br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
-<img src="images/subtask-4.svg" style="width:10%" align="right">
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-C.svg" class="utensil">
-<br><br> <center> <t class="action"> SIMMER </t> </center>
-<img src="images/subtask-4.svg" style="width:10%" align="right">
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b>
-<button class="notes" onclick="showInfo17()"> Notes </button>
-<div id="buttonDiv17"> </div>
-<script>
-function showInfo17() {
-var x = document.getElementById("buttonDiv17");
-if (x.innerHTML === " ") {
 x.innerHTML = "<br>Either pipe the fillings into the profiteroles or partially cut them open with a knife. Best left unrefrigerated and consumed on the day.";
 } else {
 x.innerHTML = " ";
@@ -424,28 +397,38 @@ x.innerHTML = " ";
 }
 </script>
 </td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 18 </b>
-</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl C contents </li><li> mixing bowl D contents </li></ul>
+<li> 100 ml water </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl E contents (cooled) </li><li> filled profiteroles </li></ul>
+<li> mixing bowl C contents </li><li> mixing bowl D contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-C.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER </t> </center>
+<img src="images/subtask-4.svg" style="width:10%" align="right">
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
 <br><br> <center> <t class="action"> FILL </t> </center>
-<img src="images/subtask-5.svg" style="width:10%" align="right">
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 17 </b>
 </td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> saucepan C contents (cooled) </li><li> filled profiteroles </li></ul>
+</td>
+</tr>
+<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/plate.svg" class="utensil">
 <br><br> <center> <t class="action"> DECORATE </t> </center>
-<img src="images/subtask-5.svg" style="width:10%" align="right">
-</td>
 </tr>
 </table>
 </html>
