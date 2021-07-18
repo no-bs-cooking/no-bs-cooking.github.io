@@ -63,10 +63,15 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="3"> <b class="step"> Galette Bretonne </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Galette_Bretonne_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Galette_Bretonne_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Galette_Bretonne_3col.html">3</a></t>
+<td colspan="3"> <b class="step"> Crepes Flambees </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Crepes_Flambees_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Crepes_Flambees_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Crepes_Flambees_3col.html">3</a></t>
+<br> by French Cooking Academy
+<a href="https://www.youtube.com/watch?v=vF_zZssIl8w">
+<img src="images/yt.png" style="width:10%" align="right">
+</a>
+<img src="qr/Crepes_Flambees_QR.svg" style="width:10%" align="right">
 </td>
 </tr>
 <tr>
@@ -77,7 +82,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the water gradually whilst whisking.";
+x.innerHTML = "<br>Heat until a caramel forms.";
 } else {
 x.innerHTML = " ";
 }
@@ -85,18 +90,6 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
-<button class="notes" onclick="showInfo2()"> Notes </button>
-<div id="buttonDiv2"> </div>
-<script>
-function showInfo2() {
-var x = document.getElementById("buttonDiv2");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add more water until the batter is fluid enough to be spread in a crepe pan.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <button class="notes" onclick="showInfo3()"> Notes </button>
@@ -105,7 +98,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Allow downside to fully cook before flipping. If preparing a batch in advance, fry one side only and then refrigerate.";
+x.innerHTML = "<br>Simmer to reduce.";
 } else {
 x.innerHTML = " ";
 }
@@ -115,27 +108,27 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 250 g buckwheat flour </li><li> 1/ tsp salt </li><li> 460 ml water </li></ul>
+<li> 70 g caster sugar </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tsp salt </li><li> ? ml water </li></ul>
+<li> 70 g unsalted butter </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tbsp butter </li><li> 1 portion batter </li></ul>
+<li> 1 tbsp lemon juice </li><li> 2 tsp orange zest </li><li> 150 ml fresh orange juice </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK &amp; REFRIGERATE </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY &amp; FLIP </t> </center>
+<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -146,7 +139,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Crack the egg directly onto the galette. Use the heat to cook the egg and melt the cheese.";
+x.innerHTML = "<br>Continue simmering to reduce.";
 } else {
 x.innerHTML = " ";
 }
@@ -160,30 +153,54 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Fold the edges in with a spatula to form a rectangle.";
+x.innerHTML = "<br>Coat both sides of the cooked crepes in sauce by dunking them in, then fold into quarters.";
 } else {
 x.innerHTML = " ";
 }
 }
 </script>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 egg </li><li> gruyere (grated) </li><li> ham (shredded) </li></ul>
+<li> 6 tbsp Grand Marnier </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> fresh chives (chopped) </li><li> black pepper </li></ul>
+<li> 3 cooked crepes </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 4 tbsp cognac </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY </t> </center>
+<br><br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FOLD &amp; GARNISH </t> </center>
+<br><br> <center> <t class="action"> COAT &amp; FOLD </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FLAMBE </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> flambeed crepe </li><li> frying pan juices </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/plate.svg" class="utensil">
+<br><br> <center> <t class="action"> SERVE </t> </center>
 </td>
 </tr>
 </table>

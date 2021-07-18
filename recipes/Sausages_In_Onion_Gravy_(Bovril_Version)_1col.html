@@ -63,30 +63,37 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="step"> Crepes </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Crepes_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Crepes_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Crepes_3col.html">3</a></t>
-<br> by French Cooking Academy
-<a href="https://www.youtube.com/watch?v=hph-o63wlEo">
-<img src="images/yt.png" style="width:10%" align="right">
-</a>
-<img src="qr/Crepes_QR.svg" style="width:10%" align="right">
+<td colspan="1"> <b class="step"> Sausages In Onion Gravy (Bovril Version) </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Sausages_In_Onion_Gravy_(Bovril_Version)_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Sausages_In_Onion_Gravy_(Bovril_Version)_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Sausages_In_Onion_Gravy_(Bovril_Version)_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Stir continuously on a medium heat.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 225 g plain flour </li></ul>
+<li> 4 shallots (diced) </li><li> 1 tbsp olive oil </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> SIFT </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
 </td>
 </tr>
 <tr>
@@ -97,7 +104,7 @@ ul li:before {
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Create a well in the centre for the upcoming wet ingredients to sit in.";
+x.innerHTML = "<br>Push the shallots aside to remove from the heat and make space to brown the sausages.";
 } else {
 x.innerHTML = " ";
 }
@@ -107,13 +114,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 40 g caster sugar </li><li> 1/2 tsp salt </li></ul>
+<li> 6 sausages </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
 </td>
 </tr>
 <tr>
@@ -124,7 +131,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Incorporate the flour gradually.";
+x.innerHTML = "<br>Deglaze with water and simmer to thicken.";
 } else {
 x.innerHTML = " ";
 }
@@ -134,13 +141,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 eggs </li></ul>
+<li> 250 ml water </li><li> 1/2 tbsp Bovril </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -151,7 +158,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the milk gradually.";
+x.innerHTML = "<br>Stir continuously whilst slowly adding the cornstarch-water mix to obtain the desired consistency.";
 } else {
 x.innerHTML = " ";
 }
@@ -161,13 +168,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 500 ml whole milk </li></ul>
+<li> 1 tbsp cornstarch-water mix </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX &amp; SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -178,7 +185,7 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Let the melted butter cool to room temperature before adding. ";
+x.innerHTML = "<br>Season to taste and ensure the sausages are cooked through.";
 } else {
 x.innerHTML = " ";
 }
@@ -188,67 +195,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 40 g unsalted butter (melted) </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX &amp; REFRIGERATE </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-<button class="notes" onclick="showInfo6()"> Notes </button>
-<div id="buttonDiv6"> </div>
-<script>
-function showInfo6() {
-var x = document.getElementById("buttonDiv6");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Use a wooden spatula to check the underside and flip.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tbsp unsalted butter </li><li> 1 portion crepe batter </li></ul>
+<li> 1 tsp black pepper </li><li> 1/2 tsp salt </li><li> 1 tsp white sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY &amp; FLIP </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
-<script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Ideal fillings include chocolate spread, whipped cream, lemon juice and caster sugar.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> crepe fillings </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FILL &amp; ROLL </t> </center>
+<br><br> <center> <t class="action"> MIX &amp; SIMMER </t> </center>
 </td>
 </tr>
 </table>
