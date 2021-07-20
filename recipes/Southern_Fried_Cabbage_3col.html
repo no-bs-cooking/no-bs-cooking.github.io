@@ -63,22 +63,31 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="3"> <b class="step"> Apple Pie </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Apple_Pie_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Apple_Pie_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Apple_Pie_3col.html">3</a></t>
-<br> by Babish Culinary Universe
-<a href="https://www.youtube.com/watch?v=-Vy12e0LjX4&feature=emb_logo">
+<td colspan="3"> <b class="step"> Southern Fried Cabbage </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Southern_Fried_Cabbage_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Southern_Fried_Cabbage_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Southern_Fried_Cabbage_3col.html">3</a></t>
+<br> by Cooking With Tammy
+<a href="https://www.youtube.com/watch?v=jvGqF5WD7v4">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
-<img src="qr/Apple_Pie_QR.svg" style="width:10%" align="right">
-<br><br> Makes ? glass dish.
-<br> <br><img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;shortcrust pastry<br>
-<img src="images/subtask-2.svg" style="height:30px" align="left"> &nbsp;apple filling<br>
+<img src="qr/Southern_Fried_Cabbage_QR.svg" style="width:10%" align="right">
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Ideally use a cast iron skillet. Fry until a good amount of fat has rendered out.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <button class="notes" onclick="showInfo2()"> Notes </button>
@@ -87,7 +96,7 @@ ul li:before {
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Press the cold butter into the flour with a fork.";
+x.innerHTML = "<br>Fry until crisp on both sides.";
 } else {
 x.innerHTML = " ";
 }
@@ -101,7 +110,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>It may not be necessary to use all of the water. Mix with fingertips until firm and flaky.";
+x.innerHTML = "<br>Soften the onion and shallot in the bacon fat.";
 } else {
 x.innerHTML = " ";
 }
@@ -111,48 +120,33 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 355 g plain flour </li><li> 1/2 tsp salt </li><li> 2 tbsp sugar </li></ul>
+<li> 5 rasher bacon (diced) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 220 g unsalted butter (cold) </li></ul>
+<li> 1 kielbasa sausage (sliced) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 230 ml water (ice cold) </li></ul>
+<li> REMOVE fried bacon </li><li> REMOVE fried sausage </li><li> 1 white onion (sliced) </li><li> 1 shallot (diced) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-<button class="notes" onclick="showInfo5()"> Notes </button>
-<div id="buttonDiv5"> </div>
-<script>
-function showInfo5() {
-var x = document.getElementById("buttonDiv5");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Apples such as as Granny Smith are ideal because they are not overly sweet.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <button class="notes" onclick="showInfo6()"> Notes </button>
@@ -161,7 +155,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Use the spices sparingly as they should not overpower the taste of apple.";
+x.innerHTML = "<br>Cover the skillet with a fitted lid or aluminium foil. Allow the cabbage to wilt and shrink over a low heat.";
 } else {
 x.innerHTML = " ";
 }
@@ -171,30 +165,27 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl A contents </li><li> cling film </li></ul>
+<li> 1/2 red bell pepper (sliced) </li><li> 1/2 green bell pepper (sliced) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 8 apples (peeled and sliced) </li><li> 1 tbsp lemon juice </li></ul>
+<li> 1/2 tsp Cajun seasoning </li><li> 1/2 tsp crushed chillies </li><li> 1/2 tsp onion powder </li><li> 1/2 tsp garlic powder </li><li> 1/2 tsp black pepper </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/8 tsp cinnamon </li><li> 1/8 tsp all spice </li><li> 1/8 tsp nutmeg </li><li> 1/8 tsp ginger </li></ul>
+<li> 1 cabbage (cored and sliced) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> WRAP &amp; REFRIGERATE </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX &amp; FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-2.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX &amp; FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-2.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT &amp; COVER  </t> </center>
 </td>
 </tr>
 <tr>
@@ -205,7 +196,7 @@ x.innerHTML = " ";
 function showInfo7() {
 var x = document.getElementById("buttonDiv7");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the sugar then leave for 5 mins to allow juice to leave the apples. Mix the flour into the extracted juice.";
+x.innerHTML = "<br>Deglaze the bottom of the skillet and coat the vegetables in sauce.";
 } else {
 x.innerHTML = " ";
 }
@@ -219,21 +210,7 @@ x.innerHTML = " ";
 function showInfo8() {
 var x = document.getElementById("buttonDiv8");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Use half of the dough for the base and half for the top. Sprinkle plain flour over the work surface and dough before rolling out.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-<button class="notes" onclick="showInfo9()"> Notes </button>
-<div id="buttonDiv9"> </div>
-<script>
-function showInfo9() {
-var x = document.getElementById("buttonDiv9");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Pierce the pastry base with a fork. Lay the apple slices down flat. Brush the pastry top with egg wash and sprinkle with sugar. Preheat the baking tray onto which the apple pie dish is going. Bake for around 30 mins at 200 C.";
+x.innerHTML = "<br>Season to taste.";
 } else {
 x.innerHTML = " ";
 }
@@ -243,27 +220,21 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 100 g sugar </li><li> 2 tbsp plain flour </li></ul>
+<li> 1 tbsp white vinegar </li><li> 1 tbsp Worcestershire sauce </li><li> 1 tbsp chicken stock </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> shortcrust pastry (cold) </li><li> plain flour </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> rolled dough </li><li> apple mixture </li><li> 2 tbsp granulated sugar </li><li> 1 tbsp egg wash </li></ul>
+<li> fried bacon </li><li> fried sausage </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-2.svg" style="width:10%" align="right">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> DEGLAZE AND COAT </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> ROLL </t> </center>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/oven-tray.svg" class="utensil">
-<br><br> <center> <t class="action"> ASSEMBLE &amp; BAKE </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+</td>
 </tr>
 </table>
 </html>

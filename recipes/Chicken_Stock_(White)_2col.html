@@ -118,12 +118,24 @@ x.innerHTML = " ";
 <br><br> <center> <t class="action"> BOIL </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
+<img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> SIEVE &amp; RINSE </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use enough water to cover the bones. Boil for 2 hours.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
@@ -132,7 +144,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to simmer for around 3 hours.";
+x.innerHTML = "<br>Simmer for 1 more hour once all the aromatics are in.";
 } else {
 x.innerHTML = " ";
 }
@@ -155,7 +167,7 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole-B.svg" class="utensil">
-<br><br> <center> <t class="action"> SIMMER </t> </center>
+<br><br> <center> <t class="action"> MIX &amp; SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -181,8 +193,8 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> SIEVE </t> </center>
+<img src="images/jug.svg" class="utensil">
+<br><br> <center> <t class="action"> SIEVE &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 </table>
