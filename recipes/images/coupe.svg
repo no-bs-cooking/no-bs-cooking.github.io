@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+<polyline points="200,400 500,500 800,400"
+style="fill:none;stroke:black;stroke-width:10" />
+<path d="M 200 400 q -10 -5 -5 -20" stroke="black"
+stroke-width="10" fill="none" />
+<polyline points="195,380 215,300"
+style="fill:none;stroke:black;stroke-width:10" />
+<polyline points="500,500 500,900"
+style="fill:none;stroke:black;stroke-width:10" />
+<polyline points="350,900 650,900"
+style="fill:none;stroke:black;stroke-width:10" />
+<path d="M 800 400 q 10 -5 5 -20" stroke="black"
+stroke-width="10" fill="none" />
+<polyline points="805,380 785,300"
+style="fill:none;stroke:black;stroke-width:10" /></svg>
