@@ -91,7 +91,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add more water until the batter is fluid enough to be spread in a crepe pan.";
+x.innerHTML = "<br>Add more water until the batter is fluid enough to spread by itself when the crepe pan is tilted.";
 } else {
 x.innerHTML = " ";
 }
@@ -105,7 +105,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Allow downside to fully cook before flipping. If preparing a batch in advance, fry one side only and then refrigerate.";
+x.innerHTML = "<br>Wipe oil over the hot crepe pan. It is essential to use a non-stick or very well-seasoned pan. ";
 } else {
 x.innerHTML = " ";
 }
@@ -115,13 +115,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 250 g buckwheat flour </li><li> 1/ tsp salt </li><li> 460 ml water </li></ul>
+<li> 250 g buckwheat flour </li><li> 2 tsp salt </li><li> 500 ml water </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tsp salt </li><li> ? ml water </li></ul>
+<li> 200 ml water </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tbsp butter </li><li> 1 portion batter </li></ul>
+<li> 1/2 tbsp vegetable oil </li><li> 1 portion batter </li></ul>
 </td>
 </tr>
 <tr>
@@ -135,7 +135,7 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY &amp; FLIP </t> </center>
+<br><br> <center> <t class="action"> HEAT &amp; COAT </t> </center>
 </td>
 </tr>
 <tr>
@@ -146,7 +146,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Crack the egg directly onto the galette. Use the heat to cook the egg and melt the cheese.";
+x.innerHTML = "<br>Allow the downside to fully cook on a high heat before flipping. If preparing a batch in advance, fry one side only and then set aside.";
 } else {
 x.innerHTML = " ";
 }
@@ -160,6 +160,20 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
+x.innerHTML = "<br>Crack the egg directly onto the galette. Use the heat to cook the egg and melt the cheese.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
 x.innerHTML = "<br>Fold the edges in with a spatula to form a rectangle.";
 } else {
 x.innerHTML = " ";
@@ -170,6 +184,9 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 portion batter </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 egg </li><li> gruyere (grated) </li><li> ham (shredded) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
@@ -177,6 +194,10 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY &amp; FLIP </t> </center>
+</td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
 <br><br> <center> <t class="action"> FRY </t> </center>
