@@ -63,48 +63,69 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="step"> Crepes Suzette </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Crepes_Suzette_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Crepes_Suzette_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Crepes_Suzette_3col.html">3</a></t>
-<br> by French Cooking Academy
-<a href="https://www.youtube.com/watch?v=vF_zZssIl8w">
+<td colspan="1"> <b class="step"> Galettes Bretonnes (Egg Version) </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Galettes_Bretonnes_(Egg_Version)_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Galettes_Bretonnes_(Egg_Version)_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Galettes_Bretonnes_(Egg_Version)_3col.html">3</a></t>
+<br> by Recipe30
+<a href="https://www.youtube.com/watch?v=MSbXglml5Vk">
 <img src="images/yt.png" style="width:10%" align="right">
 </a>
-<img src="qr/Crepes_Suzette_QR.svg" style="width:10%" align="right">
-<br> <br><img src="images/subtask-1.svg" style="height:30px" align="left"> &nbsp;suzette butter<br>
+<img src="qr/Galettes_Bretonnes_(Egg_Version)_QR.svg" style="width:10%" align="right">
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Make a well in the flour to whisk the egg and water into.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 mandarin (zested) </li><li> 100 g unsalted butter (soft) </li></ul>
+<li> 125-150? g buckwheat flour </li><li> 1 egg </li><li> 125 ml water </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Refrigerate for at least 1 hour.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 100 g caster sugar </li></ul>
+<li> 125 ml water </li><li> 1 tsp salt </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<br> <center> <t class="action"> H-WHISK &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 <tr>
@@ -115,7 +136,7 @@ ul li:before {
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the liquid gradually whilst mixing continuously. Rest in the fridge once incorporated.";
+x.innerHTML = "<br>Let the melted butter cool to room temperature before adding. ";
 } else {
 x.innerHTML = " ";
 }
@@ -125,14 +146,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tbsp orange liqueur </li><li> 1 mandarin (juiced) </li></ul>
+<li> 2 tbsp unsalted butter (melted) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; REFRIGERATE </t> </center>
-<img src="images/subtask-1.svg" style="width:10%" align="right">
+<br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
@@ -143,7 +163,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Warm the cooked crepe up gently on a low heat to remove excess moisture.";
+x.innerHTML = "<br>Spread butter all over the crepe pan. It is essential to use a non-stick or very well-seasoned pan. ";
 } else {
 x.innerHTML = " ";
 }
@@ -153,13 +173,14 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> cooked crepe </li></ul>
+<li> 1/2 tbsp unsalted butter </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; FLIP </t> </center>
+<br> <center> <t class="action"> COAT &amp; HEAT </t> </center>
+</td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
@@ -169,7 +190,7 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Allow the suzette butter to melt inside the crepe, then fold into quarters.";
+x.innerHTML = "<br>The heat should initially be very low to allow the batter to spread uniformly as the pan is titled. Once a thin layer of batter is coating the entire pan, turn the heat up to maximum. Allow the downside to fully cook on a high heat before flipping. If preparing a batch in advance, fry one side only and then set aside.";
 } else {
 x.innerHTML = " ";
 }
@@ -179,27 +200,68 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp suzette butter </li></ul>
+<li> 1 portion batter </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> SPREAD &amp; FOLD </t> </center>
+<br> <center> <t class="action"> FRY &amp; FLIP </t> </center>
+</td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Crack the egg directly onto the galette. Use the heat to cook the egg and melt the cheese.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> crepe suzette </li><li> powder sugar </li><li> orange zest </li></ul>
+<li> 1 egg </li><li> gruyere (grated) </li><li> ham (shredded) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/plate.svg" class="utensil">
-<br> <center> <t class="action"> GARNISH &amp; SERVE </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fold the edges in with a spatula to form a rectangle.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> fresh chives (chopped) </li><li> black pepper </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> FOLD &amp; GARNISH </t> </center>
+</td>
 </tr>
 </table>
 </html>
