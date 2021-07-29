@@ -67,10 +67,10 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Tuna Mayonnaise Sandwich Filling </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Tuna_Mayonnaise_Sandwich_Filling_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Tuna_Mayonnaise_Sandwich_Filling_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Tuna_Mayonnaise_Sandwich_Filling_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Lamb Kofta Kebabs </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Lamb_Kofta_Kebabs_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Lamb_Kofta_Kebabs_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Lamb_Kofta_Kebabs_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
@@ -81,7 +81,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Ensure that the tinned tuna is well drained.";
+x.innerHTML = "<br>Other suitable ground spices include cinnamon, cardamon and sumac. ";
 } else {
 x.innerHTML = " ";
 }
@@ -91,7 +91,7 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 300 g tinned tuna (drained) </li><li> 4 tbsp mayonnaise </li></ul>
+<li> 500 g minced lamb </li><li> 1 tbsp thyme </li><li> 1/2 tbsp onion powder </li><li> 1/2 tbsp garlic powder </li><li> 1/2 tbsp cumin </li><li> 1/2 tsp paprika </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
@@ -102,17 +102,56 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Refrigerate for a few hours to marinade.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp lemon juice </li><li> 1/2 tsp Worcestershire sauce </li></ul>
+<li> 4 tbsp olive oil </li><li> fresh parsley (chopped) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
+<br> <center> <t class="action"> MIX &amp; REFRIGERATE </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Serve on pita bread with tomato, onion and Greek yoghurt dips.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> lamb mixture </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> SKEWER &amp; GRILL </t> </center>
 </td>
 </tr>
 </table>

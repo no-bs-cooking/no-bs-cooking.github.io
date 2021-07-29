@@ -67,36 +67,21 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Seafood Paella </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Seafood_Paella_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Seafood_Paella_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Seafood_Paella_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Crab Thermidor </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Crab_Thermidor_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Crab_Thermidor_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Crab_Thermidor_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 tbsp olive oil </li><li> 1 tsp salt </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
-<button class="notes" onclick="showInfo2()"> Notes </button>
-<div id="buttonDiv2"> </div>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
 <script>
-function showInfo2() {
-var x = document.getElementById("buttonDiv2");
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Fry on medium heat for about 2 mins, then set aside for later.";
+x.innerHTML = "<br>Use a medium heat and do not brown.";
 } else {
 x.innerHTML = " ";
 }
@@ -106,13 +91,28 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tube squid (cubed) </li></ul>
+<li> 1 tbsp butter </li><li> 2 shallots (diced) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
 <br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> crab meat </li><li> 50 ml brandy </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> FLAMBEE </t> </center>
 </td>
 </tr>
 <tr>
@@ -121,22 +121,34 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> REMOVE squid </li><li> 3 cloves garlic (crushed) </li><li> 1/2 white onion (diced) </li></ul>
+<li> 300 ml double cream (chopped) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> FRY </t> </center>
+<br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Reduce the heat and stir in the mustard.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 red bell pepper (diced) </li></ul>
+<li> 2 tsp English mustard </li><li> 1 tsp fresh tarragon (chopped) </li></ul>
 </td>
 </tr>
 <tr>
@@ -151,13 +163,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 110 ml tomato puree </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp smoked paprika </li></ul>
+<li> 250 ml whole milk </li><li> 1 shallot (diced) </li><li> 1clove </li><li> 1 sprig thyme </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/saucepan-A.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -166,78 +178,69 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> fried squid </li><li> 600 ml fish stock </li><li> 1/2 tsp saffron </li></ul>
+<li> 25 g butter </li><li> 25 g plain flour </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> SIMMER </t> </center>
+<img src="images/saucepan-B.svg" class="utensil">
+<br> <center> <t class="action"> MELT &amp; MIX </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
-<script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Distribute the rice evenly across the pan.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 cup paella rice </li></ul>
+<li> saucepan A contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> SIMMER </t> </center>
+<img src="images/saucepan-B.svg" class="utensil">
+<br> <center> <t class="action"> SIEVE &amp; SIMMER </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
-<button class="notes" onclick="showInfo8()"> Notes </button>
-<div id="buttonDiv8"> </div>
-<script>
-function showInfo8() {
-var x = document.getElementById("buttonDiv8");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Arrange the prawns and mussels on top of the simmering mixture. Lower the heat and continue to simmer until the liquid has nearly gone. Do not stir. Briefly turn the heat up to crispen the rice at the bottom.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li>  12 jumbo prawns </li><li> 8 mussels </li></ul>
+<li> 50 g cheddar (grated) </li><li> 1 tsp English mustard </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> ARRANGE &amp; SIMMER </t> </center>
+<img src="images/saucepan-B.svg" class="utensil">
+<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-<button class="notes" onclick="showInfo9()"> Notes </button>
-<div id="buttonDiv9"> </div>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 50 ml double cream (whipped) </li><li> 1 egg yolk </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-B.svg" class="utensil">
+<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
+<button class="notes" onclick="showInfo10()"> Notes </button>
+<div id="buttonDiv10"> </div>
 <script>
-function showInfo9() {
-var x = document.getElementById("buttonDiv9");
+function showInfo10() {
+var x = document.getElementById("buttonDiv10");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cover and rest for 5 mins before garnishing.";
+x.innerHTML = "<br>Fill the shells with crab mix and top with sauce. Put in the oven at 220 C for around 10 mins, until the sauce is browned.";
 } else {
 x.innerHTML = " ";
 }
@@ -247,13 +250,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> fresh parsley </li><li> lemon wedges </li></ul>
+<li> frying pan contents </li><li> saucepan B contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> REST &amp; GARNISH </t> </center>
+<img src="images/shells.svg" class="utensil">
+<br> <center> <t class="action"> FILL &amp; BAKE </t> </center>
 </td>
 </tr>
 </table>
