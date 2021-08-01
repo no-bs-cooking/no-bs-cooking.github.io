@@ -75,6 +75,18 @@ ul li:before {
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Boil until al dente.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 </td>
@@ -113,6 +125,18 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>If necessary, add more pasta water to reach the desired consistency.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -141,7 +165,7 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Avoid using the parsley stems.";
+x.innerHTML = "<br>Avoid using the parsley stems. Season to taste.";
 } else {
 x.innerHTML = " ";
 }
