@@ -67,15 +67,40 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="2"> <b class="title"> Caesar Salad </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Caesar_Salad_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Caesar_Salad_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Caesar_Salad_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Chocolate Muffins </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Chocolate_Muffins_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chocolate_Muffins_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chocolate_Muffins_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use plain or self-raising flour?";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 210 g flour </li><li> 2 tsp baking powder </li><li> 1 tsp bicarbonate of soda </li><li> 1/2 tsp salt </li><li> 40 g cocoa powder </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br> <center> <t class="action"> SIFT </t> </center>
+</td>
+</tr>
+<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <button class="notes" onclick="showInfo2()"> Notes </button>
 <div id="buttonDiv2"> </div>
@@ -83,7 +108,7 @@ ul li:before {
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add into the garlic paste and continue the chopping and pasting process.";
+x.innerHTML = "<br>Mix until homogeneous.";
 } else {
 x.innerHTML = " ";
 }
@@ -93,25 +118,31 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 6 cloves garlic </li><li> 1/2 tsp salt </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 anchovy fillets </li></ul>
+<li> 165 g caster sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br> <center> <t class="action"> CHOP &amp; PASTE </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> CHOP &amp; PASTE </t> </center>
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 </td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 240 ml milk </li><li> 1 egg </li><li> 110 g unsalted butter (melted) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-B.svg" class="utensil">
+<br> <center> <t class="action"> H-WHISK </t> </center>
+</td>
+</tr>
+<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
 <div id="buttonDiv4"> </div>
@@ -119,7 +150,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the oil gradually whilst whisking vigourously by hand. The mixture should thicken substantially. Can substitute some of the vegetable oil for olive oil if desired.";
+x.innerHTML = "<br>Mix until just comnbined. Do not overmix.";
 } else {
 x.innerHTML = " ";
 }
@@ -129,67 +160,39 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> garlic-anchovy paste </li><li> 2 egg yolks </li><li> 60 ml lemon juice </li><li> 1 tbsp Dijon mustard </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 300 ml vegetable oil </li></ul>
+<li> mixing bowl B contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
 <br> <center> <t class="action"> H-WHISK </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-<button class="notes" onclick="showInfo5()"> Notes </button>
-<div id="buttonDiv5"> </div>
-<script>
-function showInfo5() {
-var x = document.getElementById("buttonDiv5");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Season to taste.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 70 g Parmesan (grated) </li><li>  1/4 tsp salt </li><li>  1/4 black pepper </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> romaine lettuce hearts (chopped) </li><li> mixing bowl A contents </li></ul>
+<li> 70 g chocolate chips </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> H-WHISK </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> TOSS </t> </center>
+<br> <center> <t class="action"> FOLD </t> </center>
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
 <script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Optionally add grilled chicken, crispy bacon or a soft-boiled egg.";
+x.innerHTML = "<br>Either grease up a muffin tin thoroughly with butter or use muffin cups. Bake at 190C for about 15 mins, until risen and cooked through.";
 } else {
 x.innerHTML = " ";
 }
@@ -199,13 +202,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl B contents </li><li> garlic bread croutons </li><li> Parmesan shavings </li></ul>
+<li> mixing bowl A contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/plate.svg" class="utensil">
-<br> <center> <t class="action"> SERVE </t> </center>
+<img src="images/muffin-tin.svg" class="utensil">
+<br> <center> <t class="action"> FILL &amp; BAKE </t> </center>
 </td>
 </tr>
 </table>
