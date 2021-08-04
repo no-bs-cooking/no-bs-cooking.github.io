@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="1150">
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="1150">
 <polyline points="250,400 320,950 680,950 750,400"
 style="fill:none;stroke:black;stroke-width:10" />
 <polyline points="280,450 320,50 680,50 720,450"
 style="fill:none;stroke:black;stroke-width:10" />
 
-<polyline points="900,200 1200,500 1500,200"
+<polyline points="1000,200 1300,500 1600,200"
 style="fill:none;stroke:black;stroke-width:10" />
-<polyline points="1200,500 1200,900"
+<polyline points="1300,500 1300,900"
 style="fill:none;stroke:black;stroke-width:10" />
-<polyline points="1000,900 1400,900"
+<polyline points="1100,900 1500,900"
 style="fill:none;stroke:black;stroke-width:10" /></svg>
