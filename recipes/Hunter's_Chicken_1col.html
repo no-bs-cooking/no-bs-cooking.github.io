@@ -318,3 +318,67 @@ x.innerHTML = " ";
 </tr>
 </table>
 </html>
+<table style="width:100%" class="main">
+<tr>
+<td colspan="1"> <b class="title"> Hunter's Chicken </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Hunter's_Chicken_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Hunter's_Chicken_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Hunter's_Chicken_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cook at 200 C for about 25 mins in a deep oven dish.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 4 chicken breasts </li><li> 8 rashers streaky bacon </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br> <center> <t class="action"> WRAP &amp; ROAST </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Coat the bacon-wrapped chicken in BBQ sauce and sprinkle cheese on top. Return to the oven for a further 5 mins until the cheese is melted.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 240 ml BBQ sauce </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br> <center> <t class="action"> COAT &amp; BROIL </t> </center>
+</td>
+</tr>
+</table>
+</html>
