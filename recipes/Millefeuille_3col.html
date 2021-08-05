@@ -262,6 +262,18 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
+<button class="notes" onclick="showInfo11()"> Notes </button>
+<div id="buttonDiv11"> </div>
+<script>
+function showInfo11() {
+var x = document.getElementById("buttonDiv11");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Alternatively use chocolate ganache made from a 1:1 ratio of cream to dark chocolate.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
 </td>
@@ -294,6 +306,18 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b>
+<button class="notes" onclick="showInfo13()"> Notes </button>
+<div id="buttonDiv13"> </div>
+<script>
+function showInfo13() {
+var x = document.getElementById("buttonDiv13");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Adjust wilth more sugar or egg white as needed to obtain a mixture that is of the right consistency.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 14 </b>
 </td>
@@ -304,7 +328,7 @@ x.innerHTML = " ";
 function showInfo15() {
 var x = document.getElementById("buttonDiv15");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>This must be done before the icing sets. The chocolate mixture can be put into a sauce dispenser or small piping bag for accuracy in the decoration.";
+x.innerHTML = "<br>This must be done before the icing sets. The chocolate mixture can be put into a sauce dispenser or small piping bag for accuracy in the decoration. Make a series of parallel lines of chocolate, then run a knife or pick across them to create the classic pattern.";
 } else {
 x.innerHTML = " ";
 }

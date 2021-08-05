@@ -129,7 +129,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to cool and solidify.";
+x.innerHTML = "<br>Leave to cool and solidify. Once solified cut into small blocks.";
 } else {
 x.innerHTML = " ";
 }
@@ -137,6 +137,18 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Can use milk or dark chocolate.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -144,7 +156,7 @@ x.innerHTML = " ";
 <li> saucepan contents </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> milk chocolate </li></ul>
+<li> ? g milk chocolate </li></ul>
 </td>
 </tr>
 <tr>
@@ -165,32 +177,23 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Arrange blocks of honeycomb over a wire rack. Pour over the melted chocolateto coat.";
+x.innerHTML = "<br>Arrange blocks of honeycomb over a wire rack. Pour over the melted chocolate to coat.";
 } else {
 x.innerHTML = " ";
 }
 }
 </script>
 </td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> honeycomb blocks </li><li> mixing bowl contents </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li>  </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
 <br> <center> <t class="action"> POUR &amp; COAT </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/.svg" class="utensil">
-<br><br> <center> <t class="action">  </t> </center>
 </td>
 </tr>
 </table>
