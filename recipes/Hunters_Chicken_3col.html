@@ -81,7 +81,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cook at 200 C for about 25 mins in a deep oven dish.";
+x.innerHTML = "<br>Cook at 220 C for about 25 mins in a deep oven dish, until the bacon is crispy.";
 } else {
 x.innerHTML = " ";
 }
@@ -95,7 +95,21 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Coat the bacon-wrapped chicken in BBQ sauce and sprinkle cheese on top. Return to the oven for a further 5 mins until the cheese is melted.";
+x.innerHTML = "<br>Drain off the excess fat and juices pooling in the oven dish. Coat the bacon-wrapped chicken in BBQ sauce. Return to the oven for a further 5 mins until the sauce warms up and spreads out.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Top with cheese. Return to the oven for a further 5 mins until the cheese melts. Optionally finish with a blowtorch to crispen the cheese.";
 } else {
 x.innerHTML = " ";
 }
@@ -110,15 +124,22 @@ x.innerHTML = " ";
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 240 ml BBQ sauce </li></ul>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> cheddar (thin-sliced) </li><li> mozzarella (grated) </li></ul>
+</td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
-<br> <center> <t class="action"> WRAP &amp; ROAST </t> </center>
+<br> <center> <t class="action"> WRAP &amp; COOK </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
-<br><br> <center> <t class="action"> COAT &amp; BROIL </t> </center>
+<br><br> <center> <t class="action"> COAT &amp; COOK </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br><br> <center> <t class="action"> TOP &amp; MELT </t> </center>
 </td>
 </tr>
 </table>
