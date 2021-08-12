@@ -71,7 +71,7 @@ ul li:before {
 <t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Chocolate_Brownie_1col.html">1</a> &nbsp; 
 <a href="https://no-bs-cooking.github.io/recipes/Chocolate_Brownie_2col.html">2</a> &nbsp; 
 <a href="https://no-bs-cooking.github.io/recipes/Chocolate_Brownie_3col.html">3</a></t>
-<br><br> Fills a ? cm x ? cm oven dish.
+<br><br> Fills a ? cm x ? cm baking tin.
 </td>
 </tr>
 <tr>
@@ -136,6 +136,18 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Chop the walnut into pieces that are less than fingertip-sized.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <button class="notes" onclick="showInfo6()"> Notes </button>
@@ -144,7 +156,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Bake at 180 C for around 30 mins, then check the middle with a knife and cook for longer if required.";
+x.innerHTML = "<br>Bake at 180 C for 30 mins, then check the middle with a knife. Cook for a further 10 mins if a less gooey texture is desired. Cool to room temperature before removing from the baking tin and cutting into bars.";
 } else {
 x.innerHTML = " ";
 }
@@ -154,7 +166,7 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 100 g walnuts  </li></ul>
+<li> 100 g walnuts (chopped) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl B contents </li></ul>

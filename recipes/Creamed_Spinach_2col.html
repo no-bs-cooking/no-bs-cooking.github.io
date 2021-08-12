@@ -89,6 +89,18 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cook over a low heat to soften the onions.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -96,7 +108,7 @@ x.innerHTML = " ";
 <li> 1 tbsp butter </li><li> 680 g baby spinach </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 8 tbsp butter </li><li> 1/2 white onion (diced) </li><li> 1 whole clove </li></ul>
+<li> 8 tbsp butter </li><li> 1/2 white onion (diced) </li><li> 1 whole clove </li><li> 4 cloves garlic (crushed) </li></ul>
 </td>
 </tr>
 <tr>
@@ -106,42 +118,18 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/saucepan-B.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY </t> </center>
+<br><br> <center> <t class="action"> MELT &amp; MIX </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 4 cloves garlic (crushed) </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 whole clove </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-B.svg" class="utensil">
-<br> <center> <t class="action"> FRY </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan-B.svg" class="utensil">
-<br><br> <center> <t class="action"> REMOVE </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-<button class="notes" onclick="showInfo6()"> Notes </button>
-<div id="buttonDiv6"> </div>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
 <script>
-function showInfo6() {
-var x = document.getElementById("buttonDiv6");
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Add the milk gradually and whisk continually until the mixture thickens. ";
 } else {
@@ -153,10 +141,10 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 40 g plain flour </li></ul>
+<li> REMOVE 1 whole clove </li><li> 40 g plain flour </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 360 ml whole milk </li></ul>
+<li> 350 ml whole milk </li></ul>
 </td>
 </tr>
 <tr>
@@ -166,18 +154,30 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/saucepan-B.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
+<br><br> <center> <t class="action"> H-WHISK &amp; SIMMER </t> </center>
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
-<button class="notes" onclick="showInfo8()"> Notes </button>
-<div id="buttonDiv8"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
 <script>
-function showInfo8() {
-var x = document.getElementById("buttonDiv8");
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Season to taste.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Thoroughly drain the spinach and squeeze dry with paper towels.";
 } else {
