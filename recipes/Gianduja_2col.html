@@ -81,7 +81,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Toast in the oven at 180 C for 6 mins.";
+x.innerHTML = "<br>Toast in the oven at 180 C for 6 mins. Leave to coo, then peel by wrapping in a cloth and rubbing.";
 } else {
 x.innerHTML = " ";
 }
@@ -95,7 +95,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Peel by wrapping in a cloth and rubbing.";
+x.innerHTML = "<br>Blend into a paste.";
 } else {
 x.innerHTML = " ";
 }
@@ -108,64 +108,50 @@ x.innerHTML = " ";
 <li> 200 g hazelnuts </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> toasted hazelnuts </li></ul>
+<li> peeled hazelnuts </li><li> 200 g icing sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/oven-tray.svg" class="utensil">
-<br> <center> <t class="action"> TOAST </t> </center>
+<br> <center> <t class="action"> TOAST &amp; PEEL </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/oven-tray.svg" class="utensil">
-<br><br> <center> <t class="action"> PEEL </t> </center>
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br><br> <center> <t class="action"> BLEND </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-<button class="notes" onclick="showInfo3()"> Notes </button>
-<div id="buttonDiv3"> </div>
-<script>
-function showInfo3() {
-var x = document.getElementById("buttonDiv3");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Blend into a paste.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 200 g icing sugar </li><li> peeled hazelnuts </li></ul>
+<li>  200 g milk chocolate </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li>  200 g milk chocolate </li></ul>
+<li> mixing bowl A contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> BLEND </t> </center>
+<img src="images/mixing-bowl-B.svg" class="utensil">
+<br> <center> <t class="action"> MELT </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> MELT </t> </center>
+<br><br> <center> <t class="action"> FOLD </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-<button class="notes" onclick="showInfo6()"> Notes </button>
-<div id="buttonDiv6"> </div>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
 <script>
-function showInfo6() {
-var x = document.getElementById("buttonDiv6");
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Pour into silicone molds and refrigerate to set.";
 } else {
@@ -177,20 +163,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl A contents </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> mixing bowl B contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br> <center> <t class="action"> FOLD </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/silicone-mold.svg" class="utensil">
-<br><br> <center> <t class="action"> FILL &amp; REFRIGERATE </t> </center>
+<br> <center> <t class="action"> FILL &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 </table>
