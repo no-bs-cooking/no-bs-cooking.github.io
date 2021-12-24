@@ -1,0 +1,170 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="3"> <b class="title"> Chicken Lo Mein </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Chicken_Lo_Mein_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chicken_Lo_Mein_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chicken_Lo_Mein_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 350 g chicken breast (sliced) </li><li> 3 cloves garlic (sliced) </li><li> 5 slices garlic </li><li> 1/2 tsp salt </li><li> 1/2 tbsp shaoxing wine </li><li> 1/2 tsp black pepper </li><li> 1/3 tsp baking soda </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1/2 carrot (julienned) </li><li> 1/2 red bell pepper (julienned) </li><li> 5 mushroom (sliced) </li><li> 100 g snap peas </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1.5 tbsp light soy sauce </li><li> 1 tbsp dark soy sauce </li><li> 1 tbsp oyster sauce </li><li> 1 tbsp Hoisin sauce </li><li> 1 tbsp shaoxing wine </li><li> 1/2 tbsp sesame oil </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br> <center> <t class="action"> MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-B.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-C.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Turn the heat down and toss to coat the noodles.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tbsp vegetable oil </li><li> mixing bowl A contents </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> mixing bowl B contents </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 450 g egg noodles </li><li> mixing bowl C contents </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> TOSS &amp; STIR </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 5 spring onions (chunked) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> TOSS &amp; STIR </t> </center>
+</td>
+</tr>
+</table>
+</html>

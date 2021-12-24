@@ -75,6 +75,18 @@ ul li:before {
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Marinate for at least 20 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 </td>
@@ -101,13 +113,13 @@ x.innerHTML = " ";
 <li> mixing bowl A contents </li><li> 1 tbsp vegetable oil </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> REMOVE cooked chicken </li><li> 1 red onion (diced) </li><li> 1 tbsp vegetable oil </li><li> 1 tbsp butter </li></ul>
+<li> RESERVE cooked chicken </li><li> 1 red onion (diced) </li><li> 1 tbsp vegetable oil </li><li> 1 tbsp butter </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; MARINADE </t> </center>
+<br> <center> <t class="action"> MIX &amp; MARINATE </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole.svg" class="utensil">

@@ -1,0 +1,209 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="2"> <b class="title"> Ramen Eggs </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Ramen_Eggs_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Ramen_Eggs_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Ramen_Eggs_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use a skewer to make a small hole at the base of each egg. Cook for 6 mins for a runny yolk.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 l water </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 6 eggs (room temperature and holed) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-A.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-A.svg" class="utensil">
+<br><br> <center> <t class="action"> DROP &amp; SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Arrest the cooking by transferring the eggs into an ice bath.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Suitable aromatics include dried shiitake mushrooms, bonito flakes. Alternatively use 200 ml of chasu braising liquid instead of the miring-sake-soy mixture.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> boiled eggs </li><li> 1 l water </li><li> ice cubes </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 50 ml mirin </li><li> 50 ml sake </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br> <center> <t class="action"> COOL </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-B.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Turn the heat off and leave to cool";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Marinate for 2 days.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 100 ml soy sauce </li><li> 400 ml water </li><li> aromatics </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> boiled eggs (peeled) </li><li> saucepan B contents (cooled) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan-B.svg" class="utensil">
+<br> <center> <t class="action"> MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl-B.svg" class="utensil">
+<br><br> <center> <t class="action"> COVER &amp; REFRIGERATE </t> </center>
+</td>
+</tr>
+</table>
+</html>

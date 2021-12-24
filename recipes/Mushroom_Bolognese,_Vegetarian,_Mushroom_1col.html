@@ -1,0 +1,266 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="1"> <b class="title"> Mushroom Bolognese, Vegetarian, Mushroom </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Mushroom_Bolognese,_Vegetarian,_Mushroom_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Mushroom_Bolognese,_Vegetarian,_Mushroom_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Mushroom_Bolognese,_Vegetarian,_Mushroom_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use variety of mushrooms, such as portobello, chestnut, enoki and oyster. Roast at 200 C for 20 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 kg mushroom variety </li><li> 2 tbsp olive oil </li><li> 1/2 tsp chilli flakes </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br> <center> <t class="action"> ROAST </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cook until vegetables are softened. Stir regularly and do not brown.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 2 tbsp olive oil </li><li> 1 onion (grated) </li><li> 1 carrot (grated) </li><li> 4 cloves garlic (diced) </li><li> 1/2 tsp salt </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Leave to rehydrate for 10 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 20 g dried porcini mushrooms </li><li> 500 ml water (hot) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/jug.svg" class="utensil">
+<br> <center> <t class="action"> SOAK </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Turn the heat up to brown the mushrooms. Keep the porcini mushroom water for later.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> roasted mushrooms (chopped) </li><li> rehydrated porcini mushrooms (chopped) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Deglaze the pan.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 230 ml white wine </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Leave to simmer for 40 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tbsp tomato puree </li><li> 800 g tinned tomatoes </li><li> jug contents </li><li> fresh thyme </li><li> 2 bay leaves </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Season to taste.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> REMOVE fresh thyme </li><li> REMOVE bay leaves </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp salt </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+</table>
+</html>
