@@ -67,10 +67,10 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="2"> <b class="title"> Olive Paste </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Olive_Paste_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Olive_Paste_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Olive_Paste_3col.html">3</a></t>
+<td colspan="3"> <b class="title"> Tapenade </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Tapenade_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Tapenade_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Tapenade_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
@@ -90,13 +90,30 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Season to taste.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 cup olives (pitted and drained) </li><li> 1 garlic clove </li><li> 2 tbsp olive oil </li></ul>
+<li> 1 cup olives (pitted and drained) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/4 tsp thyme </li><li> 1/4 tsp oregano </li><li> 1/8 tsp black pepper </li><li> 1/8 tsp chilli flakes </li></ul>
+<li> 3 anchovy fillets </li><li> 2 tbsp capers </li><li> 1 garlic clove </li><li> 2 tbsp lemon juice </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 2 tbsp olive oil </li><li> 1/2 tsp black pepper </li><li> 1/2 tsp salt </li><li> 1 tbsp fresh parsley </li></ul>
 </td>
 </tr>
 <tr>
@@ -107,6 +124,10 @@ x.innerHTML = " ";
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
 <br><br> <center> <t class="action"> BLEND </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX </t> </center>
 </td>
 </tr>
 </table>
