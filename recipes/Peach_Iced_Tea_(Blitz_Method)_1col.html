@@ -67,10 +67,11 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Creme Brulee </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Creme_Brulee_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Creme_Brulee_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Creme_Brulee_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Peach Iced Tea (Blitz Method) </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Peach_Iced_Tea_(Blitz_Method)_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Peach_Iced_Tea_(Blitz_Method)_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Peach_Iced_Tea_(Blitz_Method)_3col.html">3</a></t>
+<br><br> Makes ~1.5 l of iced tea.
 </td>
 </tr>
 <tr>
@@ -81,7 +82,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Bring to a boil over a low heat, then leave to cool. Do not use a whisk, since bubbles are to be avoided.";
+x.innerHTML = "<br>Can use black or Earl Grey tea. Leave to stew for 5 mins.";
 } else {
 x.innerHTML = " ";
 }
@@ -91,13 +92,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 500 ml whole milk </li><li> 500 ml double cream </li><li> 1 tbsp vanilla bean paste </li></ul>
+<li> 2 tea bags </li><li> 400 ml water (boiling) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/jug.svg" class="utensil">
+<br> <center> <t class="action"> STEW </t> </center>
 </td>
 </tr>
 <tr>
@@ -108,7 +109,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Gently use a spatula or spoon rather than a whisk.";
+x.innerHTML = "<br>Cool to room temperature.";
 } else {
 x.innerHTML = " ";
 }
@@ -118,13 +119,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 8 egg yolks </li><li> 180 g caster sugar </li></ul>
+<li> <i> REMOVE tea bags </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
+<img src="images/jug-.svg" class="utensil">
+<br> <center> <t class="action"> COOL </t> </center>
 </td>
 </tr>
 <tr>
@@ -135,7 +136,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Gradually add the saucepan contents.";
+x.innerHTML = "<br>Cover with a lid and heat gently for 20 mins, until the peaches disintegrate. Optionally add the zest of 1 lemon.";
 } else {
 x.innerHTML = " ";
 }
@@ -145,28 +146,40 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> saucepan contents (cooled) </i> </li></ul>
+<li> 3 peaches (pitted and chopped) </li><li> 1 l water </li><li> 100 g sugar </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use a spatula to extract as much liquid as possible from the sieve. Discard the remaining the pulp.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> saucepan contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> SIEVE &amp; MIX </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl  contents </i> </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/jug.svg" class="utensil">
-<br> <center> <t class="action"> SIEVE </t> </center>
+<br> <center> <t class="action"> SIFT &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 <tr>
@@ -177,7 +190,7 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Line an oven tray with baking paper and arrange the ramekins in advance. Cook at 100 C for 60 mins, until the outer region is firm but the inner region keeps a slight wobble. Once cooked, leave to set in the fridge overnight.";
+x.innerHTML = "<br>Serve ice-cold with ice cubes and mint leaves.";
 } else {
 x.innerHTML = " ";
 }
@@ -187,40 +200,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> jug contents </i> </li></ul>
+<li> jug contents </li><li> mixing bowl contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/ramekins.svg" class="utensil">
-<br> <center> <t class="action"> SIEVE &amp; BAKE </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
-<button class="notes" onclick="showInfo6()"> Notes </button>
-<div id="buttonDiv6"> </div>
-<script>
-function showInfo6() {
-var x = document.getElementById("buttonDiv6");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Shake the ramekins gently to spread the sugar. Move the torch quickly to prevent patches burning.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> demerara sugar </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/ramekins.svg" class="utensil">
-<br> <center> <t class="action"> SPRINKLE &amp; TORCH </t> </center>
+<img src="images/bottles.svg" class="utensil">
+<br> <center> <t class="action"> MIX &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 </table>
