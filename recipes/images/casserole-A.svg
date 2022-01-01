@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="300">
+<polyline points="60,0 110,300 610,300 660,0"
+style="fill:none;stroke:black;stroke-width:10" />
+<polyline points="0,40 70,40"
+style="fill:none;stroke:black;stroke-width:10" />
+<polyline points="650,40 720,40"
+style="fill:none;stroke:black;stroke-width:10" />
+<text x="790" y="300" style="font-family:Arial;font-size:80"> A </text></svg>
