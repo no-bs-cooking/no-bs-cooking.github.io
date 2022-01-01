@@ -263,7 +263,7 @@ x.innerHTML = " ";
 function showInfo10() {
 var x = document.getElementById("buttonDiv10");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Bring to a gentle simmer and continue simmering for 1.5 h.";
+x.innerHTML = "<br>Bring to a gentle simmer and continue simmering for 1.5 h. To keep the pork submerged and in place, place a heatproof plate directly on top in addition to the pot's fitted lid.";
 } else {
 x.innerHTML = " ";
 }
@@ -297,7 +297,7 @@ x.innerHTML = " ";
 function showInfo11() {
 var x = document.getElementById("buttonDiv11");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer to thicken the remaining sauce. Season to taste with salt and sugar. Be gentle with the tender pork pieces when setting aside.";
+x.innerHTML = "<br>Be gentle with the tender pork pieces whilst setting aside.";
 } else {
 x.innerHTML = " ";
 }
@@ -305,24 +305,63 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
+<button class="notes" onclick="showInfo12()"> Notes </button>
+<div id="buttonDiv12"> </div>
+<script>
+function showInfo12() {
+var x = document.getElementById("buttonDiv12");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Simmer to thicken the remaining sauce. Season to taste with salt and sugar.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> RESERVE braised pork </i> </li><li> <i> REMOVE aromatics </i> </li><li> 1/2 tsp salt </li><li> 1/2 tsp white sugar </li></ul>
+<li> <i> RESERVE braised pork </i> </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> blanched bok choi </li><li> \braised pork pieces </li><li> \casserole B contents </li><li> spring onion (sliced) </li></ul>
+<li> \casserole B contents </li><li> 1/2 tsp salt </li><li> 1/2 tsp white sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole-B.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; SIMMER </t> </center>
+<br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan.svg" class="utensil">
+<br><br> <center> <t class="action"> SIEVE &amp; SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b>
+<button class="notes" onclick="showInfo13()"> Notes </button>
+<div id="buttonDiv13"> </div>
+<script>
+function showInfo13() {
+var x = document.getElementById("buttonDiv13");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Serve with rice and blanched bok choi.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> braised pork pieces </i> </li><li> <i> saucepan contents </i> </li><li> spring onion (sliced) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/plate.svg" class="utensil">
-<br><br> <center> <t class="action"> GARNISH &amp; SERVE </t> </center>
+<br> <center> <t class="action"> GARNISH &amp; SERVE </t> </center>
 </td>
 </tr>
 </table>
