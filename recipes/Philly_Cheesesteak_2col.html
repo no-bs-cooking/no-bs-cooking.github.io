@@ -67,10 +67,11 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="2"> <b class="title"> Bouillabaisse </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_3col.html">3</a></t>
+<td colspan="2"> <b class="title"> Philly Cheesesteak </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Philly_Cheesesteak_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Philly_Cheesesteak_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Philly_Cheesesteak_3col.html">3</a></t>
+<br><br> Makes 2 sandwiches.
 </td>
 </tr>
 <tr>
@@ -81,7 +82,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Heat on a low heat for around 5 mins.";
+x.innerHTML = "<br>Firm up the beef in the freezer for 30 mins before slicing.";
 } else {
 x.innerHTML = " ";
 }
@@ -93,24 +94,36 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tbsp olive oil </li><li> 150 g red onion </li><li> 80 g leek </li><li> 40 g celery </li><li> 40 g fennel bulb </li></ul>
+<li> 400 g rib-eye steak (sliced) </li><li> 100 beef short rib (deboned and sliced) </li><li> 1/2 tsp salt </li><li> 1/4 tsp black pepper </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 leek sheet </li><li> 3 bay leaves </li><li> 1 bunch parsley </li><li> 1 bunch thyme </li></ul>
+<li> 1 tbsp vegetable oil </li><li> 1 tbsp beef dripping </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
+<img src="images/mixing-bowl.svg" class="utensil">
+<br> <center> <t class="action"> MIX </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> ROLL &amp; TIE </t> </center>
+<img src="images/griddle.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT &amp; MELT </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fry over a medium heat, then set aside away from the heat.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
@@ -119,7 +132,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Suitable fish to use are generally bottom-feeders and can include red mullet, red gurnard, school whiting, monkfish and rockling.";
+x.innerHTML = "<br>Spread the beef slices over the griddle and fry over a high heat until both sides are just browned.";
 } else {
 x.innerHTML = " ";
 }
@@ -129,24 +142,36 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> bouquet garni </i> </li><li> 2 star anise </li><li> 1/2 tsp paprika </li></ul>
+<li> 1 white onion (diced) </li><li> 1/2 tsp salt </li><li> 1/4 tsp sugar </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 800 g rock fish </li><li> 200 g fish filet </li></ul>
+<li> \RESERVE fried onion </li><li> \mixing bowl contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/griddle.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/griddle.svg" class="utensil">
+<br><br> <center> <t class="action"> PRESS &amp; FRY </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Season to taste. Form the beef mixture into piles matching the bread roll's dimensions.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <button class="notes" onclick="showInfo6()"> Notes </button>
@@ -155,7 +180,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to simmer gently for about 30 mins.";
+x.innerHTML = "<br>Use 4 slices per sandwich.";
 } else {
 x.innerHTML = " ";
 }
@@ -165,36 +190,24 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <a href="https://no-bs-cooking.github.io/recipes/Fish_Stock_1col.html"> 1 l fish stock </a> </li><li> 4 cloves garlic </li></ul>
+<li> <i> fried onion </i> </li><li> 1/2 tsp salt  </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp tomato puree </li><li> 2 tsp safron threads </li></ul>
+<li> 8 slices provolone </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/griddle.svg" class="utensil">
+<br> <center> <t class="action"> MIX &amp; FORM </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> COVER &amp; SIMMER </t> </center>
+<img src="images/griddle.svg" class="utensil">
+<br><br> <center> <t class="action"> MELT </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
-<script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Blend the soup then sieve to remove remaining pieces.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
 <button class="notes" onclick="showInfo8()"> Notes </button>
@@ -203,7 +216,7 @@ x.innerHTML = " ";
 function showInfo8() {
 var x = document.getElementById("buttonDiv8");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer for a further 10 mins to cook the fish through.";
+x.innerHTML = "<br>Use a flat spatula to transfer each cheesesteak portion into a roll.";
 } else {
 x.innerHTML = " ";
 }
@@ -213,35 +226,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> REMOVE bouquet garni </i> </li><li> <i> REMOVE star anise </i> </li></ul>
+<li> 2 hoagie rolls (toasted) </li><li> garlic mayonnaise </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> ? g rockling (chunked) </li></ul>
+<li> \griddle contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> BLEND &amp; SIEVE </t> </center>
+<img src="images/plate.svg" class="utensil">
+<br> <center> <t class="action"> SPREAD </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> SIMMER </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> baguette croutons </li><li> <a href="https://no-bs-cooking.github.io/recipes/Aioli_1col.html"> aioli </a> </li><li> grated gruyere </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> SERVE </t> </center>
+<img src="images/plate.svg" class="utensil">
+<br><br> <center> <t class="action"> FILL &amp; SERVE </t> </center>
 </td>
 </tr>
 </table>

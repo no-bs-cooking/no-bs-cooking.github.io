@@ -67,10 +67,11 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="2"> <b class="title"> Bouillabaisse </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Bouillabaisse_3col.html">3</a></t>
+<td colspan="2"> <b class="title"> French Dip </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/French_Dip_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/French_Dip_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/French_Dip_3col.html">3</a></t>
+<br><br> Makes ? sandwiches.
 </td>
 </tr>
 <tr>
@@ -81,7 +82,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Heat on a low heat for around 5 mins.";
+x.innerHTML = "<br>Roast at 230 C for 15 mins, then at 150 C for about 30 mins or until cooked rare. Can use a topside or silverside beef joint. Optionally dry-brine overnight before coating with oil and roasting.";
 } else {
 x.innerHTML = " ";
 }
@@ -93,24 +94,36 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tbsp olive oil </li><li> 150 g red onion </li><li> 80 g leek </li><li> 40 g celery </li><li> 40 g fennel bulb </li></ul>
+<li> 500 g beef joint </li><li> 2 tsp salt </li><li> 1 tbsp vegetable </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 leek sheet </li><li> 3 bay leaves </li><li> 1 bunch parsley </li><li> 1 bunch thyme </li></ul>
+<li> \roasted beef joint </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
+<img src="images/oven-tray-A.svg" class="utensil">
+<br> <center> <t class="action"> RUB &amp; ROAST </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> ROLL &amp; TIE </t> </center>
+<img src="images/oven-tray-B.svg" class="utensil">
+<br><br> <center> <t class="action"> COVER &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fry on a low heat to slowly caramelise.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
@@ -119,7 +132,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Suitable fish to use are generally bottom-feeders and can include red mullet, red gurnard, school whiting, monkfish and rockling.";
+x.innerHTML = "<br>Simmer to reduce for about 45 mins. Season to taste.";
 } else {
 x.innerHTML = " ";
 }
@@ -129,24 +142,36 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> bouquet garni </i> </li><li> 2 star anise </li><li> 1/2 tsp paprika </li></ul>
+<li> 1 tbsp olive olive </li><li> 1 tbsp butter </li><li> 3 shallots (sliced) </li><li> 1/2 tsp salt </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 800 g rock fish </li><li> 200 g fish filet </li></ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/Beef_Stock_1col.html"> 500 ml beef stock </a> </li><li> 1/2 tsp garlic powder </li><li> 2 tsp Worcestershire sauce </li><li> 1/2 tsp salt </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<img src="images/saucepan.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Slice as the beef as thinly as possible and toss in warm juice. Do not simmer as this will overcook the beef. ";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <button class="notes" onclick="showInfo6()"> Notes </button>
@@ -155,7 +180,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to simmer gently for about 30 mins.";
+x.innerHTML = "<br>Soak the insides of the baguette with beef juice.";
 } else {
 x.innerHTML = " ";
 }
@@ -165,20 +190,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <a href="https://no-bs-cooking.github.io/recipes/Fish_Stock_1col.html"> 1 l fish stock </a> </li><li> 4 cloves garlic </li></ul>
+<li> 3 tbsp saucepan contents </li><li> <i> refrigerated beef (sliced) </i> </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp tomato puree </li><li> 2 tsp safron threads </li></ul>
+<li> 1 baguette roll </li><li> 4 tbsp \saucepan contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
+<img src="images/frying-pan.svg" class="utensil">
 <br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> COVER &amp; SIMMER </t> </center>
+<img src="images/board.svg" class="utensil">
+<br><br> <center> <t class="action"> SOAK </t> </center>
 </td>
 </tr>
 <tr>
@@ -189,21 +214,7 @@ x.innerHTML = " ";
 function showInfo7() {
 var x = document.getElementById("buttonDiv7");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Blend the soup then sieve to remove remaining pieces.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
-<button class="notes" onclick="showInfo8()"> Notes </button>
-<div id="buttonDiv8"> </div>
-<script>
-function showInfo8() {
-var x = document.getElementById("buttonDiv8");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer for a further 10 mins to cook the fish through.";
+x.innerHTML = "<br>Optionally dip the whole sandwich in beef juice. Roll in sandwich wrapping paper.";
 } else {
 x.innerHTML = " ";
 }
@@ -213,35 +224,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> REMOVE bouquet garni </i> </li><li> <i> REMOVE star anise </i> </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> ? g rockling (chunked) </li></ul>
+<li> 2 slices Swiss-style cheese </li><li> <i> frying pan contents </i> </li><li> 1 tbsp mustard </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> BLEND &amp; SIEVE </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> SIMMER </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> baguette croutons </li><li> <a href="https://no-bs-cooking.github.io/recipes/Aioli_1col.html"> aioli </a> </li><li> grated gruyere </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> SERVE </t> </center>
+<img src="images/board.svg" class="utensil">
+<br> <center> <t class="action"> LAYER &amp; ROLL </t> </center>
 </td>
 </tr>
 </table>
