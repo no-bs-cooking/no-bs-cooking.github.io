@@ -97,12 +97,24 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/oven-tray-A.svg" class="utensil">
+<img src="images/oven-tray.svg" class="utensil">
 <br> <center> <t class="action"> RUB &amp; ROAST </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Cover with cling film.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -112,7 +124,7 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/oven-tray-B.svg" class="utensil">
+<img src="images/mixing-bowl.svg" class="utensil">
 <br> <center> <t class="action"> COVER &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
@@ -188,13 +200,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 tbsp saucepan contents </li><li> <i> refrigerated beef (sliced) </i> </li></ul>
+<li> <i> 3 tbsp saucepan contents </i> </li><li> <i> refrigerated beef (sliced) </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<br> <center> <t class="action"> HEAT &amp; TOSS </t> </center>
 </td>
 </tr>
 <tr>
