@@ -67,10 +67,10 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Ham &amp; Cheese Toastie </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Ham_&_Cheese_Toastie_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Ham_&_Cheese_Toastie_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Ham_&_Cheese_Toastie_3col.html">3</a></t>
+<td colspan="2"> <b class="title"> Roast Beef Joint </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
@@ -81,26 +81,13 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Spread a small amount of butter evenly over both sides of the bread. ";
+x.innerHTML = "<br>Quickly sear all sides until brown. Can use a topside or silverside beef joint. Tie the beef in string to ensure its thickness is as uniform as possible.";
 } else {
 x.innerHTML = " ";
 }
 }
 </script>
 </td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 slices thin white bread </li><li> butter </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br> <center> <t class="action"> SPREAD </t> </center>
-</td>
-</tr>
-<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <button class="notes" onclick="showInfo2()"> Notes </button>
 <div id="buttonDiv2"> </div>
@@ -108,7 +95,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Grease up the frying pan before adding the toastie. A well-seasoned carbon steel frying pan is ideal.";
+x.innerHTML = "<br>Create a bed upon which the beef joint can sit.";
 } else {
 x.innerHTML = " ";
 }
@@ -118,13 +105,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tsp butter </li></ul>
+<li> 1 beef joint </li><li> 1 tbsp oil </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \frying pan juices </li><li> 1 white onion (chopped) </li><li> 2 carrots (chopped) </li><li> 2 celery (chopped) </li><li> 2 bay leaves </li><li> 2 cloves garlic (halved) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> MELT &amp; SPREAD </t> </center>
+<br> <center> <t class="action"> COAT &amp; SEAR </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br><br> <center> <t class="action"> ARRANGE </t> </center>
 </td>
 </tr>
 <tr>
@@ -135,26 +129,13 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Arrange the toastie such that cheese is below other fillings in order to melt faster.";
+x.innerHTML = "<br>Roast at 180 C for around 60 mins, depending on the size of the joint.";
 } else {
 x.innerHTML = " ";
 }
 }
 </script>
 </td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> buttered bread </i> </li><li> cheese slices </li><li> ham slices </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> LAYER &amp; FRY </t> </center>
-</td>
-</tr>
-<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
 <button class="notes" onclick="showInfo4()"> Notes </button>
 <div id="buttonDiv4"> </div>
@@ -162,7 +143,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add more butter if necessary to keep the pan well greased. Flip as many times as necessary to get the bread brown and the cheese melted.";
+x.innerHTML = "<br>Cover with aluminium foil and leave to rest for 20 mins. Keep the oven tray juices for gravy.";
 } else {
 x.innerHTML = " ";
 }
@@ -172,13 +153,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1/2 tsp butter </li></ul>
+<li> <i> seared beef joint </i> </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \roasted beef joint </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> FLIP &amp; FRY </t> </center>
+<br> <center> <t class="action"> ROAST </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/plate.svg" class="utensil">
+<br><br> <center> <t class="action"> COVER &amp; REST </t> </center>
 </td>
 </tr>
 </table>

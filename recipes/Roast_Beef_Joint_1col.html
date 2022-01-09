@@ -67,37 +67,21 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="3"> <b class="title"> Lemon Curd </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Lemon_Curd_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Lemon_Curd_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Lemon_Curd_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Roast Beef Joint </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Roast_Beef_Joint_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
-<button class="notes" onclick="showInfo2()"> Notes </button>
-<div id="buttonDiv2"> </div>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
 <script>
-function showInfo2() {
-var x = document.getElementById("buttonDiv2");
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Gently heat over a bain-marie for around 10 mins until substantially thickened.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-<button class="notes" onclick="showInfo3()"> Notes </button>
-<div id="buttonDiv3"> </div>
-<script>
-function showInfo3() {
-var x = document.getElementById("buttonDiv3");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add whilst the mixture is still warm.";
+x.innerHTML = "<br>Quickly sear all sides until brown. Can use a topside or silverside beef joint. Tie the beef in string to ensure its thickness is as uniform as possible.";
 } else {
 x.innerHTML = " ";
 }
@@ -107,27 +91,67 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 eggs </li><li> 3 egg yolks </li><li> 200 g caster sugar </li><li> 190 ml lemon juice </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tbsp lemon zest </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 75 g unsalted butter (cold and cubed) </li></ul>
+<li> 1 beef joint </li><li> 1 tbsp oil </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> H-WHISK </t> </center>
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> COAT &amp; SEAR </t> </center>
 </td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT </t> </center>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Create a bed upon which the beef joint can sit.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> frying pan juices </i> </li><li> 1 white onion (chopped) </li><li> 2 carrots (chopped) </li><li> 2 celery (chopped) </li><li> 2 bay leaves </li><li> 2 cloves garlic (halved) </li></ul>
+</td>
+</tr>
+<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
-<br><br> <center> <t class="action"> H-WHISK </t> </center>
+<img src="images/oven-tray.svg" class="utensil">
+<br> <center> <t class="action"> ARRANGE </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Roast at 180 C for around 60 mins, depending on the size of the joint.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> seared beef joint </i> </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> ROAST </t> </center>
 </td>
 </tr>
 <tr>
@@ -138,7 +162,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cover with cling film pressed onto the surface, leave to cool, then refrigerate.";
+x.innerHTML = "<br>Cover with aluminium foil and leave to rest for 20 mins. Keep the oven tray juices for gravy.";
 } else {
 x.innerHTML = " ";
 }
@@ -148,13 +172,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl A contents </i> </li></ul>
+<li> <i> roasted beef joint </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br> <center> <t class="action"> SIFT &amp; REFRIGERATE </t> </center>
+<img src="images/plate.svg" class="utensil">
+<br> <center> <t class="action"> COVER &amp; REST </t> </center>
 </td>
 </tr>
 </table>
