@@ -1,0 +1,269 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="1"> <b class="title"> Cider-Braised Pork Cheeks </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Cider-Braised_Pork_Cheeks_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Cider-Braised_Pork_Cheeks_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Cider-Braised_Pork_Cheeks_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tsp salt </li><li> 1 tsp black pepper </li><li> 2 tsp flour </li><li> 6 pork cheeks </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl.svg" class="utensil">
+<br> <center> <t class="action"> COAT </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Brown both sides well.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 2 tbsp butter </li><li> <i> coated pork cheeks </i> </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> SEAR </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Sweat without browning.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> RESERVE seared pork cheeks </i> </li><li> 1 onion (diced) </li><li> 1 carrot (diced) </li><li> 1 stick celery (diced) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Deglaze the pan with the vinegar. Can use pork or chicken stock.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 2 tbsp apple cider vinegar </li><li> 450 ml cider </li><li> 450 ml stock </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tsp sage </li><li> 1 tsp rosemary </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> MIX &amp; SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
+<script>
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Leave to simmer on a low heat for 2 to 3 hours, until the pork cheeks are tender. The pork cheeks should be just covered in liquid.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> seared pork cheeks </i> </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> COVER &amp; SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Simmer to reduce significantly. Skim off excess fat. Season to taste.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> RESERVE braised pork cheeks </i> </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Simmer until the desired thickness is obtained. Serve with mash potato.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <i> brasied pork cheeks </i> </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br> <center> <t class="action"> BASTE &amp; SIMMER </t> </center>
+</td>
+</tr>
+</table>
+</html>

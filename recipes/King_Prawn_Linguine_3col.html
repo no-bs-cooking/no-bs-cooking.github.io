@@ -78,6 +78,18 @@ ul li:before {
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Scrape any pieces left stuck to the base of the pan. Ensure that the pieces of lemon zest are very small. Can substitute wine for 1 tbsp white vinegar, 1 tbsp water and 1 tsp sugar.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 <button class="notes" onclick="showInfo3()"> Notes </button>
@@ -86,7 +98,7 @@ ul li:before {
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Scrape any pieces left stuck to the base of the pan. Ensure that the pieces of lemon zest are very small. Can substitute wine for 1 tbsp white vinegar, 1 tbsp water and 1 tsp sugar.";
+x.innerHTML = "<br>Continue simmering to reduce.";
 } else {
 x.innerHTML = " ";
 }
@@ -96,13 +108,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 8 large prawns (raw and peeled) </li><li> 1 tbsp olive oil </li></ul>
+<li> 8 large prawns (raw and peeled) </li><li> 1 tbsp olive oil </li><li> 2 cloves garlic (halved) </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 cloves garlic (halved) </li><li> 1 tsp salt </li></ul>
+<li> \RESERVE fried prawns </li><li> \REMOVE fried garlic </li><li> 1 lemon (juice of) </li><li> 100 ml white wine </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> \RESERVE fried prawns </li><li> \REMOVE fried garlic </li><li> 1 lemon (juiced and zested) </li><li> 100 ml white wine </li></ul>
+<li> 1/2 tsp black pepper </li><li> 1/2 tsp chilli flakes </li><li> 1/2 tsp salt </li></ul>
 </td>
 </tr>
 <tr>
@@ -112,11 +124,11 @@ x.innerHTML = " ";
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY </t> </center>
+<br><br> <center> <t class="action"> DEGLAZE &amp; SIMMER </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> DEGLAZE &amp; SIMMER </t> </center>
+<br><br> <center> <t class="action"> MIX &amp; SUMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -127,7 +139,7 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Continue simmering to reduce.";
+x.innerHTML = "<br>Remove from the heat. Use the pan's residual heat and swirl the pan to incorporate the cold butter.";
 } else {
 x.innerHTML = " ";
 }
@@ -141,7 +153,7 @@ x.innerHTML = " ";
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Remove from the heat. Use the pan's residual heat and swirl the pan to incorporate the cold butter.";
+x.innerHTML = "<br>Toss to emulsify and coat the pasta in buttery sauce. Add a dash of pasta water if needed to loosen the sauce.";
 } else {
 x.innerHTML = " ";
 }
@@ -155,47 +167,6 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Toss to emulsify and coat the pasta in buttery sauce. Add a dash of pasta water if needed to loosen the sauce.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tsp black pepper </li><li> 1/2 tsp chilli flakes </li><li> 1/2 tsp salt </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 60 g unsalted butter (cold and cubed) </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 200 g linguine (al dente) </li><li> 2 tbsp fresh parsley (chopped) </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; SUMMER </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br><br> <center> <t class="action"> TOSS </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
-<script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
-if (x.innerHTML === " ") {
 x.innerHTML = "<br>Season to taste.";
 } else {
 x.innerHTML = " ";
@@ -206,13 +177,27 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> fried prawns </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+<li> 60 g unsalted butter (cold and cubed) </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 200 g linguine (al dente) </li><li> 2 tbsp fresh parsley (chopped) </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \fried prawns </li><li> 1/4 tsp salt </li><li> 1/4 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> TOSS </t> </center>
+<br> <center> <t class="action"> MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> TOSS </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/frying-pan.svg" class="utensil">
+<br><br> <center> <t class="action"> TOSS </t> </center>
 </td>
 </tr>
 </table>

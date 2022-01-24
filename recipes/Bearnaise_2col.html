@@ -113,11 +113,23 @@ x.innerHTML = " ";
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use a pestle and mortar.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> saucepan contents </li></ul>
+<li> <i> saucepan contents </i> </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> 1 tsp capers (drained) </li><li> 1/4 cup fresh tarragon (chopped) </li></ul>
@@ -126,7 +138,7 @@ x.innerHTML = " ";
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> SIEVE </t> </center>
+<br> <center> <t class="action"> SIEVE &amp; COOL </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-B.svg" class="utensil">
@@ -144,7 +156,7 @@ x.innerHTML = " ";
 <li> 1 tbsp unsalted butter (cold) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 egg yolks </li><li> 3 tbsp mixing bowl A </li></ul>
+<li> 3 tbsp \mixing bowl A </li><li> 2 egg yolks </li></ul>
 </td>
 </tr>
 <tr>
@@ -180,7 +192,7 @@ x.innerHTML = " ";
 <li> 8 tbsp unsalted butter (cold) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl B </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+<li> \mixing bowl B contents </li><li> 1/2 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
