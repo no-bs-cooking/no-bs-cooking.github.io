@@ -89,15 +89,56 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-<button class="notes" onclick="showInfo3()"> Notes </button>
-<div id="buttonDiv3"> </div>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
 <script>
-function showInfo3() {
-var x = document.getElementById("buttonDiv3");
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Turn the heat off once the liquid has thickened.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 500 g strawberries </li><li> 50 g caster sugar </li><li> 1/2 tsp balsamic vinegar </li><li> 2 tbsp water </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tbsp cornstarch-water mix </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \saucepan contents </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER &amp; COVER </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan.svg" class="utensil">
+<br><br> <center> <t class="action"> SIMMER &amp; MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/jug-A.svg" class="utensil">
+<br><br> <center> <t class="action"> BLEND </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
+<script>
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Sieve to remove air bubbles.";
 } else {
 x.innerHTML = " ";
 }
@@ -107,42 +148,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 500 g strawberries </li><li> 50 g caster sugar </li><li> 1/2 tsp balsamic vinegar </li><li> 2 tbsp water </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tsp cornstarch </li><li> 2 tbsp water </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> mixing bowl contents </li></ul>
+<li> <i> jug A contents </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> SIMMER &amp; COVER </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br><br> <center> <t class="action"> MIX </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> saucepan contents </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/jug.svg" class="utensil">
-<br> <center> <t class="action"> BLEND </t> </center>
+<img src="images/jug-B.svg" class="utensil">
+<br> <center> <t class="action"> SIEVE &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 </table>

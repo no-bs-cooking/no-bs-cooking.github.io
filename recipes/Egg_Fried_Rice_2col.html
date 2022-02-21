@@ -89,6 +89,18 @@ x.innerHTML = " ";
 </script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Wait until the oil is almost at its smoke point.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -96,17 +108,17 @@ x.innerHTML = " ";
 <li> 200 g cooked rice </li><li> 1 tsp dark soy sauce </li><li> 1 tsp salt </li><li> 1/2 tsp MSG </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 egg </li></ul>
+<li> 1 tbsp vegetable oil </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-A.svg" class="utensil">
+<img src="images/mixing-bowl.svg" class="utensil">
 <br> <center> <t class="action"> MIX </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-B.svg" class="utensil">
-<br><br> <center> <t class="action"> WHISK </t> </center>
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT </t> </center>
 </td>
 </tr>
 <tr>
@@ -117,7 +129,7 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Frying pan needs to reach a high temperature.";
+x.innerHTML = "<br>Break up any large clumps of egg.";
 } else {
 x.innerHTML = " ";
 }
@@ -131,40 +143,6 @@ x.innerHTML = " ";
 function showInfo4() {
 var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Break up any large clumps of egg.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp vegetable oil </li></ul>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> \mixing bowl B contents </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/wok.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/wok.svg" class="utensil">
-<br><br> <center> <t class="action"> FRY </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-<button class="notes" onclick="showInfo5()"> Notes </button>
-<div id="buttonDiv5"> </div>
-<script>
-function showInfo5() {
-var x = document.getElementById("buttonDiv5");
-if (x.innerHTML === " ") {
 x.innerHTML = "<br>Press into the pan. Cook until warm and sticky.";
 } else {
 x.innerHTML = " ";
@@ -175,13 +153,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl A contents </i> </li></ul>
+<li> 1 egg (beaten) </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \mixing bowl contents </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/wok.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; FRY </t> </center>
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX &amp; FRY </t> </center>
 </td>
 </tr>
 </table>
