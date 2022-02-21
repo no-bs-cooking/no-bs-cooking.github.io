@@ -67,25 +67,37 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Sesame Chicken </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Sesame_Chicken_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Sesame_Chicken_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Sesame_Chicken_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Sweet &amp; Sour Chicken (Superior Version) </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Sweet_&_Sour_Chicken_(Superior_Version)_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Sweet_&_Sour_Chicken_(Superior_Version)_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Sweet_&_Sour_Chicken_(Superior_Version)_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>necessary to use custard powder?";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 500 g chicken thigh (diced) </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li><li> 1/4 tsp bicarbonate of soda </li></ul>
+<li> 4 tbsp potato starch </li><li> 4 tbsp custard powder </li><li> 1/2 tsp salt </li><li> 1/2 tsp MSG </li><li> 1/4 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
+<br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
@@ -94,13 +106,13 @@ ul li:before {
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 egg white </li><li> 2 tsp soy sauce </li><li> 1 tsp garlic paste </li><li> 1/2 tbsp cornstarch </li></ul>
+<li> 200 g chicken breast </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl-A.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; MARINADE </t> </center>
+<br> <center> <t class="action"> COAT </t> </center>
 </td>
 </tr>
 <tr>
@@ -109,7 +121,7 @@ ul li:before {
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 cup potato starch </li><li> <i> mixing bowl A contents </i> </li></ul>
+<li> 1 egg (beaten) </li><li> <i> floured chicken </i> </li></ul>
 </td>
 </tr>
 <tr>
@@ -124,13 +136,13 @@ ul li:before {
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 l vegetable oil </li></ul>
+<li> <i> egged chicken </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
+<img src="images/mixing-bowl-A.svg" class="utensil">
+<br> <center> <t class="action"> COAT </t> </center>
 </td>
 </tr>
 <tr>
@@ -141,7 +153,7 @@ ul li:before {
 function showInfo5() {
 var x = document.getElementById("buttonDiv5");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Fry the chicken in batches to prevent overcrowding.";
+x.innerHTML = "<br>For extra crispness, deep fry at 160 C then at 180 C with a 20 minute rest period in between. Leave to dry on a paper towel.Chicken can be fried in advance and refrigerated.";
 } else {
 x.innerHTML = " ";
 }
@@ -151,13 +163,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl B contents </i> </li></ul>
+<li> 1 l vegetable oil </li><li> <i> battered chicken </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> FRY </t> </center>
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> DEEP FRY </t> </center>
 </td>
 </tr>
 <tr>
@@ -168,7 +180,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Discard any residual fried batter left the oil. Pat dry the fried chicken with kitchen roll.";
+x.innerHTML = "<br>Give the pineapple and onion a head start.";
 } else {
 x.innerHTML = " ";
 }
@@ -178,24 +190,39 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> RESERVE once-fried chicken </i> </li><li> <i> REMOVE residual batter </i> </li></ul>
+<li> 1 tbsp vegetable oil </li><li> white onion (diced) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
+<img src="images/wok.svg" class="utensil">
 <br> <center> <t class="action"> FRY </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1/4 tsp MSG </li><li> green bell pepper (diced) </li><li> carrot (sliced) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
 <script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Double fry the chicken to achieve better crispness.";
+x.innerHTML = "<br>Simmer for 5 mins.";
 } else {
 x.innerHTML = " ";
 }
@@ -205,28 +232,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> once-fried chicken </i> </li></ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/Sweet_&_Sour_Sauce_1col.html"> 400 ml sweet & sour sauce </a> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> FRY </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 tbsp brown sugar </li><li> 2 tbsp honey </li><li> 2.5 tbsp soy sauce </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-C.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -237,7 +249,7 @@ x.innerHTML = " ";
 function showInfo9() {
 var x = document.getElementById("buttonDiv9");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Mix well to dissolve the sugar.";
+x.innerHTML = "<br>Stir continously whilst slowly adding the corn starch mixture. Do not overthicken the sauce.";
 } else {
 x.innerHTML = " ";
 }
@@ -247,13 +259,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 tbsp water </li><li> 2.5 tbsp tomato ketchup </li><li> 1 tbsp white vinegar </li></ul>
+<li> 1 tsp cornstarch-water mix </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl-C.svg" class="utensil">
-<br> <center> <t class="action"> MIX </t> </center>
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
 </td>
 </tr>
 <tr>
@@ -262,70 +274,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl C contents </i> </li></ul>
+<li> <i> fried chicken </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> HEAT </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 11 </b>
-<button class="notes" onclick="showInfo11()"> Notes </button>
-<div id="buttonDiv11"> </div>
-<script>
-function showInfo11() {
-var x = document.getElementById("buttonDiv11");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer gently until sauce thickens.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 2 tsp cornstarch-water mix </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; HEAT </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 12 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> twice-fried chicken </li><li> 1 tbsp sesame oil </li><li> 1.5 tbsp sesame seeds (toasted) </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/frying-pan.svg" class="utensil">
-<br> <center> <t class="action"> MIX &amp; HEAT </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 13 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> sesame chicken </i> </li><li> spring onion (diced) </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/plate.svg" class="utensil">
-<br> <center> <t class="action"> SERVE </t> </center>
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 </td>
 </tr>
 </table>
