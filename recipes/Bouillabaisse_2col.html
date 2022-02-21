@@ -96,7 +96,7 @@ x.innerHTML = " ";
 <li> 2 tbsp olive oil </li><li> 150 g red onion </li><li> 80 g leek </li><li> 40 g celery </li><li> 40 g fennel bulb </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 leek sheet </li><li> 3 bay leaves </li><li> 1 bunch parsley </li><li> 1 bunch thyme </li></ul>
+<li> 1 bouquet garni </li><li> 2 star anise </li><li> 1/2 tsp paprika </li></ul>
 </td>
 </tr>
 <tr>
@@ -105,19 +105,17 @@ x.innerHTML = " ";
 <br> <center> <t class="action"> HEAT </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/board.svg" class="utensil">
-<br><br> <center> <t class="action"> ROLL &amp; TIE </t> </center>
+<img src="images/casserole.svg" class="utensil">
+<br><br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-<button class="notes" onclick="showInfo4()"> Notes </button>
-<div id="buttonDiv4"> </div>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
 <script>
-function showInfo4() {
-var x = document.getElementById("buttonDiv4");
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Suitable fish to use are generally bottom-feeders and can include red mullet, red gurnard, school whiting, monkfish and rockling.";
 } else {
@@ -126,13 +124,15 @@ x.innerHTML = " ";
 }
 </script>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+</td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> bouquet garni </i> </li><li> 2 star anise </li><li> 1/2 tsp paprika </li></ul>
+<li> 800 g rock fish </li><li> 200 g fish filet </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 800 g rock fish </li><li> 200 g fish filet </li></ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/Fish_Stock_1col.html"> 1 l fish stock </a> </li><li> 4 cloves garlic </li></ul>
 </td>
 </tr>
 <tr>
@@ -147,6 +147,18 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+<button class="notes" onclick="showInfo5()"> Notes </button>
+<div id="buttonDiv5"> </div>
+<script>
+function showInfo5() {
+var x = document.getElementById("buttonDiv5");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Leave to simmer gently for about 30 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
 <button class="notes" onclick="showInfo6()"> Notes </button>
@@ -155,7 +167,7 @@ x.innerHTML = " ";
 function showInfo6() {
 var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to simmer gently for about 30 mins.";
+x.innerHTML = "<br>Blend the soup then sieve to remove remaining pieces.";
 } else {
 x.innerHTML = " ";
 }
@@ -165,20 +177,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <a href="https://no-bs-cooking.github.io/recipes/Fish_Stock_1col.html"> 1 l fish stock </a> </li><li> 4 cloves garlic </li></ul>
+<li> 1 tbsp tomato puree </li><li> 2 tsp safron threads </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp tomato puree </li><li> 2 tsp safron threads </li></ul>
+<li> \REMOVE bouquet garni </li><li> \REMOVE star anise </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
+<br> <center> <t class="action"> COVER &amp; SIMMER </t> </center>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> COVER &amp; SIMMER </t> </center>
+<br><br> <center> <t class="action"> BLEND &amp; SIEVE </t> </center>
 </td>
 </tr>
 <tr>
@@ -189,20 +201,6 @@ x.innerHTML = " ";
 function showInfo7() {
 var x = document.getElementById("buttonDiv7");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Blend the soup then sieve to remove remaining pieces.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
-<button class="notes" onclick="showInfo8()"> Notes </button>
-<div id="buttonDiv8"> </div>
-<script>
-function showInfo8() {
-var x = document.getElementById("buttonDiv8");
-if (x.innerHTML === " ") {
 x.innerHTML = "<br>Simmer for a further 10 mins to cook the fish through.";
 } else {
 x.innerHTML = " ";
@@ -210,38 +208,25 @@ x.innerHTML = " ";
 }
 </script>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+</td>
 </tr>
 <tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> REMOVE bouquet garni </i> </li><li> <i> REMOVE star anise </i> </li></ul>
-</td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> ? g rockling (chunked) </li></ul>
 </td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> BLEND &amp; SIEVE </t> </center>
-</td>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br><br> <center> <t class="action"> SIMMER </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-</td>
-</tr>
-<tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> baguette croutons </li><li> <a href="https://no-bs-cooking.github.io/recipes/Aioli_1col.html"> aioli </a> </li><li> grated gruyere </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> SIMMER </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> SERVE </t> </center>
+<br><br> <center> <t class="action"> SERVE </t> </center>
 </td>
 </tr>
 </table>
