@@ -140,13 +140,13 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> rolled chicken </i> </li><li> 1 cup plain flour </li></ul>
+<li> <i> rolled chicken </i> </li><li> plain flour </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> \floured chicken </li><li> 2 eggs (beaten) </li></ul>
+<li> \floured chicken </li><li> egg (beaten) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> \egged chicken </li><li> 2 cups breadcrumbs </li></ul>
+<li> \egged chicken </li><li> breadcrumbs </li></ul>
 </td>
 </tr>
 <tr>
@@ -165,17 +165,50 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Fry until a golden crust is achieved on both sides.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
+<script>
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Finish cooking in the oven at 200 C for about 15 mins.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> <i> breadcrumbed chicken </i> </li><li> 2 tbsp vegetable oil </li></ul>
 </td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \fried chicken </li></ul>
+</td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
 <img src="images/frying-pan.svg" class="utensil">
 <br> <center> <t class="action"> FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/oven-tray.svg" class="utensil">
+<br><br> <center> <t class="action"> BAKE </t> </center>
 </td>
 </tr>
 </table>
