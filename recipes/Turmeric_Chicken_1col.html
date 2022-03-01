@@ -75,11 +75,23 @@ ul li:before {
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Use blackened Cajun seasoning if available.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 4 chicken breasts (butterflied) </li><li> 3 tbsp blackened cajun seasoning </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li><li> 1 tbsp sunflower oil </li></ul>
+<li> 4 chicken breasts (butterflied) </li><li> 3 tbsp Cajun seasoning </li><li> 1 tsp salt </li><li> 1 tsp black pepper </li><li> 1 tbsp sunflower oil </li></ul>
 </td>
 </tr>
 <tr>
