@@ -1,0 +1,114 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="2"> <b class="title"> Shoyu Ramen Bowl </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Shoyu_Ramen_Bowl_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Shoyu_Ramen_Bowl_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Shoyu_Ramen_Bowl_3col.html">3</a></t>
+<br><br> Makes 1 portion.
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Prepare the noodles by soaking in hot water according the packet instructions. Mix to melt the lard.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/Tare_1col.html"> 60 ml tare </a> </li><li> <a href="https://no-bs-cooking.github.io/recipes/Chicken_Stock_(Hot)_1col.html"> 500 ml ml chicken stock (hot) </a> </li><li> 1 clove garlic (grated) </li><li> 1 tsp ginger (grated) </li><li> 150 g ramen noodles (soaked and drained) </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/Ramen_Egg_(Halved)_1col.html"> 1 ramen egg (halved) </a> </li><li> <a href="https://no-bs-cooking.github.io/recipes/Chashu_1col.html"> 4 slices chashu </a> </li><li> 2 spring onions (sliced) </li><li> 1 bunch bean sprouts (blanched) </li><li> 1 clove garlic (grated) </li><li> 1 sheet nori </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/bowl.svg" class="utensil">
+<br> <center> <t class="action"> FILL &amp; MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/bowl.svg" class="utensil">
+<br><br> <center> <t class="action"> GARNISH </t> </center>
+</td>
+</tr>
+</table>
+</html>

@@ -91,7 +91,7 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 40 g dried morels </li><li> 200 ml water (hot) </li></ul>
+<li> 40 g dried morel mushrooms </li><li> 200 ml water (hot) </li></ul>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ x.innerHTML = " ";
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Reserve both the morel juice and rehydrated morels for later. Squeeze the mushrooms to extract as much juice as possible.";
+x.innerHTML = "<br>Reserve both the morel juice and rehydrated morels for later. Squeeze the mushrooms to extract as much juice as possible. Discard any dirt and grit retained by the sieve.";
 } else {
 x.innerHTML = " ";
 }
@@ -129,26 +129,11 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> rehydrated morel mushrooms </i> </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/.svg" class="utensil">
-<br> <center> <t class="action">  </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-<button class="notes" onclick="showInfo4()"> Notes </button>
-<div id="buttonDiv4"> </div>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
 <script>
-function showInfo4() {
-var x = document.getElementById("buttonDiv4");
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Lightly brown both sides.";
 } else {
@@ -170,12 +155,12 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
-<button class="notes" onclick="showInfo5()"> Notes </button>
-<div id="buttonDiv5"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+<button class="notes" onclick="showInfo4()"> Notes </button>
+<div id="buttonDiv4"> </div>
 <script>
-function showInfo5() {
-var x = document.getElementById("buttonDiv5");
+function showInfo4() {
+var x = document.getElementById("buttonDiv4");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Do not brown. Fry until softened.";
 } else {
@@ -197,7 +182,7 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
 </td>
 </tr>
 <tr valign="center">
@@ -212,12 +197,12 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
-<button class="notes" onclick="showInfo7()"> Notes </button>
-<div id="buttonDiv7"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+<button class="notes" onclick="showInfo6()"> Notes </button>
+<div id="buttonDiv6"> </div>
 <script>
-function showInfo7() {
-var x = document.getElementById("buttonDiv7");
+function showInfo6() {
+var x = document.getElementById("buttonDiv6");
 if (x.innerHTML === " ") {
 x.innerHTML = "<br>Simmer until reduced by half.";
 } else {
@@ -239,7 +224,19 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+<button class="notes" onclick="showInfo7()"> Notes </button>
+<div id="buttonDiv7"> </div>
+<script>
+function showInfo7() {
+var x = document.getElementById("buttonDiv7");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Avoid including any dirt and grit settled at the bottom of the juice.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
@@ -254,14 +251,14 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
-<button class="notes" onclick="showInfo9()"> Notes </button>
-<div id="buttonDiv9"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 8 </b>
+<button class="notes" onclick="showInfo8()"> Notes </button>
+<div id="buttonDiv8"> </div>
 <script>
-function showInfo9() {
-var x = document.getElementById("buttonDiv9");
+function showInfo8() {
+var x = document.getElementById("buttonDiv8");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer until the cream reduces significantly and has gone from white to light brown. Season to taste.";
+x.innerHTML = "<br>Simmer until the cream reduces significantly and has gone from white to light brown. The desired thickness should be achieved now because simmering for too long after this step will overcook the chicken. Season to taste.";
 } else {
 x.innerHTML = " ";
 }
@@ -281,14 +278,14 @@ x.innerHTML = " ";
 </td>
 </tr>
 <tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 10 </b>
-<button class="notes" onclick="showInfo10()"> Notes </button>
-<div id="buttonDiv10"> </div>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 9 </b>
+<button class="notes" onclick="showInfo9()"> Notes </button>
+<div id="buttonDiv9"> </div>
 <script>
-function showInfo10() {
-var x = document.getElementById("buttonDiv10");
+function showInfo9() {
+var x = document.getElementById("buttonDiv9");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Leave to finish cooking for around 10 mins. Garnish with fresh parsley and black pepper.";
+x.innerHTML = "<br>Finish cooking the chicken through for around 10 mins. Garnish with fresh parsley and black pepper.";
 } else {
 x.innerHTML = " ";
 }

@@ -81,7 +81,7 @@ ul li:before {
 function showInfo1() {
 var x = document.getElementById("buttonDiv1");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Bring to the simmer, then rinse under cold water.";
+x.innerHTML = "<br>Optionally add 2 potatoes (peeled and cubed). Keep the chopped pieces fairly large.";
 } else {
 x.innerHTML = " ";
 }
@@ -91,22 +91,34 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 savoy cabbage (quartered) </li><li> 2 l water </li><li> 1/2 tsp water </li></ul>
+<li> 1 tbsp butter </li><li> 1 carrot (chopped) </li><li> 1 onion (chopped) </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/saucepan.svg" class="utensil">
-<br> <center> <t class="action"> SIMMER </t> </center>
+<img src="images/casserole.svg" class="utensil">
+<br> <center> <t class="action"> HEAT &amp; MIX </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Remove the cabbage's core and outer leaves.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 tbsp butter </li><li> 1 carrot (chopped) </li><li> 1 onion (chopped) </li><li> <i> 1/2 blanched cabbage (sliced) </i> </li></ul>
+<li> 300 g smoked pork belly (chunked) </li><li>  1 savoy cabbage (sliced) </li></ul>
 </td>
 </tr>
 <tr>
@@ -117,28 +129,13 @@ x.innerHTML = " ";
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-</td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 300 g smoked pork belly (chunked) </li><li> <i>  1/2 blanched cabbage (sliced) </i> </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/casserole.svg" class="utensil">
-<br> <center> <t class="action"> LAYER </t> </center>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-<button class="notes" onclick="showInfo4()"> Notes </button>
-<div id="buttonDiv4"> </div>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
 <script>
-function showInfo4() {
-var x = document.getElementById("buttonDiv4");
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Simmer gently for about 1 hour. The cabbage should still be slightly firm. Serve with bread croutons.";
+x.innerHTML = "<br>Optionally add 1 sprig thyme. Simmer gently for about 40 mins. The cabbage should still be slightly firm. When finished, season to taste with salt and pepper. Serve with bread croutons.";
 } else {
 x.innerHTML = " ";
 }
@@ -148,7 +145,7 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <a href="https://no-bs-cooking.github.io/recipes/White_Chicken_Stock_1col.html"> 2 l white chicken stock </a> </li><li> 1 tsp black pepper </li><li> 3 cloves </li></ul>
+<li> <a href="https://no-bs-cooking.github.io/recipes/White_Chicken_Stock_1col.html"> 2 l white chicken stock </a> </li><li> 3 cloves </li><li> 1/2 tsp salt </li><li> 1 tsp black pepper </li></ul>
 </td>
 </tr>
 <tr>
