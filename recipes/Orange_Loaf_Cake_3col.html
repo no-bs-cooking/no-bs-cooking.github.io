@@ -77,16 +77,28 @@ ul li:before {
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Discard the white pith but use the juice, pulp and zest.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 3 eggs </li><li> 70 ml vegetable oil </li><li> 100 g caster sugar </li><li> 1 orange </li></ul>
+<li> 3 eggs </li><li> 70 ml vegetable oil </li><li> 100 g caster sugar </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 1 orange (skin-on and deseeded) </li></ul>
+<li> 1 orange (zest of) </li><li> 1 orange (cubed and deseeded) </li></ul>
 </td>
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
 <li> \blended orange </li></ul>
