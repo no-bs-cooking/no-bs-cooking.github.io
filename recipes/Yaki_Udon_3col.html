@@ -1,0 +1,182 @@
+<!Doctype>
+<html>
+<style>
+.main {
+  font-family:Arial,Verdana,sans-serif;
+}
+table, th, td {
+    /* border: 1px solid black ; */
+    font-size: 45px;
+    padding: 10px ;
+    border-collapse: collapse ;
+    table-layout: fixed ;
+    vertical-align: center;
+}
+p {
+  font-size: 40 px;
+  float: right;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ' \2022';
+	position: absolute;
+	left: 0;
+}
+.step {
+  font-size: 40px;
+  top: 0px;
+}
+.title {
+  font-size: 45px;
+  top: 0px;
+}
+.process {
+  display: block;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+}
+.utensil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.action {
+  font-size: 60px;
+}
+.notes {
+  padding: 10px 10px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.cols {
+  font-size: 20px;
+  float: right;
+}
+</style>
+
+<table style="width:100%" class="main">
+<tr>
+<td colspan="3"> <b class="title"> Yaki Udon </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Yaki_Udon_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Yaki_Udon_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Yaki_Udon_3col.html">3</a></t>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
+<button class="notes" onclick="showInfo2()"> Notes </button>
+<div id="buttonDiv2"> </div>
+<script>
+function showInfo2() {
+var x = document.getElementById("buttonDiv2");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Render the fat out and brown the pork.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
+<button class="notes" onclick="showInfo3()"> Notes </button>
+<div id="buttonDiv3"> </div>
+<script>
+function showInfo3() {
+var x = document.getElementById("buttonDiv3");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Suitable mushroom types include oyster or baby trumpet";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 2 tbsp dark soy sauce </li><li> 2 tbsp oyster sauce </li><li> 1 tbsp mirin </li><li> 2 tbsp shirodashi </li><li> 1 tbsp rice wine vinegar </li><li> 2 tbsp palm sugar </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 1 tbsp vegetable oil </li><li> 330 pork mince </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \RESERVE fried pork </li><li> 3 tbsp duck fat </li><li> 1/2 white onion (sliced) </li><li> 100 g mushrooms (sliced) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/mixing-bowl.svg" class="utensil">
+<br> <center> <t class="action"> MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> STIR-FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> STIR-FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> ? g napa cabbage (sliced) </li><li> 3 spring onions (chunked) </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \fried pork </li><li> 450 g udon noodles </li><li> 1 tsp sesame oil </li><li> 1/4 tsp white pepper </li><li> 1/4 tsp MSG </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> \mixing bowl contents </li><li> 3 cloves garlic (chopped) </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br> <center> <t class="action"> STIR-FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> TOSS &amp; FRY </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/wok.svg" class="utensil">
+<br><br> <center> <t class="action"> TOSS &amp; FRY </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 7 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> bonito flakes </li><li> sesame seeds </li><li> spring onion (sliced) </li><li> chilli oil </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/garnish.svg" class="utensil">
+<br> <center> <t class="action"> TOSS &amp; FRY </t> </center>
+</td>
+</tr>
+</table>
+</html>

@@ -67,25 +67,37 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Yorkshire Puddings </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_3col.html">3</a></t>
+<td colspan="1"> <b class="title"> Chocolate Wobble </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Chocolate_Wobble_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chocolate_Wobble_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Chocolate_Wobble_3col.html">3</a></t>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Whisk thoroughly to dissolve. Alternatively use 21 g of gelatin to set the mixture.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 140 g plain flour </li><li> 4 eggs </li></ul>
+<li> 500 ml whole milk </li><li> 100 g caster sugar </li><li> 7 g agar agar powder </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> WHISK </t> </center>
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> H-WHISK </t> </center>
 </td>
 </tr>
 <tr>
@@ -96,7 +108,7 @@ ul li:before {
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the milk gradually. Refrigerate overnight.";
+x.innerHTML = "<br>Heat gently to dissolve the chocolate. Allow to simmer briefly once chocolate is fully melted.";
 } else {
 x.innerHTML = " ";
 }
@@ -106,67 +118,73 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 200 ml whole milk </li><li> 1 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+<li> 150 g dark chocolate </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> WHISK &amp; REFRIGERATE </t> </center>
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> H-WHISK &amp; HEAT </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 3 </b>
-<button class="notes" onclick="showInfo3()"> Notes </button>
-<div id="buttonDiv3"> </div>
-<script>
-function showInfo3() {
-var x = document.getElementById("buttonDiv3");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Heat up in the oven with a generous greasing before filling with fridge-cold batter. Can alternatively use beef dripping to grease up the tray.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> sunflower oil </li></ul>
+<li> <i> saucepand contents </i> </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/muffin-tray.svg" class="utensil">
-<br> <center> <t class="action"> GREASE &amp; HEAT </t> </center>
+<img src="images/loaf-tin.svg" class="utensil">
+<br> <center> <t class="action"> FILL &amp; REFRIGERATE </t> </center>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-<button class="notes" onclick="showInfo4()"> Notes </button>
-<div id="buttonDiv4"> </div>
-<script>
-function showInfo4() {
-var x = document.getElementById("buttonDiv4");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cook at 210 C for around 20 mins.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl contents </i> </li></ul>
+<li>  </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/muffin-tray.svg" class="utensil">
-<br> <center> <t class="action"> BAKE </t> </center>
+<img src="images/.svg" class="utensil">
+<br> <center> <t class="action">  </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 5 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li>  </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/.svg" class="utensil">
+<br> <center> <t class="action">  </t> </center>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 6 </b>
+</td>
+</tr>
+<tr valign="center">
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li>  </li></ul>
+</td>
+</tr>
+<tr>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/.svg" class="utensil">
+<br> <center> <t class="action">  </t> </center>
 </td>
 </tr>
 </table>

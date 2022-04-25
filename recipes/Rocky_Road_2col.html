@@ -67,28 +67,28 @@ ul li:before {
 
 <table style="width:100%" class="main">
 <tr>
-<td colspan="1"> <b class="title"> Yorkshire Puddings </b>
-<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_1col.html">1</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_2col.html">2</a> &nbsp; 
-<a href="https://no-bs-cooking.github.io/recipes/Yorkshire_Puddings_3col.html">3</a></t>
+<td colspan="2"> <b class="title"> Rocky Road </b>
+<t class="cols"> LAYOUT &nbsp; <a href="https://no-bs-cooking.github.io/recipes/Rocky_Road_1col.html">1</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Rocky_Road_2col.html">2</a> &nbsp; 
+<a href="https://no-bs-cooking.github.io/recipes/Rocky_Road_3col.html">3</a></t>
+<br><br> Fills a ? x ? cm tin.
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 1 </b>
+<button class="notes" onclick="showInfo1()"> Notes </button>
+<div id="buttonDiv1"> </div>
+<script>
+function showInfo1() {
+var x = document.getElementById("buttonDiv1");
+if (x.innerHTML === " ") {
+x.innerHTML = "<br>Stir constantly and do not overheat.";
+} else {
+x.innerHTML = " ";
+}
+}
+</script>
 </td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 140 g plain flour </li><li> 4 eggs </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> WHISK </t> </center>
-</td>
-</tr>
-<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 2 </b>
 <button class="notes" onclick="showInfo2()"> Notes </button>
 <div id="buttonDiv2"> </div>
@@ -96,7 +96,7 @@ ul li:before {
 function showInfo2() {
 var x = document.getElementById("buttonDiv2");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Add the milk gradually. Refrigerate overnight.";
+x.innerHTML = "<br>Turn off the heat. Add the solid pieces gradually and ensure that they are well coated. Can optionally include roasted chopped peanuts, pistachio or macadamia nuts.";
 } else {
 x.innerHTML = " ";
 }
@@ -106,13 +106,20 @@ x.innerHTML = " ";
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> 200 ml whole milk </li><li> 1 tsp salt </li><li> 1/2 tsp black pepper </li></ul>
+<li> 120 g unsalted butter </li><li> 100 g milk chocolate </li><li> 150 g dark chocolate </li><li> 2 tbsp golden syrup </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> 200 g digestive biscuits (chopped) </li><li> 150 g marshmallows </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/mixing-bowl.svg" class="utensil">
-<br> <center> <t class="action"> WHISK &amp; REFRIGERATE </t> </center>
+<img src="images/saucepan.svg" class="utensil">
+<br> <center> <t class="action"> MELT &amp; MIX </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/saucepan.svg" class="utensil">
+<br><br> <center> <t class="action"> MIX </t> </center>
 </td>
 </tr>
 <tr>
@@ -123,50 +130,32 @@ x.innerHTML = " ";
 function showInfo3() {
 var x = document.getElementById("buttonDiv3");
 if (x.innerHTML === " ") {
-x.innerHTML = "<br>Heat up in the oven with a generous greasing before filling with fridge-cold batter. Can alternatively use beef dripping to grease up the tray.";
+x.innerHTML = "<br>Line the cake tin with baking paper.";
 } else {
 x.innerHTML = " ";
 }
 }
 </script>
 </td>
-</tr>
-<tr valign="center">
-<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> sunflower oil </li></ul>
-</td>
-</tr>
-<tr>
-<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/muffin-tray.svg" class="utensil">
-<br> <center> <t class="action"> GREASE &amp; HEAT </t> </center>
-</td>
-</tr>
-<tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-top: 1px solid;"> <b class="step"> 4 </b>
-<button class="notes" onclick="showInfo4()"> Notes </button>
-<div id="buttonDiv4"> </div>
-<script>
-function showInfo4() {
-var x = document.getElementById("buttonDiv4");
-if (x.innerHTML === " ") {
-x.innerHTML = "<br>Cook at 210 C for around 20 mins.";
-} else {
-x.innerHTML = " ";
-}
-}
-</script>
 </td>
 </tr>
 <tr valign="center">
 <td style="border-left: 1px solid;border-right: 1px solid;"><ul>
-<li> <i> mixing bowl contents </i> </li></ul>
+<li> <i> saucepan contents </i> </li></ul>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;"><ul>
+<li> icing sugar </li></ul>
 </td>
 </tr>
 <tr>
 <td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
-<img src="images/muffin-tray.svg" class="utensil">
-<br> <center> <t class="action"> BAKE </t> </center>
+<img src="images/cake-tin.svg" class="utensil">
+<br> <center> <t class="action"> SPREAD &amp; REFRIGERATE </t> </center>
+</td>
+<td style="border-left: 1px solid;border-right: 1px solid;border-bottom: 1px solid;">
+<img src="images/cake-tin.svg" class="utensil">
+<br><br> <center> <t class="action"> DECORATE </t> </center>
 </td>
 </tr>
 </table>
